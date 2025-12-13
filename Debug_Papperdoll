@@ -1,251 +1,619 @@
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:390)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:399)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:426)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:432)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:438)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+📌 Item selecionado: Accessory sample (Slot: Accessory)
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:443)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:461)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:484)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   [Amulet]: Amulet 
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:493)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:502)
+InventoryPaperDollUI:TryEquipItem (ItemData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:452)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:982)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Item equipado!
+UnityEngine.Debug:Log (object)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:997)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryUI:EquipSelectedItem () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:966)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🔄 Atualizando tabela (rápido)...
+UnityEngine.Debug:Log (object)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1008)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+⚡ UpdateExistingRowsData - Início
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateExistingRowsData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:197)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1009)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+⚡ UpdateExistingRowsData: 1ms (ZERO recreations)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateExistingRowsData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:240)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1009)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  🔄 Atualizando Paper Doll...
+UnityEngine.Debug:Log (object)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1015)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  🎯 Selecionando slot Accessory...
+UnityEngine.Debug:Log (object)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1025)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   🔍 SelectSlotByType(Accessory) - Início
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:528)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   📊 Verificando 10 slots...
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:536)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   🔍 Verificando slot: Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:553)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+      Compatible com: Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:558)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ✅ MATCH! Slot Accessory é compatível com Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:572)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+      Item equipado: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:577)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+      🖱️ Chamando OnSlotClicked()...
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:585)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:319)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  🖱️ OnSlotClicked: Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:320)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  👤 Character: FUNGO
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:329)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  📦 Item no slot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:345)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  ✅ selectedSlot agora é: Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:358)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  📢 Notificando InventoryUI: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:363)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1750)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  🔘 UpdateButtonStates() DIAGNÓSTICO     ║
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1751)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1752)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📦 Item selecionado: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1768)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Tipo: Equipment
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1769)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   É equipamento? True
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1770)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Slot: Accessory
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1771)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📊 No inventário: True (4x)
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1782)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎯 MÉTODO 1 (InventoryManager):
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1807)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Equipado no slot Accessory: None
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1808)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Match? False
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1809)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎯 MÉTODO 2 (Character FUNGO):
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1836)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Equipado no slot Accessory: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1837)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
    Match? True
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1877)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1838)
 InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
-InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:348)
-InventoryPaperDollUI/<>c__DisplayClass14_0:<InitializePaperDollSlots>b__0 () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:110)
-UnityEngine.Events.UnityEvent:Invoke ()
-InventoryUI:SelectPaperDollSlot (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1062)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:997)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎯 MÉTODO 3 (Paper Doll UI):
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1867)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Item no slot selecionado: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1868)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Match? True
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1869)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 🎯 RESULTADO FINAL: isEquipped = True
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1880)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1872)
 InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
-InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:348)
-InventoryPaperDollUI/<>c__DisplayClass14_0:<InitializePaperDollSlots>b__0 () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:110)
-UnityEngine.Events.UnityEvent:Invoke ()
-InventoryUI:SelectPaperDollSlot (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1062)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:997)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 Item selected: Accessory sample
 UnityEngine.Debug:Log (object)
 InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:298)
-InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:348)
-InventoryPaperDollUI/<>c__DisplayClass14_0:<InitializePaperDollSlots>b__0 () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:110)
-UnityEngine.Events.UnityEvent:Invoke ()
-InventoryUI:SelectPaperDollSlot (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1062)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:997)
-UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
-
-║  ✅ Slot selecionado - UNEQUIP disponível!
-UnityEngine.Debug:Log (object)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1001)
-UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
-
-╔═══════════════════════════════════════════╗
-UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1758)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
-UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
-
-║  🔘 UpdateButtonStates() DIAGNÓSTICO     ║
-UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1759)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:364)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 ╚═══════════════════════════════════════════╝
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1760)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryPaperDollUI:OnSlotClicked (InventoryPaperDollUI/PaperDollSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:372)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:586)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ✅ SelectSlotByType SUCESSO
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:SelectSlotByType (ItemData/EquipmentSlot) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:588)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1026)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  ✅ Slot selecionado - UNEQUIP disponível!
+UnityEngine.Debug:Log (object)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1030)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1750)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  🔘 UpdateButtonStates() DIAGNÓSTICO     ║
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1751)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1752)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 📦 Item selecionado: Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1776)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1768)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Tipo: Equipment
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1777)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1769)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    É equipamento? True
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1778)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1770)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Slot: Accessory
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1779)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1771)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 📊 No inventário: True (4x)
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1790)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1782)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 🎯 MÉTODO 1 (InventoryManager):
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1815)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1807)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Equipado no slot Accessory: None
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1816)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1808)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Match? False
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1817)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1809)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 🎯 MÉTODO 2 (Character FUNGO):
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1844)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1836)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Equipado no slot Accessory: Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1845)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1837)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Match? True
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1846)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1838)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 🎯 MÉTODO 3 (Paper Doll UI):
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1875)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1867)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Item no slot selecionado: Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1876)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1868)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
    Match? True
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1877)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1869)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 🎯 RESULTADO FINAL: isEquipped = True
 UnityEngine.Debug:Log (object)
-InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1880)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1011)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1872)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1049)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 ║  ✅ Processo completo!
 UnityEngine.Debug:Log (object)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1013)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1051)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 ╚════════════════════════════════════════╝
 UnityEngine.Debug:Log (object)
-InventoryUI/<EquipItemProcess>d__59:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1014)
+InventoryUI/<EquipItemProcess>d__60:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1052)
 UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
 
 ╔════════════════════════════════════════
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1090)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1082)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 === OnUnequipClicked() INICIADO ===
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1091)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1083)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 🎯 Item: Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1105)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1097)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 📌 Slot: Accessory
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1106)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1098)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 🆔 Item ID: accessory_sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1107)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1099)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 
 🔍 VERIFICANDO TODAS AS FONTES:
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1110)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1102)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 1️⃣ InventoryManager.GetEquippedItem(Accessory): NULL
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1114)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1106)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 2️⃣ Character.currentEquipment.GetItemInSlot(Accessory): Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1123)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1115)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 3️⃣ PaperDoll.GetItemInSelectedSlot(): Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1139)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1131)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 📊 Verificação de equipamento:
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1146)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1138)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
    Equipado no slot (InventoryManager): None
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1147)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1139)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
    Item ID equipado: null
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1148)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1140)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
    Item selecionado: Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1149)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1141)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
    Item ID selecionado: accessory_sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1150)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1142)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
    ⚠️ InventoryManager vazio, usando Character: Accessory sample
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1159)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1151)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
    🔍 Comparação por itemID: True
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1172)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1164)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 ✅ Confirmado como equipado
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1251)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1243)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 🔓 Desequipando do slot Accessory...
 UnityEngine.Debug:Log (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1257)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1249)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
 ❌ Falha ao desequipar!
 UnityEngine.Debug:LogError (object)
-InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1262)
+InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1254)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
