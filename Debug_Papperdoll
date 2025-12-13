@@ -12949,3 +12949,160 @@ UnityEngine.Debug:Log (object)
 InventoryUI:OnUnequipClicked () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1194)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
 
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:823)
+
+║  🎨 PAPER DOLL STATE DIAGNOSTIC       ║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:824)
+
+╠═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:825)
+
+║  👤 Current Character: FUNGO
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:828)
+
+║  📌 Selected Slot: Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:829)
+
+║     └─ Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:833)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:836)
+
+║  📦 All Slots (10 total):
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:839)
+
+║     ├─ Accessory: Accessory sample [SELECTED]
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ MainHand: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ OffHand: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ LongRange: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ Ring: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ Helmet: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ Amulet: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ Body: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ Gloves: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║     ├─ Boots: Empty
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:854)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:858)
+
+║  🎯 Character Equipment:
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:861)
+
+║     ├─ [Accessory]: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:875)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:884)
+
+║  📊 InventoryManager Equipment:
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:887)
+
+║     └─ No items equipped
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:909)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:917)
+
+║  🚨 Inconsistency Check:
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:920)
+
+║     ❌ Slot Accessory:
+UnityEngine.Debug:LogError (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:955)
+
+║        Character: Accessory sample
+UnityEngine.Debug:LogError (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:956)
+
+║        Manager:   Empty
+UnityEngine.Debug:LogError (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:957)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:967)
+
+║  🧪 Test GetItemInSelectedSlot():
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:970)
+
+🔍 GetItemInSelectedSlot() chamado
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:771)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:972)
+
+   ✅ selectedSlot: Accessory
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:780)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:972)
+
+   📦 equippedItem no selectedSlot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:781)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:972)
+
+   📦 equippedItem APÓS UpdateSlot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:786)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:972)
+
+   ✅ Retornando: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:790)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:972)
+
+║     ✅ Returned: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:976)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:DebugCheckPaperDollState () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:983)
+
