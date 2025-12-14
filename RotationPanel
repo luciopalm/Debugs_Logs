@@ -1,0 +1,725 @@
+⏸️ JOGO PAUSADO (inventário aberto)
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:530)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:214)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== RefreshUI() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:215)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+Tempo: 45,02
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:216)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:225)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ inventoryTableUI encontrado: ItemsTablePanel
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:235)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+   Chamando inventoryTableUI.RefreshTable()...
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:236)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:62)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:85)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+1. Data Collection: 0ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:90)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+🔄 REUSING existing rows (inventory unchanged)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:110)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+UpdateExistingRows: 1ms (REUSED 48 rows)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateExistingRows () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:184)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:113)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== CACHE HIT! TOTAL: 2ms ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:116)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+   ✅ inventoryTableUI.RefreshTable() chamado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:241)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ inventoryItemDetailsUI encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:256)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+--- Sistema antigo (slots) ---
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:261)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+Slots totais: 200, Slots UI: 0
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:263)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:390)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:399)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:426)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:432)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:438)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:461)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:484)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:502)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+Peso atual: 73,9/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:273)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== RefreshUI() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:276)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:277)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:533)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:390)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:399)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:426)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:432)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:438)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:461)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:484)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:502)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+=== ToggleInventory FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:550)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:148)
+
+[PartyManager] Switched to: Eldrin
+UnityEngine.Debug:Log (object)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:78)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔄 PlayerController: Active character changed to Eldrin
+UnityEngine.Debug:Log (object)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:361)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[CharacterStatsCache] Stats updated from Eldrin:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   HP: 50/50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   ATK: 15 | DEF: 10
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   M.ATK: 15 | M.DEF: 15
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:214)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== RefreshUI() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:215)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+Tempo: 45,02
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:216)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:225)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ inventoryTableUI encontrado: ItemsTablePanel
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:235)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Chamando inventoryTableUI.RefreshTable()...
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:236)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:62)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:85)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+1. Data Collection: 0ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:90)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔄 REUSING existing rows (inventory unchanged)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:110)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+UpdateExistingRows: 1ms (REUSED 48 rows)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateExistingRows () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:184)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:113)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== CACHE HIT! TOTAL: 2ms ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:116)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   ✅ inventoryTableUI.RefreshTable() chamado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:241)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ inventoryItemDetailsUI encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:256)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+--- Sistema antigo (slots) ---
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:261)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+Slots totais: 200, Slots UI: 0
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:263)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:390)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:399)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:426)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:432)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:438)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:461)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:484)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:502)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:267)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+Peso atual: 73,9/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:273)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+=== RefreshUI() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:276)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:277)
+CharacterRotationPanelUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:384)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1557)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📘 UpdateButtonStates() DIAGNÓSTICO     ║
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1558)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1559)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+❌ Nenhum item selecionado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1582)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🗑️ DROP: INATIVO ❌
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1666)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💊 USE: INATIVO ❌
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1683)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+⚔️ EQUIP: INATIVO ❌
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1695)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔍 GetItemInSelectedSlot() chamado
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:839)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1718)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   ❌ selectedSlot é NULL - retornando NULL
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:GetItemInSelectedSlot () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:844)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1718)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔓 UNEQUIP: INATIVO ❌
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1755)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   ❌ Razão: Nenhum item ou slot selecionado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1769)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+═══════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateButtonStates () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1795)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:296)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+Item selected: None
+UnityEngine.Debug:Log (object)
+InventoryUI:OnItemSelected (ItemData) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:298)
+InventoryPaperDollUI:ClearAllSelections () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:817)
+InventoryPaperDollUI:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:85)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:80)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[CharacterStatsCache] Stats updated from Eldrin:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:81)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   HP: 50/50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:81)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   ATK: 15 | DEF: 10
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:81)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   M.ATK: 15 | M.DEF: 15
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:81)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:81)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🎮 PlayerController now controlling: Eldrin
+UnityEngine.Debug:Log (object)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:305)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:NextMember () (at Assets/Scripts/Core/PartyManager.cs:81)
+CharacterRotationPanelUI:OnNextButtonClicked () (at Assets/Scripts/Inventory/UI/CharacterRotationPanelUI.cs:284)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
