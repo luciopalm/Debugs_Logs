@@ -53,7 +53,9 @@ public class InventoryPaperDollUI : MonoBehaviour
             return;
         }
         
+        // 🔥 CONECTAR O EVENTO
         partyManager.OnActiveMemberChanged += OnActiveMemberChanged;
+        
         currentCharacter = partyManager.GetActiveMember();
         
         if (currentCharacter != null)
@@ -76,13 +78,33 @@ public class InventoryPaperDollUI : MonoBehaviour
         }
     }
     
+    // 🔥 ADICIONE ESTE MÉTODO SE NÃO EXISTIR
     private void OnActiveMemberChanged(CharacterData newActiveMember)
     {
+        Debug.Log($"╔═══════════════════════════════════════╗");
+        Debug.Log($"║  🎯 PaperDollUI: OnActiveMemberChanged");
+        Debug.Log($"║  👤 Novo personagem: {newActiveMember?.characterName ?? "NULL"}");
+        Debug.Log($"╚═══════════════════════════════════════╝");
+        
         if (newActiveMember == null) return;
         
         currentCharacter = newActiveMember;
+        
+        // 🔥 GARANTIR QUE TEM EquipmentLoadout
+        if (currentCharacter.currentEquipment == null)
+        {
+            Debug.Log($"   🔧 Criando EquipmentLoadout para {currentCharacter.characterName}");
+            currentCharacter.currentEquipment = new InventoryManager.EquipmentLoadout();
+        }
+        
         UpdateAllSlots();
         ClearAllSelections();
+        
+        // 🔥 FORÇAR UPDATE DO InventoryUI também
+        if (InventoryUI.Instance != null)
+        {
+            InventoryUI.Instance.UpdateEquipmentDisplay();
+        }
     }
     
     private void InitializePaperDollSlots()
@@ -168,52 +190,88 @@ public class InventoryPaperDollUI : MonoBehaviour
     
     public void UpdateAllSlots()
     {
+        Debug.Log($"╔═══════════════════════════════════════╗");
+        Debug.Log($"║  🔄 PaperDollUI: UpdateAllSlots()    ║");
+        Debug.Log($"║  👤 Character: {currentCharacter?.characterName ?? "NULL"}");
+        Debug.Log($"║  📍 Index: {partyManager?.GetActiveIndex() ?? -1}");
+        Debug.Log($"╚═══════════════════════════════════════╝");
+        
         if (partyManager == null || currentCharacter == null)
         {
+            Debug.LogWarning("⚠️ PartyManager ou currentCharacter é null");
             ClearAllSlotsToEmpty();
             return;
         }
         
+        // 🔥 GARANTIR QUE currentCharacter É O PERSONAGEM ATUAL
+        currentCharacter = partyManager.GetActiveMember();
+        
+        if (currentCharacter == null)
+        {
+            Debug.LogError("❌ Não conseguiu obter active member!");
+            ClearAllSlotsToEmpty();
+            return;
+        }
+        
+        Debug.Log($"   ✅ Character atualizado: {currentCharacter.characterName}");
+        
+        // 🔥 GARANTIR QUE TEM currentEquipment
         if (currentCharacter.currentEquipment == null)
         {
+            Debug.Log($"   🔧 Criando EquipmentLoadout para {currentCharacter.characterName}");
             currentCharacter.currentEquipment = new InventoryManager.EquipmentLoadout();
         }
         
+        // 🔥 LIMPAR TODOS OS SLOTS ANTES DE ATUALIZAR
         foreach (var slot in paperDollSlots)
         {
-            UpdateSlot(slot);
+            if (slot != null)
+            {
+                ClearSlot(slot);
+            }
         }
         
-        if (selectedSlot != null && selectedSlot.equippedItem != null)
+        // 🔥 ATUALIZAR CADA SLOT COM OS EQUIPAMENTOS DO CHARACTER ATUAL
+        foreach (var slot in paperDollSlots)
         {
-            bool itemStillEquipped = false;
-            if (currentCharacter.currentEquipment != null)
+            if (slot != null)
             {
-                var equippedItem = currentCharacter.currentEquipment.GetItemInSlot(selectedSlot.equippedItem.equipmentSlot);
-                itemStillEquipped = equippedItem == selectedSlot.equippedItem;
+                UpdateSlot(slot);
             }
-            
-            if (itemStillEquipped)
+        }
+        
+        // 🔥 VERIFICAÇÃO DE DEBUG
+        Debug.Log($"   📊 Equipamentos de {currentCharacter.characterName}:");
+        if (currentCharacter.currentEquipment != null)
+        {
+            var slotTypes = System.Enum.GetValues(typeof(ItemData.EquipmentSlot));
+            foreach (ItemData.EquipmentSlot slotType in slotTypes)
             {
-                SetSlotSelected(selectedSlot, true);
-            }
-            else
-            {
-                selectedSlot = null;
+                if (slotType == ItemData.EquipmentSlot.None) continue;
+                
+                var item = currentCharacter.currentEquipment.GetItemInSlot(slotType);
+                if (item != null)
+                {
+                    Debug.Log($"      [{slotType}]: {item.itemName}");
+                }
             }
         }
     }
     
     private void UpdateSlot(PaperDollSlot slot)
     {
+        Debug.Log($"   🔄 UpdateSlot: {slot.slotType}");
+        
         if (currentCharacter == null)
         {
+            Debug.LogWarning("      ❌ currentCharacter é null - limpando slot");
             ClearSlot(slot);
             return;
         }
         
         if (currentCharacter.currentEquipment == null)
         {
+            Debug.LogWarning($"      ❌ {currentCharacter.characterName} não tem currentEquipment");
             ClearSlot(slot);
             return;
         }
@@ -221,16 +279,23 @@ public class InventoryPaperDollUI : MonoBehaviour
         ItemData foundItem = null;
         ItemData.EquipmentSlot[] compatibleSlots = GetCompatibleSlotsReverse(slot.slotType);
         
+        // 🔥 BUSCAR ITEM NO currentEquipment DO CHARACTER ATUAL
         foreach (var compatibleSlot in compatibleSlots)
         {
             foundItem = currentCharacter.currentEquipment.GetItemInSlot(compatibleSlot);
-            if (foundItem != null) break;
+            if (foundItem != null) 
+            {
+                Debug.Log($"      ✅ Encontrou {foundItem.itemName} no slot {compatibleSlot}");
+                break;
+            }
         }
         
         slot.equippedItem = foundItem;
         
         if (slot.equippedItem != null)
         {
+            Debug.Log($"      🎯 Atualizando slot {slot.slotType} com {slot.equippedItem.itemName}");
+            
             if (slot.itemIcon != null)
             {
                 slot.itemIcon.sprite = slot.equippedItem.icon;
@@ -246,11 +311,12 @@ public class InventoryPaperDollUI : MonoBehaviour
                 }
             }
             
-            // 🔥🔥🔥 CORREÇÃO: Atualizar DraggableItem quando equipar
+            // 🔥 ATUALIZAR DraggableItem
             UpdateDraggableForSlot(slot);
         }
         else
         {
+            Debug.Log($"      🟡 Slot {slot.slotType} está vazio");
             ClearSlot(slot);
         }
     }

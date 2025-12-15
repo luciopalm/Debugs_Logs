@@ -1,330 +1,597 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
+using System.Collections;
 
 public class CharacterRotationPanelUI : MonoBehaviour
 {
-    [Header("UI References")]
-    [SerializeField] private TMP_Text characterNameText;
-    [SerializeField] private Image mainCharacterPortrait;
-    [SerializeField] private Image prevCharacterIcon;
-    [SerializeField] private Image nextCharacterIcon;
-    [SerializeField] private TMP_Text prevCharacterName;
-    [SerializeField] private TMP_Text nextCharacterName;
-
-    [Header("Animation")]
-    [SerializeField] private float rotationDuration = 0.3f;
-    [SerializeField] private AnimationCurve rotationCurve;
-
-    // Reference
-    private PartyManager partyManager;
+    [Header("Active Character Display")]
+    [SerializeField] private Image activeMemberPortrait;
+    [SerializeField] private TMP_Text activeMemberName;
+    [SerializeField] private GameObject activeMemberHighlight;
     
-    // State
-    private bool isRotating = false;
-    private int currentRotationIndex = 0;
-
+    [Header("Navigation Buttons")]
+    [SerializeField] private Button prevButton;
+    [SerializeField] private Image prevButtonIcon;
+    [SerializeField] private Button nextButton;
+    [SerializeField] private Image nextButtonIcon;
+    
+    [Header("Side Character Icons (4th member)")]
+    [SerializeField] private Image leftSideCharacterIcon;
+    [SerializeField] private Image rightSideCharacterIcon;
+    
+    [Header("Visual Settings")]
+    [SerializeField] private Color activeColor = Color.white;
+    [SerializeField] private Color inactiveColor = new Color(1f, 1f, 1f, 0.5f);
+    [SerializeField] private Color sideCharacterColor = new Color(1f, 1f, 1f, 0.3f);
+    
+    [Header("Animation")]
+    [SerializeField] private float swapDuration = 0.3f;
+    
+    private PartyManager partyManager;
+    private List<CharacterData> allPartyMembers = new List<CharacterData>();
+    private int activeIndex = 0;
+    private bool isAnimating = false;
+    private Coroutine currentPortraitAnimation;
+    
     private void Start()
     {
-        Debug.Log("🔄 CharacterRotationPanelUI Start()");
-        
+        Initialize();
+    }
+    
+    private void Initialize()
+    {
         partyManager = PartyManager.Instance;
         
         if (partyManager == null)
         {
-            Debug.LogError("❌ PartyManager não encontrado!");
+            Debug.LogError("[CharacterRotationPanelUI] PartyManager not found!");
             return;
         }
-
-        // 🔥 CORREÇÃO 1: Conectar eventos CORRETAMENTE
-        partyManager.OnActiveMemberChanged += OnActiveMemberChanged;
+        
+        allPartyMembers = partyManager.GetAllMembers();
+        activeIndex = partyManager.GetActiveIndex();
+        
+        SetupButtons();
+        SetupButtonVisuals();
+        
         partyManager.OnPartyChanged += OnPartyChanged;
-
-        // Inicializar UI
-        UpdateRotationUI();
+        partyManager.OnActiveMemberChanged += OnActiveMemberChanged;
         
-        Debug.Log($"✅ CharacterRotationPanelUI inicializado. Members: {partyManager.GetMemberCount()}");
+        UpdateUI();
+    }
+    
+    private void SetupButtons()
+    {
+        if (prevButton != null)
+        {
+            prevButton.onClick.RemoveAllListeners();
+            prevButton.onClick.AddListener(OnPrevButtonClicked);
+        }
+        
+        if (nextButton != null)
+        {
+            nextButton.onClick.RemoveAllListeners();
+            nextButton.onClick.AddListener(OnNextButtonClicked);
+        }
     }
 
-    private void OnDestroy()
+    private void SetupButtonVisuals()
     {
-        if (partyManager != null)
+        if (prevButton != null)
         {
-            partyManager.OnActiveMemberChanged -= OnActiveMemberChanged;
-            partyManager.OnPartyChanged -= OnPartyChanged;
+            var prevColors = prevButton.colors;
+            prevColors.normalColor = new Color(1f, 1f, 1f, 1f);
+            prevColors.highlightedColor = new Color(1.2f, 1.2f, 1.2f, 1f);
+            prevColors.pressedColor = new Color(0.8f, 0.8f, 0.8f, 1f);
+            prevColors.disabledColor = new Color(0.5f, 0.5f, 0.5f, 0.5f);
+            prevButton.colors = prevColors;
+        }
+        
+        if (nextButton != null)
+        {
+            var nextColors = nextButton.colors;
+            nextColors.normalColor = new Color(1f, 1f, 1f, 1f);
+            nextColors.highlightedColor = new Color(1.2f, 1.2f, 1.2f, 1f);
+            nextColors.pressedColor = new Color(0.8f, 0.8f, 0.8f, 1f);
+            nextColors.disabledColor = new Color(0.5f, 0.5f, 0.5f, 0.5f);
+            nextButton.colors = nextColors;
+        }
+        
+        if (prevButtonIcon != null)
+        {
+            prevButtonIcon.color = Color.white;
+        }
+        
+        if (nextButtonIcon != null)
+        {
+            nextButtonIcon.color = Color.white;
         }
     }
-
-    // 🔥 CORREÇÃO 2: Usar portrait, não overworldSprite
-    private void UpdateRotationUI()
+    
+    private void UpdateUI()
     {
-        if (partyManager == null)
-        {
-            Debug.LogWarning("⚠️ PartyManager é null em UpdateRotationUI");
-            return;
-        }
-
-        int memberCount = partyManager.GetMemberCount();
+        Debug.Log($"╔═══════════════════════════════════════╗");
+        Debug.Log($"║  🔄 UpdateRotationUI - INÍCIO        ║");
+        Debug.Log($"╚═══════════════════════════════════════╝");
         
-        if (memberCount == 0)
+        if (partyManager == null || allPartyMembers.Count == 0)
         {
-            Debug.LogWarning("⚠️ Nenhum member no party");
-            SetEmptyUI();
+            Debug.Log("   ❌ PartyManager ou membros não encontrados");
             return;
         }
-
-        // Garantir que o índice está dentro dos limites
-        currentRotationIndex = partyManager.GetActiveIndex();
-        currentRotationIndex = Mathf.Clamp(currentRotationIndex, 0, memberCount - 1);
-
-        CharacterData currentCharacter = partyManager.GetActiveMember();
         
-        if (currentCharacter == null)
+        activeIndex = partyManager.GetActiveIndex();
+        Debug.Log($"   📊 Active Index: {activeIndex}");
+        Debug.Log($"   👥 Total Members: {allPartyMembers.Count}");
+        
+        CharacterData activeMember = allPartyMembers[activeIndex];
+        
+        if (activeMember == null)
         {
-            Debug.LogError("❌ CharacterData atual é null!");
-            SetEmptyUI();
+            Debug.LogError("   ❌ Active member é null!");
             return;
         }
-
-        Debug.Log($"🔄 UpdateRotationUI: {currentCharacter.characterName} (Index: {currentRotationIndex})");
-
-        // 1. NOME DO PERSONAGEM ATUAL
-        if (characterNameText != null)
+        
+        Debug.Log($"   🎯 Active Member: {activeMember.characterName}");
+        Debug.Log($"   📸 Portrait: {activeMember.portrait?.name ?? "NULL"}");
+        Debug.Log($"   🎮 OverworldSprite: {activeMember.overworldSprite?.name ?? "NULL"}");
+        
+        UpdateActiveMemberDisplay(activeMember);
+        UpdateNavigationButtonIcons();
+        UpdateSideCharacterIcons();
+        UpdateVisualStates();
+        
+        Debug.Log($"   ✅ UpdateUI completo");
+    }
+    
+    private void UpdateActiveMemberDisplay(CharacterData activeMember)
+    {
+        if (activeMemberPortrait != null)
         {
-            characterNameText.text = currentCharacter.characterName.ToUpper();
-        }
-
-        // 2. PORTRAIT PRINCIPAL (🔥 CORREÇÃO: usar portrait!)
-        if (mainCharacterPortrait != null)
-        {
-            if (currentCharacter.portrait != null)
+            activeMemberPortrait.transform.localScale = Vector3.one;
+            
+            if (activeMember.portrait != null)
             {
-                mainCharacterPortrait.sprite = currentCharacter.portrait;
-                mainCharacterPortrait.color = Color.white;
-                Debug.Log($"✅ Portrait definido: {currentCharacter.characterName}");
-            }
-            else if (currentCharacter.overworldSprite != null)
-            {
-                // Fallback para overworldSprite se portrait não existir
-                mainCharacterPortrait.sprite = currentCharacter.overworldSprite;
-                mainCharacterPortrait.color = Color.white;
-                Debug.Log($"⚠️ Usando overworldSprite como fallback: {currentCharacter.characterName}");
+                activeMemberPortrait.sprite = activeMember.portrait;
+                activeMemberPortrait.color = activeColor;
+                Debug.Log($"   ✅ Portrait carregado: {activeMember.portrait.name}");
             }
             else
             {
-                mainCharacterPortrait.color = Color.gray;
-                Debug.LogWarning($"⚠️ {currentCharacter.characterName} não tem portrait nem overworldSprite!");
-            }
-        }
-
-        // 3. CALCULAR ÍNDICES ANTERIOR/PRÓXIMO (com wrap-around)
-        int prevIndex = GetPrevMemberIndex();
-        int nextIndex = GetNextMemberIndex();
-
-        // 4. PERSONAGEM ANTERIOR
-        CharacterData prevCharacter = partyManager.GetMemberAtIndex(prevIndex);
-        if (prevCharacter != null)
-        {
-            if (prevCharacterIcon != null)
-            {
-                // Prioridade: portrait → overworldSprite
-                if (prevCharacter.portrait != null)
-                    prevCharacterIcon.sprite = prevCharacter.portrait;
-                else if (prevCharacter.overworldSprite != null)
-                    prevCharacterIcon.sprite = prevCharacter.overworldSprite;
-                
-                prevCharacterIcon.color = prevCharacterIcon.sprite != null ? Color.white : Color.gray;
+                Debug.LogWarning($"   ⚠️ Portrait é null para {activeMember.characterName}");
+                activeMemberPortrait.sprite = null;
+                activeMemberPortrait.color = activeMember.themeColor;
             }
             
-            if (prevCharacterName != null)
-                prevCharacterName.text = prevCharacter.characterName;
-        }
-
-        // 5. PRÓXIMO PERSONAGEM
-        CharacterData nextCharacter = partyManager.GetMemberAtIndex(nextIndex);
-        if (nextCharacter != null)
-        {
-            if (nextCharacterIcon != null)
+            if (currentPortraitAnimation != null)
             {
-                // Prioridade: portrait → overworldSprite
-                if (nextCharacter.portrait != null)
-                    nextCharacterIcon.sprite = nextCharacter.portrait;
-                else if (nextCharacter.overworldSprite != null)
-                    nextCharacterIcon.sprite = nextCharacter.overworldSprite;
-                
-                nextCharacterIcon.color = nextCharacterIcon.sprite != null ? Color.white : Color.gray;
+                StopCoroutine(currentPortraitAnimation);
+                currentPortraitAnimation = null;
             }
             
-            if (nextCharacterName != null)
-                nextCharacterName.text = nextCharacter.characterName;
+            if (!isAnimating)
+            {
+                currentPortraitAnimation = StartCoroutine(AnimatePortrait(activeMemberPortrait.transform));
+            }
         }
-
-        Debug.Log($"   Prev: {prevCharacter?.characterName ?? "None"} | Next: {nextCharacter?.characterName ?? "None"}");
+        else
+        {
+            Debug.LogError("   ❌ activeMemberPortrait é null!");
+        }
+        
+        if (activeMemberName != null)
+        {
+            activeMemberName.text = activeMember.characterName;
+            activeMemberName.color = activeMember.themeColor;
+        }
+        
+        if (activeMemberHighlight != null)
+        {
+            activeMemberHighlight.SetActive(true);
+        }
     }
-
-    private int GetPrevMemberIndex()
+    
+    private void UpdateNavigationButtonIcons()
     {
-        if (partyManager == null) return 0;
+        if (prevButtonIcon != null)
+        {
+            int prevIndex = GetPreviousMemberIndex();
+            if (prevIndex >= 0 && prevIndex < allPartyMembers.Count)
+            {
+                CharacterData prevMember = allPartyMembers[prevIndex];
+                UpdateButtonIcon(prevButtonIcon, prevMember);
+                prevButtonIcon.color = inactiveColor;
+                Debug.Log($"   ◀️ Prev Button: {prevMember.characterName}");
+            }
+            else
+            {
+                Debug.LogWarning($"   ⚠️ Prev Index inválido: {prevIndex}");
+            }
+        }
         
-        int memberCount = partyManager.GetMemberCount();
-        if (memberCount <= 1) return 0;
-        
-        // Wrap-around: se 0 → vai para último
-        return (currentRotationIndex - 1 + memberCount) % memberCount;
+        if (nextButtonIcon != null)
+        {
+            int nextIndex = GetNextMemberIndex();
+            if (nextIndex >= 0 && nextIndex < allPartyMembers.Count)
+            {
+                CharacterData nextMember = allPartyMembers[nextIndex];
+                UpdateButtonIcon(nextButtonIcon, nextMember);
+                nextButtonIcon.color = inactiveColor;
+                Debug.Log($"   ▶️ Next Button: {nextMember.characterName}");
+            }
+            else
+            {
+                Debug.LogWarning($"   ⚠️ Next Index inválido: {nextIndex}");
+            }
+        }
     }
-
+    
+    private void UpdateSideCharacterIcons()
+    {
+        int sideMemberIndex = GetFourthMemberIndex();
+        
+        if (sideMemberIndex >= 0 && sideMemberIndex < allPartyMembers.Count)
+        {
+            CharacterData sideMember = allPartyMembers[sideMemberIndex];
+            
+            if (leftSideCharacterIcon != null)
+            {
+                UpdateButtonIcon(leftSideCharacterIcon, sideMember);
+                leftSideCharacterIcon.color = sideCharacterColor;
+            }
+            
+            if (rightSideCharacterIcon != null)
+            {
+                UpdateButtonIcon(rightSideCharacterIcon, sideMember);
+                rightSideCharacterIcon.color = sideCharacterColor;
+            }
+            
+            Debug.Log($"   👥 Side Character: {sideMember.characterName}");
+        }
+        else
+        {
+            if (leftSideCharacterIcon != null) 
+                leftSideCharacterIcon.color = Color.clear;
+            if (rightSideCharacterIcon != null) 
+                rightSideCharacterIcon.color = Color.clear;
+        }
+    }
+    
+    private void UpdateVisualStates()
+    {
+        bool hasMultipleMembers = allPartyMembers.Count > 1;
+        
+        if (prevButton != null) prevButton.interactable = hasMultipleMembers;
+        if (nextButton != null) nextButton.interactable = hasMultipleMembers;
+        
+        Debug.Log($"   ⚙️ Buttons Interactable: {hasMultipleMembers}");
+    }
+    
+    private void UpdateButtonIcon(Image buttonImage, CharacterData character)
+    {
+        if (buttonImage == null || character == null) return;
+        
+        if (character.portrait != null)
+        {
+            buttonImage.sprite = character.portrait;
+        }
+        else
+        {
+            buttonImage.sprite = null;
+            buttonImage.color = character.themeColor * inactiveColor;
+        }
+    }
+    
+    private int GetPreviousMemberIndex()
+    {
+        if (allPartyMembers.Count <= 1) return activeIndex;
+        
+        int prevIndex = activeIndex - 1;
+        if (prevIndex < 0) prevIndex = allPartyMembers.Count - 1;
+        
+        return prevIndex;
+    }
+    
     private int GetNextMemberIndex()
     {
-        if (partyManager == null) return 0;
+        if (allPartyMembers.Count <= 1) return activeIndex;
         
-        int memberCount = partyManager.GetMemberCount();
-        if (memberCount <= 1) return 0;
+        int nextIndex = activeIndex + 1;
+        if (nextIndex >= allPartyMembers.Count) nextIndex = 0;
         
-        // Wrap-around: se último → volta para 0
-        return (currentRotationIndex + 1) % memberCount;
+        return nextIndex;
     }
-
-    // 🔥 CORREÇÃO 3: NÃO chamar SetActiveMember() dentro do UpdateRotationUI!
-    public void RotateToNextCharacter()
+    
+    private int GetFourthMemberIndex()
     {
-        if (isRotating) return;
-        if (partyManager == null) return;
+        if (allPartyMembers.Count < 4) return -1;
         
-        int memberCount = partyManager.GetMemberCount();
-        if (memberCount <= 1) return;
-
-        Debug.Log($"🔄 RotateToNextCharacter chamado (antes: {currentRotationIndex})");
+        int fourthIndex = activeIndex + 2;
+        if (fourthIndex >= allPartyMembers.Count) fourthIndex -= allPartyMembers.Count;
         
-        // Calcular próximo índice
-        int nextIndex = GetNextMemberIndex();
-        
-        // 🔥 MUDANÇA CRÍTICA: Mudar character via PartyManager
-        StartCoroutine(RotateCharacterAnimation(true, nextIndex));
+        return fourthIndex;
     }
-
-    public void RotateToPrevCharacter()
+    
+    private void OnPrevButtonClicked()
     {
-        if (isRotating) return;
-        if (partyManager == null) return;
+        Debug.Log($"🎯🎯🎯 OnPrevButtonClicked CLICADO! 🎯🎯🎯");
         
-        int memberCount = partyManager.GetMemberCount();
-        if (memberCount <= 1) return;
-
-        Debug.Log($"🔄 RotateToPrevCharacter chamado (antes: {currentRotationIndex})");
+        if (partyManager == null)
+        {
+            Debug.LogError("❌ PartyManager é null!");
+            return;
+        }
         
-        // Calcular índice anterior
-        int prevIndex = GetPrevMemberIndex();
+        // 🔥 CORREÇÃO: Atualizar lista local ANTES de calcular
+        allPartyMembers = partyManager.GetAllMembers();
         
-        // 🔥 MUDANÇA CRÍTICA: Mudar character via PartyManager
-        StartCoroutine(RotateCharacterAnimation(false, prevIndex));
+        if (allPartyMembers.Count <= 1)
+        {
+            Debug.LogWarning("⚠️ Só tem 1 membro no party");
+            return;
+        }
+        
+        if (isAnimating)
+        {
+            Debug.LogWarning("⚠️ Já está animando!");
+            return;
+        }
+        
+        // 🔥 USAR ÍNDICE ATUAL DO PARTYMANAGER
+        int currentManagerIndex = partyManager.GetActiveIndex();
+        int prevIndex = currentManagerIndex - 1;
+        if (prevIndex < 0) prevIndex = allPartyMembers.Count - 1;
+        
+        Debug.Log($"🔄 Mudando para membro anterior: índice {prevIndex} (atual: {currentManagerIndex})");
+        
+        // Muda o membro ativo via PartyManager
+        partyManager.SetActiveMember(prevIndex);
     }
 
-    // 🔥 NOVO: Coroutine para animação sem loop infinito
-    private IEnumerator RotateCharacterAnimation(bool isNext, int targetIndex)
+    private void OnNextButtonClicked()
     {
-        isRotating = true;
+        Debug.Log($"🎯🎯🎯 OnNextButtonClicked CLICADO! 🎯🎯🎯");
         
-        Debug.Log($"🎬 Iniciando animação para index: {targetIndex}");
+        if (partyManager == null)
+        {
+            Debug.LogError("❌ PartyManager é null!");
+            return;
+        }
         
-        // 1. Desativar interação dos botões durante animação
-        SetButtonsInteractable(false);
+        // 🔥 CORREÇÃO: Atualizar lista local ANTES de calcular
+        allPartyMembers = partyManager.GetAllMembers();
         
-        // 2. Pequeno delay antes de mudar (efeito visual)
-        yield return new WaitForSeconds(0.05f);
+        if (allPartyMembers.Count <= 1)
+        {
+            Debug.LogWarning("⚠️ Só tem 1 membro no party");
+            return;
+        }
         
-        // 🔥 3. AGORA SIM: Mudar character (isso disparará OnActiveMemberChanged)
-        partyManager.SetActiveMember(targetIndex);
+        if (isAnimating)
+        {
+            Debug.LogWarning("⚠️ Já está animando!");
+            return;
+        }
         
-        Debug.Log($"✅ Character mudado para index: {targetIndex}");
+        // 🔥 USAR ÍNDICE ATUAL DO PARTYMANAGER
+        int currentManagerIndex = partyManager.GetActiveIndex();
+        int nextIndex = currentManagerIndex + 1;
+        if (nextIndex >= allPartyMembers.Count) nextIndex = 0;
         
-        // 4. Aguardar um frame para eventos serem processados
-        yield return null;
+        Debug.Log($"🔄 Mudando para próximo membro: índice {nextIndex} (atual: {currentManagerIndex})");
         
-        // 5. Atualizar UI (já foi feito pelo OnActiveMemberChanged, mas garantimos)
-        UpdateRotationUI();
-        
-        // 6. Pequeno delay após mudança
-        yield return new WaitForSeconds(0.1f);
-        
-        // 7. Reativar botões
-        SetButtonsInteractable(true);
-        
-        isRotating = false;
-        
-        Debug.Log("✅ Animação completa");
+        // Muda o membro ativo via PartyManager
+        partyManager.SetActiveMember(nextIndex);
     }
-
-    private void SetButtonsInteractable(bool interactable)
+    
+    private IEnumerator AnimatePortrait(Transform portraitTransform)
     {
-        // Você pode adicionar referências aos botões se quiser desativá-los visualmente
-        // Button prevBtn = prevButtonIcon?.GetComponentInParent<Button>();
-        // Button nextBtn = nextButtonIcon?.GetComponentInParent<Button>();
-        // if (prevBtn != null) prevBtn.interactable = interactable;
-        // if (nextBtn != null) nextBtn.interactable = interactable;
+        if (portraitTransform == null) yield break;
+        
+        portraitTransform.localScale = Vector3.one;
+        
+        Vector3 originalScale = Vector3.one;
+        Vector3 targetScale = originalScale * 1.1f;
+        
+        float duration = swapDuration * 0.3f;
+        
+        // Scale up
+        float timer = 0f;
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            float t = timer / duration;
+            portraitTransform.localScale = Vector3.Lerp(originalScale, targetScale, t);
+            yield return null;
+        }
+        
+        portraitTransform.localScale = targetScale;
+        
+        // Scale down
+        timer = 0f;
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            float t = timer / duration;
+            portraitTransform.localScale = Vector3.Lerp(targetScale, originalScale, t);
+            yield return null;
+        }
+        
+        portraitTransform.localScale = Vector3.one;
+        currentPortraitAnimation = null;
     }
-
-    private void SetEmptyUI()
+    
+    private IEnumerator AnimateSwap(int direction)
     {
-        if (characterNameText != null)
-            characterNameText.text = "NO CHARACTER";
+        if (isAnimating || activeMemberPortrait == null) yield break;
         
-        if (mainCharacterPortrait != null)
-            mainCharacterPortrait.color = Color.gray;
+        isAnimating = true;
+        Debug.Log($"🎬 Iniciando animação de swap: direção {direction}");
         
-        if (prevCharacterIcon != null)
-            prevCharacterIcon.color = Color.gray;
+        RectTransform portraitRT = activeMemberPortrait.rectTransform;
+        Vector2 originalPos = portraitRT.anchoredPosition;
+        Vector2 targetPos = originalPos + new Vector2(direction * 50f, 0f);
         
-        if (nextCharacterIcon != null)
-            nextCharacterIcon.color = Color.gray;
+        // Slide out
+        float timer = 0f;
+        while (timer < swapDuration * 0.3f)
+        {
+            timer += Time.deltaTime;
+            float t = timer / (swapDuration * 0.3f);
+            portraitRT.anchoredPosition = Vector2.Lerp(originalPos, targetPos, t);
+            yield return null;
+        }
         
-        if (prevCharacterName != null)
-            prevCharacterName.text = "";
+        // Atualiza UI durante a animação
+        UpdateUI();
         
-        if (nextCharacterName != null)
-            nextCharacterName.text = "";
+        portraitRT.anchoredPosition = originalPos + new Vector2(-direction * 50f, 0f);
+        
+        // Slide in
+        timer = 0f;
+        while (timer < swapDuration * 0.3f)
+        {
+            timer += Time.deltaTime;
+            float t = timer / (swapDuration * 0.3f);
+            portraitRT.anchoredPosition = Vector2.Lerp(portraitRT.anchoredPosition, originalPos, t);
+            yield return null;
+        }
+        
+        portraitRT.anchoredPosition = originalPos;
+        isAnimating = false;
+        Debug.Log($"✅ Animação de swap completa");
     }
-
-    // 🔥 CORREÇÃO 4: Event handlers melhorados
+    
+    private void OnPartyChanged()
+    {
+        Debug.Log("🔄 OnPartyChanged chamado");
+        allPartyMembers = partyManager.GetAllMembers();
+        UpdateUI();
+    }
+    
     private void OnActiveMemberChanged(CharacterData newActiveMember)
     {
         Debug.Log($"🔄 OnActiveMemberChanged: {newActiveMember?.characterName ?? "NULL"}");
         
-        // Pequeno delay para garantir que tudo está atualizado
-        StartCoroutine(UpdateUIAfterDelay());
-    }
-
-    private IEnumerator UpdateUIAfterDelay()
-    {
-        yield return null; // Aguarda um frame
-        UpdateRotationUI();
-    }
-
-    private void OnPartyChanged()
-    {
-        Debug.Log("🔄 OnPartyChanged - Atualizando Rotation UI");
-        UpdateRotationUI();
-    }
-
-    // 🔥 NOVO: Método para debug
-    [ContextMenu("🔍 Debug: Check Rotation Panel State")]
-    public void DebugCheckState()
-    {
-        Debug.Log("=== CHARACTER ROTATION PANEL DEBUG ===");
-        Debug.Log($"PartyManager: {(partyManager != null ? "✅" : "❌ NULL")}");
-        
-        if (partyManager != null)
+        if (newActiveMember == null)
         {
-            Debug.Log($"Member Count: {partyManager.GetMemberCount()}");
-            Debug.Log($"Active Index: {partyManager.GetActiveIndex()}");
-            
-            var activeChar = partyManager.GetActiveMember();
-            Debug.Log($"Active Character: {activeChar?.characterName ?? "NULL"}");
-            Debug.Log($"Has Portrait: {activeChar?.portrait != null}");
-            Debug.Log($"Has OverworldSprite: {activeChar?.overworldSprite != null}");
+            Debug.LogError("❌ newActiveMember é null!");
+            return;
         }
         
-        Debug.Log($"isRotating: {isRotating}");
-        Debug.Log($"currentRotationIndex: {currentRotationIndex}");
-        Debug.Log("=====================================");
+        if (isAnimating)
+        {
+            Debug.LogWarning("⚠️ Ignorando mudança durante animação");
+            return;
+        }
+        
+        // 🔥 CORREÇÃO CRÍTICA: ATUALIZAR A LISTA DE MEMBROS ANTES DE TUDO!
+        allPartyMembers = partyManager.GetAllMembers();
+        int newIndex = partyManager.GetActiveIndex(); // 🔥 USAR ÍNDICE DO PARTYMANAGER, NÃO IndexOf!
+        
+        Debug.Log($"📊 Novo índice: {newIndex} (anterior: {activeIndex})");
+        Debug.Log($"👥 Total de membros: {allPartyMembers.Count}");
+        
+        // Verificar se o índice é válido
+        if (newIndex < 0 || newIndex >= allPartyMembers.Count)
+        {
+            Debug.LogError($"❌ Índice inválido: {newIndex} (máx: {allPartyMembers.Count - 1})");
+            return;
+        }
+        
+        // 🔥 ATUALIZAR activeIndex ANTES de calcular direção
+        activeIndex = newIndex;
+        
+        // Calcula direção para animação
+        int direction = 0;
+        if (allPartyMembers.Count > 1)
+        {
+            // Para primeira troca, usamos direção baseada no clique
+            if (newIndex > activeIndex)
+                direction = 1;
+            else if (newIndex < activeIndex)
+                direction = -1;
+        }
+        
+        // Inicia animação
+        if (direction != 0)
+        {
+            StartCoroutine(AnimateSwap(direction));
+        }
+        else
+        {
+            UpdateUI();
+        }
+        
+        // Notifica InventoryUI
+        if (InventoryUI.Instance != null)
+        {
+            InventoryUI.Instance.RefreshUI();
+        }
+    }
+    
+    private void OnDestroy()
+    {
+        if (partyManager != null)
+        {
+            partyManager.OnPartyChanged -= OnPartyChanged;
+            partyManager.OnActiveMemberChanged -= OnActiveMemberChanged;
+        }
+    }
+    
+    public void Refresh()
+    {
+        UpdateUI();
+    }
+
+    [ContextMenu("🔄 Debug: Test Rotation")]
+    public void DebugRotationTest()
+    {
+        Debug.Log("╔═══════════════════════════════════════╗");
+        Debug.Log("║  🔍 ROTATION DEBUG TEST              ║");
+        Debug.Log("╠═══════════════════════════════════════╣");
+        
+        if (partyManager == null)
+        {
+            Debug.LogError("║  ❌ PartyManager é NULL!");
+            Debug.Log("╚═══════════════════════════════════════╝");
+            return;
+        }
+        
+        Debug.Log($"║  📊 PartyManager Status:");
+        Debug.Log($"║     Active Index: {partyManager.GetActiveIndex()}");
+        Debug.Log($"║     Member Count: {partyManager.GetMemberCount()}");
+        Debug.Log($"║     Local activeIndex: {activeIndex}");
+        
+        // Testar cálculos
+        Debug.Log($"║");
+        Debug.Log($"║  🎯 Cálculos de Índice:");
+        Debug.Log($"║     Prev Index: {GetPreviousMemberIndex()}");
+        Debug.Log($"║     Next Index: {GetNextMemberIndex()}");
+        Debug.Log($"║     Fourth Index: {GetFourthMemberIndex()}");
+        
+        // Verificar membros
+        Debug.Log($"║");
+        Debug.Log($"║  👥 Party Members:");
+        for (int i = 0; i < partyManager.GetMemberCount(); i++)
+        {
+            var member = partyManager.GetMemberAtIndex(i);
+            string activeMark = i == partyManager.GetActiveIndex() ? " [ACTIVE]" : "";
+            Debug.Log($"║     [{i}] {member?.characterName ?? "NULL"}{activeMark}");
+            Debug.Log($"║         Portrait: {member?.portrait?.name ?? "NULL"}");
+        }
+        
+        // Verificar referências
+        Debug.Log($"║");
+        Debug.Log($"║  🔗 Referências UI:");
+        Debug.Log($"║     activeMemberPortrait: {activeMemberPortrait != null}");
+        Debug.Log($"║     prevButton: {prevButton != null}");
+        Debug.Log($"║     nextButton: {nextButton != null}");
+        Debug.Log($"║     prevButtonIcon: {prevButtonIcon != null}");
+        Debug.Log($"║     nextButtonIcon: {nextButtonIcon != null}");
+        
+        Debug.Log("╚═══════════════════════════════════════╝");
     }
 }
