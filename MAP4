@@ -1,0 +1,628 @@
+╔═══════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2047)
+
+║  🔍 VERIFICAÇÃO COMPLETA DE MAPEAMENTO                    ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2048)
+
+╠═══════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2049)
+
+║  📊 Itens para mostrar: 25
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2052)
+
+║  📋 Linhas ativas: 25
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2053)
+
+║  🗺️ Mapeamentos: 25
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2054)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2055)
+
+║  📦 ITENS NA TABELA:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2058)
+
+║    Row 0: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 1: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 2: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 3: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 4: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 5: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 6: Old Boots x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 7: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 8: Silver Ring x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 9: Long Bow x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 10: Iron Sword x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 11: Old Hat x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 12: Iron Sword x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 13: Silver Ring x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 14: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 15: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 16: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 17: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 18: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 19: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 20: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 21: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 22: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 23: Heath Potion x12
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║    Row 24: Wood x6
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2063)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2065)
+
+║  🗺️ MAPEAMENTOS (Row → Slot):
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2068)
+
+║    Row 0 → Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 1 → Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 2 → Slot 3: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 3 → Slot 4: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 4 → Slot 5: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 5 → Slot 7: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 6 → Slot 8: Old Boots x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 7 → Slot 10: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 8 → Slot 11: Silver Ring x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 9 → Slot 12: Long Bow x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 10 → Slot 13: Iron Sword x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 11 → Slot 14: Old Hat x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 12 → Slot 15: Iron Sword x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 13 → Slot 16: Silver Ring x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 14 → Slot 17: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 15 → Slot 18: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 16 → Slot 19: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 17 → Slot 20: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 18 → Slot 21: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 19 → Slot 22: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 20 → Slot 23: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 21 → Slot 24: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 22 → Slot 25: Leather Armor x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 23 → Slot 0: Heath Potion x10
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║    Row 24 → Slot 9: Wood x6
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2078)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2085)
+
+║  🎯 DRAGGABLE ITEMS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2088)
+
+║    Row 0:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 1:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 7
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 2:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Old Boots
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 8
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Old Boots
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 3:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 10
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 4:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Old Hat
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 14
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Old Hat
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 5:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 6:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 3
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 7:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 4
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 8:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 5
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 9:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Silver Ring
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 11
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Silver Ring
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 10:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Silver Ring
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 16
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Silver Ring
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 11: ❌ SEM DRAGGABLE
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2108)
+
+║    Row 12: ❌ SEM DRAGGABLE
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2108)
+
+║    Row 13:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Long Bow
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 12
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Long Bow
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 14:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Iron Sword
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 13
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Iron Sword
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 15:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Iron Sword
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 15
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Iron Sword
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 16:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 17
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 17:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 18
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 18:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 19
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 19:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 20
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 20:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 21
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 21:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 22
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 22:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 23
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 23:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 24
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+║    Row 24:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2101)
+
+║      Item: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2102)
+
+║      Slot Index: 25
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2103)
+
+║      Specific Slot: Leather Armor
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2104)
+
+╚═══════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugVerifyCompleteMapping () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2112)
+
