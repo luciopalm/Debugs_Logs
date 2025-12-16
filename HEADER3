@@ -1,0 +1,146 @@
+=== Tecla I pressionada - Abrindo/fechando inventário ===
+UnityEngine.Debug:Log (object)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:152)
+
+=== ToggleInventory INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:513)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+Tentando SetActive(True)...
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:524)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+SUCESSO: InventoryPanel agora está ATIVO
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:528)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+⏸️ JOGO PAUSADO (inventário aberto)
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:535)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:219)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+=== RefreshUI() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:220)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+Tempo: 8,64
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:221)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:230)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+✅ inventoryTableUI encontrado: ItemsTablePanel
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+   Chamando inventoryTableUI.RefreshTable()...
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:241)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:103)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:126)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+=== INÍCIO ProcessInventoryData ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:369)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+Antes: itemToListIndex.Count = 0
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:370)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+Total de slots no inventário: 200
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:373)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:388)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+║  📊 ProcessInventoryData INICIADO    ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:389)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:390)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+   ✅ Processando Slot 0: Heath Potion x10
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:408)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+      📋 Map (stackable): Logical Item 0 → Slot 0
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:434)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
+   ✅ Processando Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:408)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:538)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:153)
+
