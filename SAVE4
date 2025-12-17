@@ -1,0 +1,292 @@
+=== 🆕 FORÇANDO NOVO JOGO ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1002)
+
+✅ Todos os saves deletados do disco
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1010)
+
+✅ PlayerPrefs cleared
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1015)
+
+✅ New GameData created in memory (NOT saved to disk)
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1023)
+
+⚠️ IMPORTANT: Click Play to start fresh new game
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1024)
+
+=== FIM ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1025)
+
+=== SLOT VERIFICATION ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:860)
+
+Slot 0 (AUTO): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_0.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 1 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 2 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 3 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 4 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_4.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 5 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_5.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Last manual slot: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:870)
+
+============================
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:871)
+
+
+
+[ItemRegistry] Initializing item registry...
+UnityEngine.Debug:Log (object)
+ItemRegistry:Initialize () (at Assets/Scripts/Inventory/ItemRegistry.cs:18)
+
+[ItemRegistry] Registered 13 items, skipped 0
+UnityEngine.Debug:Log (object)
+ItemRegistry:Initialize () (at Assets/Scripts/Inventory/ItemRegistry.cs:55)
+
+[GDM] Initialized
+UnityEngine.Debug:Log (object)
+GameDataManager:Awake () (at Assets/Scripts/Core/GameDataManager.cs:60)
+
+[PartyManager] Initialized
+UnityEngine.Debug:Log (object)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:32)
+
+[PartyManager] Initialized: FUNGO
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Eldrin
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Kael
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Lyra
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:48)
+
+[Bootstrap] 🚀 BOOTSTRAP MANAGER INICIANDO
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:49)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:50)
+
+[InventoryManager] No valid save found - will use starting items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:417)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:234)
+
+╔══════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:241)
+
+║ DEBUG Start() - InventoryManager
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:242)
+
+╠══════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:243)
+
+║ hasItems: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:244)
+
+║ isLoadedFromSave: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:245)
+
+║ startingItems.Length: 7
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:246)
+
+║ startingCurrency: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:247)
+
+╚══════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:248)
+
+✅ Adding starting items and currency...
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:252)
+
+║     Slot 0: ✅ Heath Potion x3/10
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x6
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: ✅ Heath Potion x6/10
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 3: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+💾 Saving inventory to GameData: 200 slots, 100 currency
+UnityEngine.Debug:Log (object)
+InventoryManager:SaveInventoryToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:346)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:317)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+🎯 Shared equipment saved to GameData
+UnityEngine.Debug:Log (object)
+InventoryManager:SaveSharedEquipmentToGameData (InventoryData) (at Assets/Scripts/Inventory/InventoryManager.cs:1201)
+InventoryManager:SaveInventoryToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:374)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:317)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+✅ Inventory saved: 5 items, 100 currency
+UnityEngine.Debug:Log (object)
+InventoryManager:SaveInventoryToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:376)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:317)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+[GDM] ⭐ Sincronizando dados do inventário...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:323)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+[GDM] ✅ Equipamentos compartilhados sincronizados
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentDirectly (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:714)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:323)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+[GDM] ✅ Dados sincronizados: 5 itens, 100 moedas
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:682)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:323)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:173)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:323)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+💾 Inventory saved to slot 1
+UnityEngine.Debug:Log (object)
+InventoryManager:SaveToGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:324)
+InventoryManager:AddCurrency (int) (at Assets/Scripts/Inventory/InventoryManager.cs:1085)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:260)
+
+AddCurrency(100) returned: True
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:261)
+
+[Bootstrap] 📋 Etapa 1/4: Validando managers críticos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:64)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+BootstrapManager:Start () (at Assets/Scripts/Core/BootstrapManager.cs:55)
+
+
+
