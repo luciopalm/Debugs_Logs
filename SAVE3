@@ -1,0 +1,103 @@
+=== 🆕 FORÇANDO NOVO JOGO ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1002)
+
+✅ Todos os saves deletados do disco
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1010)
+
+✅ PlayerPrefs cleared
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1015)
+
+✅ New GameData created in memory (NOT saved to disk)
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1023)
+
+⚠️ IMPORTANT: Click Play to start fresh new game
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1024)
+
+=== FIM ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugForceNewGame () (at Assets/Scripts/Core/GameDataManager.cs:1025)
+
+=== SLOT VERIFICATION ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:860)
+
+Slot 0 (AUTO): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_0.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 1 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 2 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 3 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 4 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_4.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 5 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_5.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Last manual slot: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:870)
+
+============================
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:871)
+
+[InventoryManager] No valid save found - will use starting items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:417)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:234)
+
+╔══════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:241)
+
+║ DEBUG Start() - InventoryManager
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:242)
+
+╠══════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:243)
+
+║ hasItems: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:244)
+
+║ isLoadedFromSave: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:245)
+
+║ startingItems.Length: 7
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:246)
+
+║ startingCurrency: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:247)
+
+╚══════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:248)
+
+✅ Adding starting items and currency...
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:252)
+
+
+
