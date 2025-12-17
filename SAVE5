@@ -1,0 +1,330 @@
+[ItemRegistry] Initializing item registry...
+UnityEngine.Debug:Log (object)
+ItemRegistry:Initialize () (at Assets/Scripts/Inventory/ItemRegistry.cs:18)
+
+[ItemRegistry] Registered 13 items, skipped 0
+UnityEngine.Debug:Log (object)
+ItemRegistry:Initialize () (at Assets/Scripts/Inventory/ItemRegistry.cs:55)
+
+[GDM] Initialized
+UnityEngine.Debug:Log (object)
+GameDataManager:Awake () (at Assets/Scripts/Core/GameDataManager.cs:60)
+
+[PartyManager] Initialized
+UnityEngine.Debug:Log (object)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:32)
+
+[PartyManager] Initialized: FUNGO
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Eldrin
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Kael
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Lyra
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:48)
+
+[Bootstrap] 🚀 BOOTSTRAP MANAGER INICIANDO
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:49)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:50)
+
+[InventoryManager] No valid save found - will use starting items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:417)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:234)
+
+╔══════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:241)
+
+║ DEBUG Start() - InventoryManager
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:242)
+
+╠══════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:243)
+
+║ hasItems: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:244)
+
+║ isLoadedFromSave: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:245)
+
+║ startingItems.Length: 7
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:246)
+
+║ startingCurrency: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:247)
+
+╚══════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:248)
+
+✅ Adding starting items and currency...
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:252)
+
+║     Slot 0: ✅ Heath Potion x3/10
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x6
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: ✅ Heath Potion x6/10
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 3: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+AddCurrency(100) returned: True
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:261)
+
+[Bootstrap] 📋 Etapa 1/4: Validando managers críticos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:64)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+BootstrapManager:Start () (at Assets/Scripts/Core/BootstrapManager.cs:55)
+
+[Bootstrap]    ✅ GameDataManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:130)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ InventoryManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:145)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ PartyManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:160)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📊 Managers encontrados: 3/3
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:166)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 1/4: Managers validados com sucesso!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:80)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 2/4: Inicializando sistemas...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:84)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 2/4: Sistemas inicializados!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:86)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 3/4: Carregando dados salvos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:90)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 3/4: Dados carregados!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:92)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 4/4: Preparando cena inicial...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:96)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 🎬 Carregando cena: MainMenuScene
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:100)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:106)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ BOOTSTRAP COMPLETO!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:107)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:108)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[MainMenu] Initialized
+UnityEngine.Debug:Log (object)
+MainMenuController:InitializeMenu () (at Assets/Scripts/Core/MainMenuController.cs:42)
+MainMenuController:Start () (at Assets/Scripts/Core/MainMenuController.cs:32)
+
+=== SAVE SUMMARY ===
+Player: Player
+Level: 1
+Health: 15/15
+Position: (0,0, 0,0, 0,0)
+isNewGame: True
+saveSlot: 1
+Instance: SET ✅
+=====================
+
+UnityEngine.Debug:Log (object)
+GameDataManager:PrintSaveSummary () (at Assets/Scripts/Core/GameDataManager.cs:854)
+
+=== 🔍 RASTREANDO ORIGEM DOS ITENS ===
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1450)
+
+isLoadedFromSave: False
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1453)
+
+Starting items: 7
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1454)
+
+Current items: 5
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1455)
+
+Save file exists: False
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1461)
+
+Items in save: 0
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1466)
+
+Currency in save: 0
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1467)
+
+📦 Itens atuais no inventário:
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1472)
+
+   Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1477)
+
+   Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1477)
+
+   Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1477)
+
+   Slot 3: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1477)
+
+   Slot 4: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1477)
+
+=== FIM ===
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1481)
+
