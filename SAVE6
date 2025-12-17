@@ -1,0 +1,2036 @@
+[ItemRegistry] Initializing item registry...
+UnityEngine.Debug:Log (object)
+ItemRegistry:Initialize () (at Assets/Scripts/Inventory/ItemRegistry.cs:18)
+
+[ItemRegistry] Registered 13 items, skipped 0
+UnityEngine.Debug:Log (object)
+ItemRegistry:Initialize () (at Assets/Scripts/Inventory/ItemRegistry.cs:55)
+
+[GDM] Initialized
+UnityEngine.Debug:Log (object)
+GameDataManager:Awake () (at Assets/Scripts/Core/GameDataManager.cs:60)
+
+[PartyManager] Initialized
+UnityEngine.Debug:Log (object)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:32)
+
+[PartyManager] Initialized: FUNGO
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Eldrin
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Kael
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[PartyManager] Initialized: Lyra
+UnityEngine.Debug:Log (object)
+PartyManager:InitializePartyMembers () (at Assets/Scripts/Core/PartyManager.cs:52)
+PartyManager:Awake () (at Assets/Scripts/Core/PartyManager.cs:36)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:48)
+
+[Bootstrap] 🚀 BOOTSTRAP MANAGER INICIANDO
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:49)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:50)
+
+[InventoryManager] No valid save found - will use starting items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:417)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:234)
+
+╔══════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:241)
+
+║ DEBUG Start() - InventoryManager
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:242)
+
+╠══════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:243)
+
+║ hasItems: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:244)
+
+║ isLoadedFromSave: False
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:245)
+
+║ startingItems.Length: 7
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:246)
+
+║ startingCurrency: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:247)
+
+╚══════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:248)
+
+✅ Adding starting items and currency...
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:252)
+
+║     Slot 0: ✅ Heath Potion x3/10
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x6
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: ✅ Heath Potion x6/10
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 0: Heath Potion x9
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 1: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 2: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:571)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+║     Slot 3: ✅ Accessory sample x1/1
+UnityEngine.Debug:Log (object)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:567)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:257)
+
+AddCurrency(100) returned: True
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:261)
+
+[Bootstrap] 📋 Etapa 1/4: Validando managers críticos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:64)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+BootstrapManager:Start () (at Assets/Scripts/Core/BootstrapManager.cs:55)
+
+[Bootstrap]    ✅ GameDataManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:130)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ InventoryManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:145)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ PartyManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:160)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📊 Managers encontrados: 3/3
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:166)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 1/4: Managers validados com sucesso!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:80)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 2/4: Inicializando sistemas...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:84)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 2/4: Sistemas inicializados!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:86)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 3/4: Carregando dados salvos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:90)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 3/4: Dados carregados!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:92)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 4/4: Preparando cena inicial...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:96)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 🎬 Carregando cena: GameScene
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:100)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:106)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ BOOTSTRAP COMPLETO!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:107)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:235)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:108)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[CharacterStatsCache] No CharacterData assigned, trying to find from PartyManager
+UnityEngine.Debug:LogWarning (object)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:48)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+[CharacterStatsCache] Stats updated from FUNGO:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   HP: 100/100
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   ATK: 10 | DEF: 5
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   M.ATK: 8 | M.DEF: 4
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+=== SaveLoadManager Inicializado ===
+UnityEngine.Debug:Log (object)
+SaveLoadManager:Awake () (at Assets/Scripts/Core/SaveLoadManager.cs:84)
+
+Initializing Inventory UI
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:179)
+InventoryUI:Awake () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:80)
+
+Initializing new table system
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:194)
+InventoryUI:Awake () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:80)
+
+Inventory UI initialized
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:214)
+InventoryUI:Awake () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:80)
+
+🚤 BoatController.Awake() iniciando...
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:77)
+
+🚤 Rigidbody2D configurado:
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:106)
+
+   • Gravity: 0
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:107)
+
+   • Interpolation: Interpolate
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:108)
+
+   • Collision: Continuous
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:109)
+
+🚤 Barco: Vida inicializada no Awake: 40/40
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:128)
+
+🚤 BoatController.Awake() completo:
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:139)
+
+   • Rigidbody2D: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:140)
+
+   • Animator: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:141)
+
+   • Camera: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:142)
+
+   • Player: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:143)
+
+   • Vida: 40/40
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:144)
+
+   • hasBeenInitialized: True
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:145)
+
+CameraManager iniciado. Seguindo: Player
+UnityEngine.Debug:Log (object)
+CameraManager:Start () (at Assets/Scripts/Core/CameraManager.cs:18)
+
+[CharacterStatsCache] Stats updated from FUNGO:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   HP: 100/100
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   ATK: 10 | DEF: 5
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   M.ATK: 8 | M.DEF: 4
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+🎮 PlayerController now controlling: FUNGO
+UnityEngine.Debug:Log (object)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:305)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+[GameController] Initialized
+UnityEngine.Debug:Log (object)
+GameController:InitializeGame () (at Assets/Scripts/Core/GameController.cs:116)
+GameController:Start () (at Assets/Scripts/Core/GameController.cs:69)
+
+🔧 SaveLoadManager: Iniciando inicialização SEGURA...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:99)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:90)
+
+✅ InventoryTableUI conectada ao evento OnInventoryChanged
+UnityEngine.Debug:Log (object)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:98)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:219)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== RefreshUI() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:220)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Tempo: 0,86
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:221)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:230)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ inventoryTableUI encontrado: ItemsTablePanel
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Chamando inventoryTableUI.RefreshTable()...
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:241)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:103)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:126)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:367)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📊 ProcessInventoryData COM CATEGORIAS  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:368)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╠═══════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:369)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  [0] Old Gloves (Cat: Armor) → Slot 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:446)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  [1] Accessory sample (Cat: Accessories) → Slot 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:446)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  [2] Accessory sample (Cat: Accessories) → Slot 3
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:446)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  [3] Accessory sample (Cat: Accessories) → Slot 4
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:446)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  [4] Heath Potion (Cat: Consumables) → Slot 0
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:446)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:451)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:130)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+1. Data Collection: 6ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:131)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Itens para mostrar: 5 unidades
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:162)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+[RowPool] ReturnAllRows: returned 0/0 active rows
+UnityEngine.Debug:Log (object)
+InventoryRowPool:ReturnAllRows () (at Assets/Scripts/Inventory/UI/InventoryRowPool.cs:149)
+InventoryTableUI:ClearTableVisuals () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1281)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:166)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+ClearTableVisuals: 0ms (limpou 0 linhas)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ClearTableVisuals () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1295)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:166)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+2. Cleanup: 1ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:167)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+📊 Itens visíveis: 5 (total: 5)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:522)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🔄 Recriando pool: 0 → 5
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:529)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🔧 Initialize: Armor (expanded: True)
+UnityEngine.Debug:Log (object)
+CategoryHeaderUI:Initialize (string,bool) (at Assets/Scripts/Inventory/UI/CategoryHeaderUI.cs:85)
+InventoryTableUI:CreateCategoryHeader (string,bool,single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1137)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:558)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🏷️ Header criado: Armor at y=0
+UnityEngine.Debug:Log (object)
+InventoryTableUI:CreateCategoryHeader (string,bool,single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1145)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:558)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+[RowPool] Pool exhausted! Available: 0, Total: 0
+UnityEngine.Debug:LogWarning (object)
+InventoryRowPool:GetRow () (at Assets/Scripts/Inventory/UI/InventoryRowPool.cs:71)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:575)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+  🔧 Creating emergency batch of 50 rows...
+UnityEngine.Debug:LogWarning (object)
+InventoryRowPool:GetRow () (at Assets/Scripts/Inventory/UI/InventoryRowPool.cs:75)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:575)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+[RowPool] Expanded by 50 rows. Total: 50, Available: 50
+UnityEngine.Debug:Log (object)
+InventoryRowPool:ExpandPool (int) (at Assets/Scripts/Inventory/UI/InventoryRowPool.cs:62)
+InventoryRowPool:GetRow () (at Assets/Scripts/Inventory/UI/InventoryRowPool.cs:77)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:575)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 Setup Row: visual=0 → originalIndex=0 → item=Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:623)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1484)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🎯 SetupDragAndDrop                  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1485)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╞═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1486)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📦 Item: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1487)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📋 Original Index: 0
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1488)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ Mapeamento encontrado: Row 0 → Slot 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1497)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ VALIDAÇÃO OK: Slot 2 = Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1510)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ CONFIGURAÇÃO FINAL:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1542)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Slot Index: 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1543)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Item: Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1544)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Quantidade: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1545)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1546)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🛠️ DraggableItem configurado:
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:76)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Item: Old Gloves
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:77)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Source: InventoryTable
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:78)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Equipment Slot: None
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:79)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Inventory Slot Index: 2
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:80)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Specific Slot: Old Gloves
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:81)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Quantidade: 1
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:82)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🔧 Initialize: Accessories (expanded: True)
+UnityEngine.Debug:Log (object)
+CategoryHeaderUI:Initialize (string,bool) (at Assets/Scripts/Inventory/UI/CategoryHeaderUI.cs:85)
+InventoryTableUI:CreateCategoryHeader (string,bool,single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1137)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:558)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🏷️ Header criado: Accessories at y=-60
+UnityEngine.Debug:Log (object)
+InventoryTableUI:CreateCategoryHeader (string,bool,single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1145)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:558)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 Setup Row: visual=1 → originalIndex=1 → item=Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:623)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1484)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🎯 SetupDragAndDrop                  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1485)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╞═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1486)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📦 Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1487)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📋 Original Index: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1488)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ Mapeamento encontrado: Row 1 → Slot 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1497)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ VALIDAÇÃO OK: Slot 1 = Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1510)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ CONFIGURAÇÃO FINAL:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1542)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Slot Index: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1543)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1544)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Quantidade: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1545)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1546)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🛠️ DraggableItem configurado:
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:76)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Item: Accessory sample
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:77)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Source: InventoryTable
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:78)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Equipment Slot: None
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:79)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Inventory Slot Index: 1
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:80)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:81)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Quantidade: 1
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:82)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 Setup Row: visual=2 → originalIndex=2 → item=Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:623)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1484)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🎯 SetupDragAndDrop                  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1485)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╞═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1486)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📦 Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1487)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📋 Original Index: 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1488)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ Mapeamento encontrado: Row 2 → Slot 3
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1497)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ VALIDAÇÃO OK: Slot 3 = Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1510)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ CONFIGURAÇÃO FINAL:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1542)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Slot Index: 3
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1543)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1544)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Quantidade: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1545)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1546)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🛠️ DraggableItem configurado:
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:76)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Item: Accessory sample
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:77)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Source: InventoryTable
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:78)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Equipment Slot: None
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:79)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Inventory Slot Index: 3
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:80)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:81)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Quantidade: 1
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:82)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 Setup Row: visual=3 → originalIndex=3 → item=Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:623)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1484)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🎯 SetupDragAndDrop                  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1485)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╞═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1486)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📦 Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1487)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📋 Original Index: 3
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1488)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ Mapeamento encontrado: Row 3 → Slot 4
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1497)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ VALIDAÇÃO OK: Slot 4 = Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1510)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  ✅ CONFIGURAÇÃO FINAL:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1542)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Slot Index: 4
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1543)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Item: Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1544)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║     Quantidade: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1545)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1546)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🛠️ DraggableItem configurado:
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:76)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Item: Accessory sample
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:77)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Source: InventoryTable
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:78)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Equipment Slot: None
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:79)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Inventory Slot Index: 4
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:80)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Specific Slot: Accessory sample
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:81)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Quantidade: 1
+UnityEngine.Debug:Log (object)
+DraggableItem:SetupDraggable (ItemData,DraggableItem/DragSource,ItemData/EquipmentSlot,int,InventoryManager/InventorySlot) (at Assets/Scripts/Inventory/UI/DraggableItem.cs:82)
+InventoryTableUI:SetupDragAndDrop (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1556)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:625)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🔧 Initialize: Consumables (expanded: True)
+UnityEngine.Debug:Log (object)
+CategoryHeaderUI:Initialize (string,bool) (at Assets/Scripts/Inventory/UI/CategoryHeaderUI.cs:85)
+InventoryTableUI:CreateCategoryHeader (string,bool,single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1137)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:558)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🏷️ Header criado: Consumables at y=-160
+UnityEngine.Debug:Log (object)
+InventoryTableUI:CreateCategoryHeader (string,bool,single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1145)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:558)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 Setup Row: visual=4 → originalIndex=4 → item=Heath Potion
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:623)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:649)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🗺️ MAPEAMENTO VISUAL → ORIGINAL      ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:650)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╠═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:651)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  Visual Row 0 → Original 0 → Slot 2 (Old Gloves)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:656)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  Visual Row 1 → Original 1 → Slot 1 (Accessory sample)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:656)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  Visual Row 2 → Original 2 → Slot 3 (Accessory sample)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:656)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  Visual Row 3 → Original 3 → Slot 4 (Accessory sample)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:656)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  Visual Row 4 → Original 4 → Slot 0 (Heath Potion)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:656)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:658)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+📏 Content size: 220px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:AdjustContentSize (single) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:763)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:661)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ RenderWithPooling: 165ms | Visual: 5
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:664)
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:491)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:171)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+3. Rendering: 167ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:172)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== PERFORMANCE SUMMARY ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:179)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+TOTAL TIME: 177ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:180)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+ITEMS: 5
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:181)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+ACTIVE ROWS: 5
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:182)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== RefreshTable() COMPLETE ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:183)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   ✅ inventoryTableUI.RefreshTable() chamado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:246)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ inventoryItemDetailsUI encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:261)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+--- Sistema antigo (slots) ---
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:266)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Slots totais: 200, Slots UI: 0
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:268)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:404)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:431)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:437)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:199)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🔄 PaperDollUI: UpdateAllSlots()    ║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:200)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  👤 Character: NULL
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:201)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📍 Index: -1
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:202)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:203)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🖼️ UpdateCharacterPortrait() - Início
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateCharacterPortrait () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:325)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:205)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⚠️ currentCharacter é null - limpando portrait
+UnityEngine.Debug:LogWarning (object)
+InventoryPaperDollUI:UpdateCharacterPortrait () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:341)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:205)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⚠️ PartyManager ou currentCharacter é null
+UnityEngine.Debug:LogWarning (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:209)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:443)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:471)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:489)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:507)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Peso atual: 3,8/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:278)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== RefreshUI() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:281)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:282)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== InitializeActionButtons() - ONLY DROP/USE ===
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1512)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+✅ DropButton configurado
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1521)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+✅ UseButton configurado
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1533)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+❌ EquipButton e UnequipButton REMOVIDOS do sistema
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1541)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+🎯 Use apenas Drag & Drop para equipar/desequipar
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1542)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+🚤 BoatController.Start()
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:151)
+
+🏝️ Encontradas 1 Landing Zones
+UnityEngine.Debug:Log (object)
+BoatController:FindAllLandingZones () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:586)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:167)
+
+🎯 Sistema de mira naval inicializado
+UnityEngine.Debug:Log (object)
+BoatController:InitializeAttackSystem () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:442)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:170)
+
+🚤 Barco Start() concluído:
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:184)
+
+   Posição: (-1558.00, -642.20, 0.00)
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:185)
+
+   Vida: 40/40
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:186)
+
+   Player dentro: False
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:187)
+
+   Rigidbody2D válido: True
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:188)
+
+✅ TurnBasedBattleManager iniciado
+UnityEngine.Debug:Log (object)
+Combat.TurnBased.TurnBasedBattleManager:Start () (at Assets/Scripts/Combat/TurnBased/Core/TurnBasedBattleManager.cs:48)
+
+⏳ Aguardando GameDataManager...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:108)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ GameDataManager pronto: GameDataManager
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:139)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Scene: DontDestroyOnLoad
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:140)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🧪 === TESTING ITEM REGISTRY ===
+UnityEngine.Debug:Log (object)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:13)
+
+Registered items count: 13
+UnityEngine.Debug:Log (object)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:16)
+
+✅ Found: Heath Potion (ID: health_potion)
+UnityEngine.Debug:Log (object)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:22)
+
+✅ Found by name: Iron Sword
+UnityEngine.Debug:Log (object)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:33)
+
+[ItemRegistry] === REGISTERED ITEMS ===
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:119)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  accessory_sample -> Accessory sample (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  amulet_sample -> Amulet  (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  boots_sample -> Old Boots (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  old_dagger -> Old Dagger (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  gloves_sample -> Old Gloves (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  hat_sample -> Old Hat (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  health_potion -> Heath Potion (Consumable)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  iron_sword -> Iron Sword (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  leather_armor -> Leather Armor (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  longbow_sample -> Long Bow (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  questitem_sample -> Quest Item Sample (KeyItem)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  silver_ring -> Silver Ring (Equipment)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+  wood -> Wood (Material)
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:122)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+Total: 13 items
+UnityEngine.Debug:Log (object)
+ItemRegistry:DebugPrintAllItems () (at Assets/Scripts/Inventory/ItemRegistry.cs:124)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:37)
+
+✅ === TEST COMPLETE ===
+UnityEngine.Debug:Log (object)
+TestItemRegistry:RunTest () (at Assets/Scripts/DEBUGGERS/TestItemRegistry.cs:39)
+
+✅✅✅ SaveLoadManager TOTALMENTE INICIALIZADO!
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:147)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Sincronizando dados do inventário...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:335)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:300)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Equipamentos compartilhados sincronizados
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentDirectly (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:714)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:335)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:300)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Dados sincronizados: 5 itens, 100 moedas
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:682)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:335)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:300)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:173)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:335)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:300)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== SAVE SUMMARY ===
+Player: Player
+Level: 1
+Health: 100/100
+Position: (-1567,3, -642,2, 0,0)
+isNewGame: False
+saveSlot: 1
+Instance: SET ✅
+=====================
+
+UnityEngine.Debug:Log (object)
+GameDataManager:PrintSaveSummary () (at Assets/Scripts/Core/GameDataManager.cs:854)
+
+=== SLOT VERIFICATION ===
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:860)
+
+Slot 0 (AUTO): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_0.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 1 (MANUAL): ✅ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 2 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 3 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 4 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_4.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Slot 5 (MANUAL): ❌ - C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_5.json
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:867)
+
+Last manual slot: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:870)
+
+============================
+UnityEngine.Debug:Log (object)
+GameDataManager:DebugCheckAllSlots () (at Assets/Scripts/Core/GameDataManager.cs:871)
+
+=== INVENTORY DEBUG ===
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1251)
+
+Currency: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1252)
+
+Slots: 5/200
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1253)
+
+Weight: 3,8/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1254)
+
+Slot 0: 9x Heath Potion
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1262)
+
+Slot 1: 1x Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1262)
+
+Slot 2: 1x Old Gloves
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1262)
+
+Slot 3: 1x Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1262)
+
+Slot 4: 1x Accessory sample
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1262)
+
+[GDM] ⭐ Sincronizando dados do inventário...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Equipamentos compartilhados sincronizados
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentDirectly (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:714)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Dados sincronizados: 5 itens, 100 moedas
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:682)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Auto-save in slot 0
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:173)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Sincronizando dados do inventário...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Equipamentos compartilhados sincronizados
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentDirectly (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:714)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Dados sincronizados: 5 itens, 100 moedas
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:682)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:156)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Auto-save in slot 0
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:173)
+SaveLoadManager/<SaveWithProperTiming>d__34:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:609)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
