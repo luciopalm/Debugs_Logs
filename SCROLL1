@@ -1,0 +1,313 @@
+🔧 Aplicando Quick Fix no scroll...
+UnityEngine.Debug:Log (object)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2307)
+
+📏 Calculando tamanho do scroll content...
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1771)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+📊 Headers: 6 x 40px = 240px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1798)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+📊 Rows: 64 x 20px = 1280px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1799)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+📊 Total calculado: 1520px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1800)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+📏 Viewport height: 835px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+📏 Final height: 1570px (com padding de 50px)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1810)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+✅ Content size: 0px → 1570px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1819)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+✅ UpdateScrollContentSize COMPLETO
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1832)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2320)
+
+✅ Quick Fix aplicado! Teste o scroll agora.
+UnityEngine.Debug:Log (object)
+InventoryTableUI:QuickFixScroll () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2329)
+
+🖱️ Linha clicada: Old Boots (Índice LÓGICO: 30)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:871)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔍 VERIFICAÇÃO DO INVENTÁRIO REAL:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:874)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Total slots: 200
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:878)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Mapeamento: Linha 30 → Slot 21
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:883)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Slot 21 REAL: Old Boots x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:888)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   É o mesmo item? True | Vazio? False | Equipado? False
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:889)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🖱️ Linha clicada: Old Boots (Índice LÓGICO: 30)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:893)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   🎯 Mapeamento direto: Logical Item 30 → Slot 21
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:902)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   ✅ Slot 21 confirmado: Old Boots x1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:915)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:976)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   📊 INFORMAÇÃO FINAL:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:977)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   • Item: Old Boots
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:978)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   • Linha: 30
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:979)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   • Slot Index: 21
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:980)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   • Slot válido: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:981)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   • Quantidade: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:982)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:983)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🎯 Item selecionado COM slot:
+UnityEngine.Debug:Log (object)
+InventoryUI:OnItemSelectedWithSlot (ItemData,int,InventoryManager/InventorySlot,int) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:570)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1001)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Item: Old Boots
+UnityEngine.Debug:Log (object)
+InventoryUI:OnItemSelectedWithSlot (ItemData,int,InventoryManager/InventorySlot,int) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:571)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1001)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Slot Index: 21
+UnityEngine.Debug:Log (object)
+InventoryUI:OnItemSelectedWithSlot (ItemData,int,InventoryManager/InventorySlot,int) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:572)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1001)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Table Row: 30
+UnityEngine.Debug:Log (object)
+InventoryUI:OnItemSelectedWithSlot (ItemData,int,InventoryManager/InventorySlot,int) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:573)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1001)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+   Slot válido? True
+UnityEngine.Debug:Log (object)
+InventoryUI:OnItemSelectedWithSlot (ItemData,int,InventoryManager/InventorySlot,int) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:574)
+InventoryTableUI:OnRowClicked (UnityEngine.GameObject,ItemData,int) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1001)
+InventoryTableUI/<>c__DisplayClass38_0:<SetupSimpleClickHandler>b__0 () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:866)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2187)
+
+║  🔍 DIAGNÓSTICO COMPLETO DO SCROLL    ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2188)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2189)
+
+║  ScrollRect: Scroll View
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2199)
+
+║    • Enabled: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2200)
+
+║    • Vertical: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2201)
+
+║    • Sensitivity: 20
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2202)
+
+║    • Inertia: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2203)
+
+║    • Position: 0,00
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2204)
+
+║  Viewport:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2209)
+
+║    • Size: (699.00, 835.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2210)
+
+║    • Height: 835px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2211)
+
+║  Content:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2221)
+
+║    • Size: (0.00, 0.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2222)
+
+║    • Height: 0px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2223)
+
+║    • Position: (0.00, 0.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2224)
+
+║    • Child Count: 70
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2225)
+
+║    • LayoutGroup: VerticalLayoutGroup
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2231)
+
+║  Elementos:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2240)
+
+║    • Headers ativos: 6
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2241)
+
+║    • Rows ativas: 64
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2242)
+
+║    • Total itens: 64
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2243)
+
+║    • Categorias expandidas: 7/7
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2251)
+
+║  Cálculo Manual:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2275)
+
+║    • Elementos visíveis: 70
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2276)
+
+║    • Altura calculada: 1520px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2277)
+
+║    • Viewport height: 835px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2278)
+
+║    • Pode scrollar? True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2279)
+
+║  ✅ EventSystem: OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2285)
+
+║  Canvas:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2297)
+
+║    • GraphicRaycaster: ✅
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2298)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2301)
+
