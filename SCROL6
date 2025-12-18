@@ -1,0 +1,489 @@
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2837)
+
+║  🔍 DIAGNÓSTICO DUPLO: SCROLL + BARRA DE ROLAGEM   ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2838)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2839)
+
+║  📏 ETAPA 1: TAMANHO DO CONTEÚDO
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2848)
+
+║     Viewport height: 835px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2849)
+
+║     Content height: 0px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2850)
+
+║     Content > Viewport? False ❌ PROBLEMA!
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2853)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2856)
+
+║  📊 ETAPA 2: SCROLLBAR CONFIG
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2857)
+
+║     Scrollbar atribuída: Scrollbar Vertical
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2860)
+
+║     Scrollbar visível? False
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2861)
+
+║     Scrollbar.value: 0
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2862)
+
+║     Scrollbar.size: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2863)
+
+║     Scrollbar.size = 1? ✅ Não precisa mostrar
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2866)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2875)
+
+║  🎯 ETAPA 3: ELEMENTOS NA CENA (AGORA)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2876)
+
+║     • CategoryHeader_Key Items (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • CategoryHeader_Materials (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • CategoryHeader_Consumables (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • CategoryHeader_Accessories (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • CategoryHeader_Armor (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • CategoryHeader_Weapons (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_0 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_1 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_2 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_3 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_4 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_5 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_6 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_7 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_8 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_9 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_10 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_11 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_12 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_13 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_14 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_15 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_16 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_17 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_18 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_19 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_20 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_21 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_22 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_23 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_24 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_25 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_26 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_27 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_28 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_29 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_30 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_31 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_32 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_33 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_34 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_35 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_36 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_37 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_38 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_39 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_40 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_41 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_42 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_43 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_44 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_45 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_46 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_47 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_48 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_49 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_50 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_51 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_52 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_53 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_54 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_55 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_56 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_57 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_58 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_59 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_60 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_61 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_62 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     • PooledRow_63 (ativo)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2893)
+
+║     Elementos visíveis: 70
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2897)
+
+║     Altura calculada: 1520px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2898)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2901)
+
+║  🔧 ETAPA 4: VERIFICAR UpdateScrollContentSize()
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2902)
+
+║     Última chamada? Há muito tempo
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2903)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2906)
+
+║  🎮 ETAPA 5: TESTE MANUAL
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2907)
+
+║     Posição original: 0,00
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2913)
+
+║     Posição após código: 0,00
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2914)
+
+║     Mudou? False
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2915)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2918)
+
+║  🏗️ ETAPA 6: LAYOUT GROUPS
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2919)
+
+║     LayoutElements ignorando layout: 70
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2936)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2938)
+
+🔄 Chamando UpdateScrollContentSize()...
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2941)
+
+📏 Calculando tamanho do scroll content...
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1777)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+📊 Categorias com itens: 6
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1785)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   ✅ Weapons: Header(40px) + 22 rows(440px) = 480px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   ✅ Armor: Header(40px) + 21 rows(420px) = 460px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   ✅ Accessories: Header(40px) + 13 rows(260px) = 300px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   ✅ Consumables: Header(40px) + 2 rows(40px) = 80px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   ✅ Materials: Header(40px) + 1 rows(20px) = 60px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   ✅ Key Items: Header(40px) + 5 rows(100px) = 140px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1804)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+📊 Altura teórica total: 1520px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1812)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+📏 Comparação:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1818)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   • Conteúdo teórico: 1520px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1819)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   • Padding: 100px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1820)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+   • Final: 1620px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1821)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+✅ Content size: 0px → 1620px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1830)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+✅ Content (1620px) > Viewport (835px) - Scroll OK!
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1841)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+📏 Scroll position: 0,00
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1850)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
+✅ UpdateScrollContentSize COMPLETO
+UnityEngine.Debug:Log (object)
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1861)
+InventoryTableUI:DiagnosticScrollAndBar () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2942)
+
