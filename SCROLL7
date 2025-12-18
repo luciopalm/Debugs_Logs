@@ -1,0 +1,367 @@
+╔═══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3112)
+
+║  🕵️‍♀️ DEEP SIZE SUSPECT HUNTING ACTIVATED   ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3113)
+
+╠═══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3114)
+
+║  Target: Content
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3115)
+
+║  In Parent: Viewport
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3116)
+
+║  Current Size: (0.00, 0.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3117)
+
+║  ⌛ Time: 3,89s
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3118)
+
+║  📊 Frame: 4703
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3119)
+
+╚═══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3120)
+
+🕵️‍♀️ Installing hooks on suspect methods...
+UnityEngine.Debug:Log (object)
+InventoryTableUI:HookIntoSuspectMethods () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3160)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3126)
+
+✅ Hooks installed on suspect methods
+UnityEngine.Debug:Log (object)
+InventoryTableUI:HookIntoSuspectMethods () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3172)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3126)
+
+🕵️‍♀️ Starting deep monitor. Initial size: (0.00, 0.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI/<DeepMonitorSizeChanges>d__105:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3181)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+InventoryTableUI:Debug_StartDeepSizeTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3129)
+
+🔍 ContentSizeFitter config:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_SpyOnContentSizeFitter () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3430)
+
+   Horizontal Fit: Unconstrained
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_SpyOnContentSizeFitter () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3431)
+
+   Vertical Fit: PreferredSize
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_SpyOnContentSizeFitter () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3432)
+
+   Enabled: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_SpyOnContentSizeFitter () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3433)
+
+🔧 ContentSizeFitter DESABILITADO (temporariamente)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_SpyOnContentSizeFitter () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3437)
+
+🎯 Forçado manualmente para 1500px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_SpyOnContentSizeFitter () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3443)
+
+
+⚠️ CONTENT SIZE CHANGED! ⚠️
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:60)
+
+   GameObject: Content
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:61)
+
+   Frame: 4886
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:62)
+
+   Change: Height: 0,0px → 1500,0px
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:63)
+
+   Call Stack:
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:64)
+
+✅ ContentSizeFitter reabilitado
+UnityEngine.Debug:Log (object)
+InventoryTableUI/<MonitorIfSizeChanges>d__113:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3471)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+🔴 CRITICAL SUSPECT CAPTURED at frame 4916
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RecordSizeSuspect (UnityEngine.Vector2,UnityEngine.Vector2,bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3234)
+InventoryTableUI/<DeepMonitorSizeChanges>d__105:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3197)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   1500px → 0px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RecordSizeSuspect (UnityEngine.Vector2,UnityEngine.Vector2,bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3235)
+InventoryTableUI/<DeepMonitorSizeChanges>d__105:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3197)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Suspected method: RecordSizeSuspect
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RecordSizeSuspect (UnityEngine.Vector2,UnityEngine.Vector2,bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3236)
+InventoryTableUI/<DeepMonitorSizeChanges>d__105:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3197)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Suspected script: InventoryTableUI
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RecordSizeSuspect (UnityEngine.Vector2,UnityEngine.Vector2,bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3237)
+InventoryTableUI/<DeepMonitorSizeChanges>d__105:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3197)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ⚠️ CULPRITO PROVÁVEL: InventoryTableUI.RecordSizeSuspect
+UnityEngine.Debug:LogError (object)
+InventoryTableUI:RecordSizeSuspect (UnityEngine.Vector2,UnityEngine.Vector2,bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3241)
+InventoryTableUI/<DeepMonitorSizeChanges>d__105:MoveNext () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3197)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+⚠️ CONTENT SIZE CHANGED! ⚠️
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:60)
+
+   GameObject: Content
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:61)
+
+   Frame: 4916
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:62)
+
+   Change: Height: 1500,0px → 0,0px
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:63)
+
+   Call Stack:
+UnityEngine.Debug:Log (object)
+ContentSizeTracker:LateUpdate () (at Assets/Scripts/DEBUGGERS/ContentSizeTracker.cs:64)
+
+╔═══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3145)
+
+║  🕵️‍♀️ DEEP TRACKING STOPPED - ANALYZING     ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3146)
+
+╠═══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3147)
+
+║  Total changes tracked: 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3148)
+
+║  Duration: 3,9s
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3149)
+
+╚═══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3150)
+
+╔═══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3311)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  🕵️‍♀️ SUSPECT ANALYSIS REPORT                ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3312)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+╠═══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3313)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  Total changes: 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3335)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  Zero-size changes: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3336)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3340)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  🔴 ZERO-CHANGE EVENTS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3341)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║    Frame 4916: 1500px → 0px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3346)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║       Method: RecordSizeSuspect
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3347)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║       Script: InventoryTableUI
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3348)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║       Time: 3,890s
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3349)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3350)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3355)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  📊 FREQUENCY ANALYSIS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3356)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3357)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  TOP SUSPECT METHODS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3359)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║    InventoryTableUI.RecordSizeSuspect: 2 times
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3363)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3366)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║  TOP SUSPECT SCRIPTS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3367)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+║    InventoryTableUI: 2 times
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3371)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+╚═══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3374)
+InventoryTableUI:Debug_StopDeepTracking () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3152)
+
+╔═══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3311)
+
+║  🕵️‍♀️ SUSPECT ANALYSIS REPORT                ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3312)
+
+╠═══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3313)
+
+║  Total changes: 2
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3335)
+
+║  Zero-size changes: 1
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3336)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3340)
+
+║  🔴 ZERO-CHANGE EVENTS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3341)
+
+║    Frame 4916: 1500px → 0px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3346)
+
+║       Method: RecordSizeSuspect
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3347)
+
+║       Script: InventoryTableUI
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3348)
+
+║       Time: 3,890s
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3349)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3350)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3355)
+
+║  📊 FREQUENCY ANALYSIS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3356)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3357)
+
+║  TOP SUSPECT METHODS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3359)
+
+║    InventoryTableUI.RecordSizeSuspect: 2 times
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3363)
+
+║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3366)
+
+║  TOP SUSPECT SCRIPTS:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3367)
+
+║    InventoryTableUI: 2 times
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3371)
+
+╚═══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:Debug_AnalyzeSuspects () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:3374)
+
