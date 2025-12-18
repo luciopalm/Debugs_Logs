@@ -1,0 +1,219 @@
+⚠️ ScrollRect ou Content é null!
+
+UnityEngine.Debug:LogWarning (object)
+
+InventoryTableUI:UpdateScrollContentSize () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1773)
+
+InventoryTableUI:RenderWithPooling () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:665)
+
+InventoryTableUI:RenderAllItems () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:493)
+
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:173)
+
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+║  🔍 FORCE SCROLL FIX DEBUG      ║
+UnityEngine.Debug:Log (object)
+ForceScrollFix:DebugInfo () (at Assets/Scripts/Fixers/ForceScrollFix.cs:111)
+
+╠══════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+ForceScrollFix:DebugInfo () (at Assets/Scripts/Fixers/ForceScrollFix.cs:112)
+
+❌ scrollRect is NULL!
+UnityEngine.Debug:LogError (object)
+ForceScrollFix:DebugInfo () (at Assets/Scripts/Fixers/ForceScrollFix.cs:116)
+
+ℹ️ Player muito longe: 22,1u, parando perseguição
+UnityEngine.Debug:Log (object)
+EnemyController:ChasePlayer () (at Assets/Scripts/Combat/RealTime/EnemyController.cs:308)
+EnemyController:FixedUpdate () (at Assets/Scripts/Combat/RealTime/EnemyController.cs:286)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:170)
+
+║  🔬 DIAGNÓSTICO COMPLETO DO SCROLL    ║
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:171)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:172)
+
+📊 Total ScrollRects na cena: 0
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:176)
+
+
+🎮 EventSystem: EventSystem
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:200)
+
+   enabled: True
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:203)
+
+   currentInputModule: StandaloneInputModule
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:204)
+
+
+🎨 Canvas: Canvas_Inventory
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:211)
+
+   GraphicRaycaster: ✅
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:213)
+
+      ignoreReversedGraphics: True
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:216)
+
+      blockingObjects: None
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:217)
+
+
+════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+ForceScrollFix:FullScrollDiagnosis () (at Assets/Scripts/Fixers/ForceScrollFix.cs:221)
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2216)
+
+║  🔍 DIAGNÓSTICO COMPLETO DO SCROLL    ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2217)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2218)
+
+║  ScrollRect: Scroll View
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2228)
+
+║    • Enabled: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2229)
+
+║    • Vertical: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2230)
+
+║    • Sensitivity: 20
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2231)
+
+║    • Inertia: True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2232)
+
+║    • Position: 0,00
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2233)
+
+║  Viewport:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2238)
+
+║    • Size: (699.00, 835.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2239)
+
+║    • Height: 835px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2240)
+
+║  Content:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2250)
+
+║    • Size: (0.00, 0.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2251)
+
+║    • Height: 0px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2252)
+
+║    • Position: (0.00, 0.00)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2253)
+
+║    • Child Count: 70
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2254)
+
+║  Elementos:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2269)
+
+║    • Headers ativos: 6
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2270)
+
+║    • Rows ativas: 64
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2271)
+
+║    • Total itens: 64
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2272)
+
+║    • Categorias expandidas: 7/7
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2280)
+
+║  Cálculo Manual:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2304)
+
+║    • Elementos visíveis: 70
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2305)
+
+║    • Altura calculada: 1520px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2306)
+
+║    • Viewport height: 835px
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2307)
+
+║    • Pode scrollar? True
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2308)
+
+║  ✅ EventSystem: OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2314)
+
+║  Canvas:
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2326)
+
+║    • GraphicRaycaster: ✅
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2327)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:DebugScrollDiagnostic () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:2330)
+
