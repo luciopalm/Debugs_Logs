@@ -1,0 +1,63 @@
+╔══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:209)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  🔍 SCAN COMPLETO - RELATÓRIO MANUAL
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:210)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+╠══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:211)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  Total linhas ativas: 29
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:212)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  ⚠️  Linha 4: Iron Sword - CanvasGroup com alpha suspeito: 0,3
+UnityEngine.Debug:LogError (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:224)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:228)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  🚨 Linhas cinza encontradas: 1/29
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:229)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+╚══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:230)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+╔══════════════════════════════════════════════╗
+║  📊 RELATÓRIO COMPLETO DE DIAGNÓSTICO       ║
+╠══════════════════════════════════════════════╣
+║  ⚠️  Row 4: Iron Sword
+║      Razão: CanvasGroup com alpha suspeito: 0,3
+║
+║  Total linhas rastreadas: 34
+║  Linhas com problema: 1
+║  Taxa de erro: 2,9%
+╚══════════════════════════════════════════════╝
+
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:342)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
