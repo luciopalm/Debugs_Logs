@@ -1,0 +1,2382 @@
+╔══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:209)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  🔍 SCAN COMPLETO - RELATÓRIO MANUAL
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:210)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+╠══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:211)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  Total linhas ativas: 29
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:212)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  ⚠️  Linha 13: Old Hat - CanvasGroup com alpha suspeito: 0,3
+UnityEngine.Debug:LogError (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:224)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:228)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+║  🚨 Linhas cinza encontradas: 1/29
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:229)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+╚══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ScanAllRows (string) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:230)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:313)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+╔══════════════════════════════════════════════╗
+║  📊 RELATÓRIO COMPLETO DE DIAGNÓSTICO       ║
+╠══════════════════════════════════════════════╣
+║  ⚠️  Row 13: Old Hat
+║      Razão: CanvasGroup com alpha suspeito: 0,3
+║
+║  Total linhas rastreadas: 34
+║  Linhas com problema: 1
+║  Taxa de erro: 2,9%
+╚══════════════════════════════════════════════╝
+
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:342)
+InventoryDiagnosticMenu:GenerateFullReport () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:105)
+
+═══════════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:357)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO COMPLETO DE TODAS AS LINHAS
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:358)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+═══════════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:359)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA -1:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA -1 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 0:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 0 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 1:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 1 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 2:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 2 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 3:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 3 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 4:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 4 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 5:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 5 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 6:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 6 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 7:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 7 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 8:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 8 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 9:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 9 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 10:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 10 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 11:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 11 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 12:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 12 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 13:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 13 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=0,30 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True ⚠️ CINZA
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=0,30 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True ⚠️ CINZA
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=0,30 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True ⚠️ CINZA
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 14:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 14 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 15:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 15 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 16:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 16 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 17:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 17 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 18:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 18 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 19:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 19 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 20:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 20 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 21:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 21 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 22:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 22 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 23:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 23 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 24:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 24 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 25:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 25 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 26:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 26 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 27:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 27 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 28:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 28 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=0,89s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=0,89s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=True
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [7] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [8] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [9] T=2,58s | Alpha=1,00 | Color=RGBA(0.100, 0.100, 0.100, 0.200) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 29:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 29 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=0,89s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [5] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [6] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 30:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 30 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=0,89s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [3] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [4] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 31:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 31 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=0,89s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [1] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [2] T=2,58s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+
+🔹 LINHA 32:
+UnityEngine.Debug:Log (object)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:363)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+📜 HISTÓRICO DA LINHA 32 (últimos 10):
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:185)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
+  [0] T=0,89s | Alpha=1,00 | Color=RGBA(0.235, 0.235, 0.314, 0.471) | Draggable=False
+UnityEngine.Debug:LogWarning (object)
+DiagnosticHelper:PrintRowHistory (int,int) (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:192)
+DiagnosticHelper:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/DiagnosticHelper.cs:364)
+InventoryDiagnosticMenu:ShowFullHistory () (at Assets/Scripts/Inventory/Debug/InventoryDiagnosticMenu.cs:118)
+
