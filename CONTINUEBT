@@ -1,0 +1,1679 @@
+▶️ CONTINUE button clicked
+UnityEngine.Debug:Log (object)
+MainMenuController:<SetupButtons>b__13_1 () (at Assets/Scripts/Core/MainMenuController.cs:146)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🔍 [FLAG TRACE] IsNewGameRequested: False → False (Caller: MainMenuController.<SetupButtons>b__13_1)
+UnityEngine.Debug:Log (object)
+NewGameFlag:set_IsNewGameRequested (bool) (at Assets/Scripts/Core/NewGameFlag.cs:16)
+MainMenuController:<SetupButtons>b__13_1 () (at Assets/Scripts/Core/MainMenuController.cs:149)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[MainMenu] Loading game scene...
+UnityEngine.Debug:Log (object)
+MainMenuController/<LoadGameSceneCoroutine>d__15:MoveNext () (at Assets/Scripts/Core/MainMenuController.cs:236)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+MainMenuController:LoadGameScene () (at Assets/Scripts/Core/MainMenuController.cs:231)
+MainMenuController:<SetupButtons>b__13_1 () (at Assets/Scripts/Core/MainMenuController.cs:151)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+The referenced script (Unknown) on this Behaviour is missing!
+
+[CharacterStatsCache] No CharacterData assigned, trying to find from PartyManager
+UnityEngine.Debug:LogWarning (object)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:48)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+[CharacterStatsCache] Stats updated from FUNGO:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   HP: 100/100
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   ATK: 10 | DEF: 5
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   M.ATK: 8 | M.DEF: 4
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+CharacterStatsCache:Awake () (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:56)
+UnityEngine.GameObject:AddComponent<CharacterStatsCache> ()
+PlayerController:Awake () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:88)
+
+=== SaveLoadManager Inicializado ===
+UnityEngine.Debug:Log (object)
+SaveLoadManager:Awake () (at Assets/Scripts/Core/SaveLoadManager.cs:87)
+
+Initializing Inventory UI
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:179)
+InventoryUI:Awake () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:80)
+
+Initializing new table system
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:194)
+InventoryUI:Awake () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:80)
+
+Inventory UI initialized
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:214)
+InventoryUI:Awake () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:80)
+
+🚤 BoatController.Awake() iniciando...
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:77)
+
+🚤 Rigidbody2D configurado:
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:106)
+
+   • Gravity: 0
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:107)
+
+   • Interpolation: Interpolate
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:108)
+
+   • Collision: Continuous
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:109)
+
+🚤 Barco: Vida inicializada no Awake: 40/40
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:128)
+
+🚤 BoatController.Awake() completo:
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:139)
+
+   • Rigidbody2D: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:140)
+
+   • Animator: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:141)
+
+   • Camera: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:142)
+
+   • Player: ✅
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:143)
+
+   • Vida: 40/40
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:144)
+
+   • hasBeenInitialized: True
+UnityEngine.Debug:Log (object)
+BoatController:Awake () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:145)
+
+CameraManager iniciado. Seguindo: Player
+UnityEngine.Debug:Log (object)
+CameraManager:Start () (at Assets/Scripts/Core/CameraManager.cs:18)
+
+[CharacterStatsCache] Stats updated from FUNGO:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   HP: 100/100
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   ATK: 10 | DEF: 5
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   M.ATK: 8 | M.DEF: 4
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+🎮 PlayerController now controlling: FUNGO
+UnityEngine.Debug:Log (object)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:305)
+PlayerController:Start () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:108)
+
+[GameController] Initialized
+UnityEngine.Debug:Log (object)
+GameController:InitializeGame () (at Assets/Scripts/Core/GameController.cs:116)
+GameController:Start () (at Assets/Scripts/Core/GameController.cs:69)
+
+🔧 SaveLoadManager: Iniciando inicialização SEGURA...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:102)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:104)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+║  🔍 VERIFICANDO FLAG NEW GAME         ║
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:105)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+╠═══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:106)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+║  NewGameFlag.IsNewGameRequested: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:107)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+║  ▶️ CONTINUANDO JOGO EXISTENTE
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:166)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:167)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+
+✅ InventoryTableUI conectada ao evento OnInventoryChanged
+UnityEngine.Debug:Log (object)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:98)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:219)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== RefreshUI() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:220)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Tempo: 6,74
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:221)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:230)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ inventoryTableUI encontrado: ItemsTablePanel
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   Chamando inventoryTableUI.RefreshTable()...
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:241)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:106)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:129)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:370)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📊 ProcessInventoryData COM CATEGORIAS  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:371)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╠═══════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:372)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:454)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+1. Data Collection: 2ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:134)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Inventário vazio
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:139)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+[InventoryTableUI] Inventory is empty!
+Add items to get started.
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ShowInfoMessage (string) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1390)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:140)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⏩ Skipping cleanup (reusing rows)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ClearTableVisuals () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1305)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:144)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+TOTAL TIME: 5ms (empty)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:147)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+   ✅ inventoryTableUI.RefreshTable() chamado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:246)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ inventoryItemDetailsUI encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:261)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+--- Sistema antigo (slots) ---
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:266)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Slots totais: 200, Slots UI: 0
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:268)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:404)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:431)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:437)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:199)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  🔄 PaperDollUI: UpdateAllSlots()    ║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:200)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  👤 Character: NULL
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:201)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+║  📍 Index: -1
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:202)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:203)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🖼️ UpdateCharacterPortrait() - Início
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateCharacterPortrait () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:325)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:205)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⚠️ currentCharacter é null - limpando portrait
+UnityEngine.Debug:LogWarning (object)
+InventoryPaperDollUI:UpdateCharacterPortrait () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:341)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:205)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+⚠️ PartyManager ou currentCharacter é null
+UnityEngine.Debug:LogWarning (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:209)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:443)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:471)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:489)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:507)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+Peso atual: 0,0/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:278)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== RefreshUI() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:281)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:282)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:102)
+
+=== InitializeActionButtons() - ONLY DROP/USE ===
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1512)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+✅ DropButton configurado
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1521)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+✅ UseButton configurado
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1533)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+❌ EquipButton e UnequipButton REMOVIDOS do sistema
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1541)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+🎯 Use apenas Drag & Drop para equipar/desequipar
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1542)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:112)
+
+🚤 BoatController.Start()
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:151)
+
+🏝️ Encontradas 1 Landing Zones
+UnityEngine.Debug:Log (object)
+BoatController:FindAllLandingZones () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:586)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:167)
+
+🎯 Sistema de mira naval inicializado
+UnityEngine.Debug:Log (object)
+BoatController:InitializeAttackSystem () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:442)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:170)
+
+🚤 Barco Start() concluído:
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:184)
+
+   Posição: (-1558.00, -642.20, 0.00)
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:185)
+
+   Vida: 40/40
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:186)
+
+   Player dentro: False
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:187)
+
+   Rigidbody2D válido: True
+UnityEngine.Debug:Log (object)
+BoatController:Start () (at Assets/Scripts/Gameplay/Boat/BoatController.cs:188)
+
+✅ TurnBasedBattleManager iniciado
+UnityEngine.Debug:Log (object)
+Combat.TurnBased.TurnBasedBattleManager:Start () (at Assets/Scripts/Combat/TurnBased/Core/TurnBasedBattleManager.cs:48)
+
+⏳ Aguardando GameDataManager...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:179)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ GameDataManager pronto: GameDataManager
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:210)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Scene: DontDestroyOnLoad
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:211)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅✅✅ SaveLoadManager TOTALMENTE INICIALIZADO!
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:218)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎯 RESET COMPLETO via GameDataManager...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:220)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [1] HardResetNewGame INICIADO
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:166)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2] Deletando saves...
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:169)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.0] Tentando deletar slot 0
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:172)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.0] DeleteSave(0) retornou: False
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:174)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.1] Tentando deletar slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:172)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.1] DeleteSave(1) retornou: True
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:174)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.2] Tentando deletar slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:172)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.2] DeleteSave(2) retornou: False
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:174)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.3] Tentando deletar slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:172)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.3] DeleteSave(3) retornou: False
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:174)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.4] Tentando deletar slot 4
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:172)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.4] DeleteSave(4) retornou: False
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:174)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.5] Tentando deletar slot 5
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:172)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [2.5] DeleteSave(5) retornou: False
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:174)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [3] Saves deletados
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:176)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [4] Limpando PlayerPrefs...
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:179)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [5] PlayerPrefs limpos
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:182)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [6] Resetando inventário...
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:185)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:219)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== RefreshUI() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:220)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Tempo: 7,06
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:221)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:230)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ inventoryTableUI encontrado: ItemsTablePanel
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:240)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Chamando inventoryTableUI.RefreshTable()...
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:241)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:106)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:129)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:370)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  📊 ProcessInventoryData COM CATEGORIAS  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:371)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠═══════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:372)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:454)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+1. Data Collection: 1ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:134)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Inventário vazio
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:139)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[InventoryTableUI] Inventory is empty!
+Add items to get started.
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ShowInfoMessage (string) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1390)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:140)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+⏩ Skipping cleanup (reusing rows)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ClearTableVisuals () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1305)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:144)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+TOTAL TIME: 3ms (empty)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:147)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:245)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ✅ inventoryTableUI.RefreshTable() chamado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:246)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ inventoryItemDetailsUI encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:261)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+--- Sistema antigo (slots) ---
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:266)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Slots totais: 200, Slots UI: 0
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:268)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== UpdateEquipmentDisplay() INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ InventoryManager encontrado
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:404)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+⚠️ equipmentSlotUIs array está vazio ou null
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:431)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔄 Atualizando Paper Doll System...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:437)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:199)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  🔄 PaperDollUI: UpdateAllSlots()    ║
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:200)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  👤 Character: NULL
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:201)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  📍 Index: -1
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:202)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚═══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:203)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🖼️ UpdateCharacterPortrait() - Início
+UnityEngine.Debug:Log (object)
+InventoryPaperDollUI:UpdateCharacterPortrait () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:325)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:205)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+⚠️ currentCharacter é null - limpando portrait
+UnityEngine.Debug:LogWarning (object)
+InventoryPaperDollUI:UpdateCharacterPortrait () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:341)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:205)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+⚠️ PartyManager ou currentCharacter é null
+UnityEngine.Debug:LogWarning (object)
+InventoryPaperDollUI:UpdateAllSlots () (at Assets/Scripts/Inventory/UI/InventoryPaperDollUI.cs:209)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:442)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Paper Doll atualizado com sucesso
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:443)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📊 Atualizando party member stats...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:466)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Party member stats atualizados
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:471)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎯 EQUIPAMENTO ATUAL NO INVENTORYMANAGER:
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:489)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== UpdateEquipmentDisplay() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateEquipmentDisplay () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:507)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Peso atual: 0,0/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:278)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== RefreshUI() FINALIZADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:281)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+InventoryUI:RefreshUI () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:282)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📢 OnInventoryChanged() - Invalidando cache
+UnityEngine.Debug:Log (object)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1404)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔄 Cache invalidado - próximo refresh será completo
+UnityEngine.Debug:Log (object)
+InventoryTableUI:InvalidateCache () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1351)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1407)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+=== PERFORMANCE DIAGNOSIS ===
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:106)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Componentes básicos OK
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:129)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:370)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  📊 ProcessInventoryData COM CATEGORIAS  ║
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:371)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠═══════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:372)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ProcessInventoryData () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:454)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:133)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+1. Data Collection: 0ms
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:134)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Inventário vazio
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:139)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[InventoryTableUI] Inventory is empty!
+Add items to get started.
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ShowInfoMessage (string) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1390)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:140)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[RowPool] ReturnAllRows: returned 0/0 active rows
+UnityEngine.Debug:Log (object)
+InventoryRowPool:ReturnAllRows () (at Assets/Scripts/Inventory/UI/InventoryRowPool.cs:149)
+InventoryTableUI:ClearTableVisuals () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1315)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:144)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+ClearTableVisuals: 0ms (limpou 0 linhas)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:ClearTableVisuals () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1329)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:144)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+TOTAL TIME: 3ms (empty)
+UnityEngine.Debug:Log (object)
+InventoryTableUI:RefreshTable (bool) (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:147)
+InventoryTableUI:OnInventoryChanged () (at Assets/Scripts/Inventory/UI/InventoryTableUI.cs:1410)
+InventoryManager:DebugClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1327)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:188)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [7] Inventário resetado
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:189)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [8] Resetando party...
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:197)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║     Resetando 4 membro(s)...
+UnityEngine.Debug:Log (object)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:228)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║       FUNGO: equipamentos removidos
+UnityEngine.Debug:Log (object)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:248)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║       Eldrin: equipamentos removidos
+UnityEngine.Debug:Log (object)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:248)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║       Kael: equipamentos removidos
+UnityEngine.Debug:Log (object)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:248)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║       Lyra: equipamentos removidos
+UnityEngine.Debug:Log (object)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:248)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔄 PlayerController: Active character changed to FUNGO
+UnityEngine.Debug:Log (object)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:361)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:146)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[CharacterStatsCache] Stats updated from FUNGO:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:146)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   HP: 100/100
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:146)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ATK: 10 | DEF: 5
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:146)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   M.ATK: 8 | M.DEF: 4
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:146)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+PlayerController:OnActiveMemberChanged (CharacterData) (at Assets/Scripts/Gameplay/Player/PlayerController.cs:366)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:146)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[CharacterStatsCache] Stats updated from FUNGO:
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:95)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:147)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   HP: 100/100
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:96)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:147)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ATK: 10 | DEF: 5
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:97)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:147)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   M.ATK: 8 | M.DEF: 4
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:98)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:147)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   SPD: 10 | Move Speed: 5,50
+UnityEngine.Debug:Log (object)
+CharacterStatsCache:UpdateFromCharacterData (CharacterData) (at Assets/Scripts/Gameplay/Player/CharacterStatsCache.cs:99)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:285)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:147)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎮 PlayerController now controlling: FUNGO
+UnityEngine.Debug:Log (object)
+PlayerController:LoadActiveCharacter () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:305)
+PlayerController:OnPartyChanged () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:379)
+PartyManager:SetActiveMember (int) (at Assets/Scripts/Core/PartyManager.cs:147)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:253)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║     ✅ Party resetada (ativo: FUNGO)
+UnityEngine.Debug:Log (object)
+GameDataManager:ResetPartyToDefault () (at Assets/Scripts/Core/GameDataManager.cs:254)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:198)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [9] Party resetada
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:199)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [10] Criando novo GameData...
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:202)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [11] GameData criado
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:206)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔥 [12] HardResetNewGame FINALIZADO!
+UnityEngine.Debug:Log (object)
+GameDataManager:HardResetNewGame () (at Assets/Scripts/Core/GameDataManager.cs:208)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:221)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔍 Verificando estado do inventário...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:228)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📦 Itens no inventário APÓS reset: 0
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:232)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📦 Inventário VAZIO - adicionando itens MANUALMENTE
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:236)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] Item not found: 'healing_potion'
+UnityEngine.Debug:LogWarning (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:66)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:240)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+💰 +100 moedas adicionadas
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__23:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:249)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:259)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:261)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Slot: 1, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:262)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.saveSlot ANTES: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:263)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.currency ANTES: 50
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:264)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:265)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 💾 Preparando save para slot 1 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:279)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1140)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:347)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1145)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:347)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Slots usados: 0/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1146)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:347)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Peso: 0,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1147)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:347)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1154)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:347)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1174)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:350)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1180)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:350)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Active member: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1181)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:350)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1182)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:350)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1189)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:350)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:355)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:282)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1232)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1427)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1265)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Snapshot inventory: 100 moedas, 0 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1267)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1289)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1273)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1356)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1273)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1277)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Save criado no slot 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:307)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:310)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:311)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:312)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.saveSlot DEPOIS: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:313)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.currency DEPOIS: 50
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:314)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:315)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Tamanho JSON: 9178 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:316)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:317)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+GameDataManager:UpdateBoatData (int,int,UnityEngine.Vector3,bool,bool) (at Assets/Scripts/Core/GameDataManager.cs:829)
+SaveLoadManager/<LoadNewGamePositions>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:405)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
