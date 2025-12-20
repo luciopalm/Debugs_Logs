@@ -1,0 +1,352 @@
+[GameInstanceManager] Deleted entire GameInstances folder
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugClearAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:553)
+
+[GameInstanceManager] All instances cleared
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugClearAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:561)
+
+[GameInstanceManager] Created folder structure at: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Test Game 3
+UnityEngine.Debug:Log (object)
+GameInstanceManager:CreateNewGameInstance (string,string) (at Assets/Scripts/Core/GameInstanceManager.cs:153)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:505)
+
+[GDM] Game instance changed: ID=1, Path=C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Test Game 3
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:145)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:211)
+GameInstanceManager:CreateNewGameInstance (string,string) (at Assets/Scripts/Core/GameInstanceManager.cs:179)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:505)
+
+[GameInstanceManager] ✅ Game instance selected: 'Test Game 3' (ID: 1)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:214)
+GameInstanceManager:CreateNewGameInstance (string,string) (at Assets/Scripts/Core/GameInstanceManager.cs:179)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:505)
+
+[GameInstanceManager] ✅ New game instance created: ID=1, Name='Test Game 3', Difficulty=Normal
+UnityEngine.Debug:Log (object)
+GameInstanceManager:CreateNewGameInstance (string,string) (at Assets/Scripts/Core/GameInstanceManager.cs:181)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:505)
+
+╔══════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:475)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║  🎮 GAME INSTANCES LIST                                ║
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:476)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+╠══════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:477)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║  ID 1: Test Game 3 (Normal) [CURRENT]
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:488)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║     Created: 2025-12-20
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:489)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║     Play Time: 0h 0m
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:490)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║     Last Played: Today
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:491)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║     Path: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Test Game 3
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:492)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║     ───────────────────────────────
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:493)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║  Total: 1/10 instances
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:497)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+║  Current: 1 ('Test Game 3')
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:498)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+╚══════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:499)
+GameInstanceManager:DebugCreateTestInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:508)
+
+╔══════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:475)
+
+║  🎮 GAME INSTANCES LIST                                ║
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:476)
+
+╠══════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:477)
+
+║  ID 1: Test Game 3 (Normal) [CURRENT]
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:488)
+
+║     Created: 2025-12-20
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:489)
+
+║     Play Time: 0h 0m
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:490)
+
+║     Last Played: Today
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:491)
+
+║     Path: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Test Game 3
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:492)
+
+║     ───────────────────────────────
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:493)
+
+║  Total: 1/10 instances
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:497)
+
+║  Current: 1 ('Test Game 3')
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:498)
+
+╚══════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugPrintAllInstances () (at Assets/Scripts/Core/GameInstanceManager.cs:499)
+
+💾 Forcing save in instance 1...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:592)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:237)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:238)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:239)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ Slot: 1, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:240)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ currentGameData.saveSlot ANTES: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:241)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ currentGameData.currency ANTES: 50
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:242)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:243)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] 💾 Preparando save para slot 1 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:257)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1168)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:349)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Currency: 50
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1173)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:349)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Slots usados: 0/30
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1174)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:349)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Peso: 0,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1175)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:349)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1182)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:349)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1202)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:352)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1208)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:352)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Active member: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1209)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:352)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1210)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:352)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1217)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:352)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:357)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:260)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1260)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:267)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1455)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1293)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:267)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Snapshot inventory: 50 moedas, 0 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1295)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:267)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1317)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1301)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:267)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1384)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1301)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:267)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1305)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:267)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] ✅ Save criado no slot 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Test Game 3\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:285)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:288)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:289)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:290)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ currentGameData.saveSlot DEPOIS: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:291)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ currentGameData.currency DEPOIS: 50
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:292)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Test Game 3\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:293)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+║ Tamanho JSON: 9143 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:294)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:295)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:332)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:593)
+
+✅ Save forced. Check folder or run DebugCompareAllSaveFiles.
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugForceSaveInCurrentInstance () (at Assets/Scripts/Core/GameInstanceManager.cs:594)
+
