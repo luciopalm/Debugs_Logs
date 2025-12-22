@@ -1,0 +1,532 @@
+🎯 Slot 1 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💾 SALVANDO NO SLOT 1
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:307)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:308)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:309)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 1, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:310)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:311)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:312)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:313)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 1 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:327)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1262)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1267)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 9/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1268)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 5,8/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1269)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1276)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1296)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1302)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1303)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1304)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1311)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:427)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1354)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1549)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1387)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 100 moedas, 9 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1389)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1411)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1395)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1478)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1395)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1399)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_AAAAAAAAAAA's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:355)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:358)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:359)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:360)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:361)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:362)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_AAAAAAAAAAA's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:363)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 19606 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:364)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:365)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:402)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+🎯 Slot 2 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💾 SALVANDO NO SLOT 2
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:307)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:308)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:309)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 2, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:310)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:311)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:312)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:313)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 2 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:327)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1262)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1267)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 9/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1268)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 5,8/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1269)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1276)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:419)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1296)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1302)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1303)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1304)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1311)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:422)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:427)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:330)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1354)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1549)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1387)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 100 moedas, 9 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1389)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1411)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1395)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1478)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1395)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1399)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:337)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 2: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_AAAAAAAAAAA's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:355)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:358)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:359)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:360)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:361)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:362)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_AAAAAAAAAAA's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:363)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 19608 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:364)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:365)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:402)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:784)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+🎯 Slot 1 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+📂 CARREGANDO SLOT 1
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnLoadClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:249)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+❌ Arquivo do slot 1 não existe: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_1.json
+UnityEngine.Debug:LogError (object)
+SaveLoadManager:LoadFromSlot (int) (at Assets/Scripts/Core/SaveLoadManager.cs:891)
+SaveLoadUI:OnLoadClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:277)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+🎯 Slot 2 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+📂 CARREGANDO SLOT 2
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnLoadClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:249)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+❌ Arquivo do slot 2 não existe: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\saves\save_2.json
+UnityEngine.Debug:LogError (object)
+SaveLoadManager:LoadFromSlot (int) (at Assets/Scripts/Core/SaveLoadManager.cs:891)
+SaveLoadUI:OnLoadClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:277)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
