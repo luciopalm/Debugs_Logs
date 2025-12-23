@@ -1,0 +1,799 @@
+🧪 TESTE DE ISOLAMENTO DE INSTÂNCIAS
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:613)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GameInstanceManager] Cannot create new game - maximum of 10 instances reached!
+UnityEngine.Debug:LogError (object)
+GameInstanceManager:CreateNewGameInstance (string,string) (at Assets/Scripts/Core/GameInstanceManager.cs:133)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:622)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+Instância 1 criada: ID=-1
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:623)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:450)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:451)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:452)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ Slot: 4, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:453)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.saveSlot ANTES: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:454)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.currency ANTES: 200
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:455)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:456)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 💾 Salvando na instância 1: FUNGO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:466)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 💾 Preparando save para slot 4 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:480)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1547)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1552)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Slots usados: 9/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1553)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Peso: 5,8/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1554)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1561)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1581)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1587)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Active member: Eldrin
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1588)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Active index: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1589)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1596)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:651)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1639)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1834)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1672)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Snapshot inventory: 100 moedas, 9 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1674)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1696)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Snapshot party: 4 members, active: Eldrin
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1763)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1684)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Save criado no slot 4: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots\slot_4.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:508)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:511)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:512)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:513)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.saveSlot DEPOIS: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:514)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.currency DEPOIS: 200
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:515)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots\slot_4.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:516)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ Tamanho JSON: 19607 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:517)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:518)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:604)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:534)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:634)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:534)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:545)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   ANTES: lastSaveSlot = 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:551)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGO's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:301)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:555)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+   Slot antigo: 4 → Novo slot: 4
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:302)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:555)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   DEPOIS: lastSaveSlot = 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+✅ currentGameData.saveSlot atualizado para: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:579)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:580)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] Game saved in slot 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:585)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1247)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:628)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:450)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:451)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:452)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ Slot: 1, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:453)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.saveSlot ANTES: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:454)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:455)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:456)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 💾 Salvando na instância 1: FUNGO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:466)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 💾 Preparando save para slot 1 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:480)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1547)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1552)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Slots usados: 9/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1553)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Peso: 5,8/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1554)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1561)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:643)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1581)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1587)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Active member: Eldrin
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1588)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Active index: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1589)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1596)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:646)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:651)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:483)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1639)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1834)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1672)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Snapshot inventory: 100 moedas, 9 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1674)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1696)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   • Snapshot party: 4 members, active: Eldrin
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1763)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1680)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1684)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:490)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Save criado no slot 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:508)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:511)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:512)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:513)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.saveSlot DEPOIS: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:514)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:515)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:516)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+║ Tamanho JSON: 19607 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:517)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:518)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:604)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:534)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:634)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:534)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:545)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   ANTES: lastSaveSlot = 4
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:551)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGO's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:301)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:555)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+   Slot antigo: 4 → Novo slot: 1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:302)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:555)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM]   DEPOIS: lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+✅ currentGameData.saveSlot atualizado para: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:579)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:580)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:585)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:629)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+[GameInstanceManager] Cannot create new game - maximum of 10 instances reached!
+UnityEngine.Debug:LogError (object)
+GameInstanceManager:CreateNewGameInstance (string,string) (at Assets/Scripts/Core/GameInstanceManager.cs:133)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:633)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+Instância 2 criada: ID=-1
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:634)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+📁 Instância 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_-001_Teste_Isolamento_1\SaveSlots\slot_1.json (Existe: False)
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:642)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+📁 Instância 2: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_-001_Teste_Isolamento_2\SaveSlots\slot_1.json (Existe: False)
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:643)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+❌ ISOLAMENTO FALHOU: Saves não estão separados!
+UnityEngine.Debug:LogError (object)
+SaveSystemDiagnostic:DebugTestInstanceIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:651)
+SaveSystemDiagnostic:MenuTestIsolation () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:731)
+
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>10,9s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>127,6</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-22 21:45:35</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>10</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'FUNGO's Adventure'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>1</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>11</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Fallback:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_001_FUNGO's Adventure:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Saves em Game_002_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Teste Isolamento 1:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Saves em Game_004_Teste Isolamento 2:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_005_Temporary_Migration:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Temporary_Migration:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Teste Isolamento 1:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Saves em Game_008_Teste Isolamento 2:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Temporary_Migration:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_010_Teste Isolamento 1:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-22 21:45:34</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>100</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>100</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>100</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-22 21:45:34</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>100</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-22 19:58:39</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>100</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-22 19:59:04</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>100</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>9/200</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>5,8/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>  Gloves:</color> <color=#FFFFFF>Old Gloves</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>1</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>Eldrin</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>50/50</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>1</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
