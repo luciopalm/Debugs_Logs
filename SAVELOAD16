@@ -1,0 +1,157 @@
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1076)
+
+║  🔍 GAMEINSTANCEMANAGER STATE            ║
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1077)
+
+╠═══════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1078)
+
+║  Current Instance ID: 2
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1079)
+
+║  Current Instance Name: GUNFO's Adventure
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1080)
+
+║  Current Instance Path: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_002_GUNFO's Adventure
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1081)
+
+║
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1082)
+
+║  Total Instances: 2
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1083)
+
+║    - ID=1: FUNGO's Adventure
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1088)
+
+║    - ID=2: GUNFO's Adventure [ACTIVE]
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1088)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugVerifyInstanceState () (at Assets/Scripts/Core/GameInstanceManager.cs:1091)
+
+🧪 TESTE DE CONTAMINAÇÃO DE DADOS
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:689)
+
+Instância 1: FUNGO's Adventure (ID: 1)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:703)
+
+Instância 2: GUNFO's Adventure (ID: 2)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:704)
+
+📁 Pastas diferentes? ✅ SIM
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:708)
+
+📄 Instância 1 tem slot_1.json? ✅ SIM
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:723)
+
+📄 Instância 2 tem slot_1.json? ✅ SIM
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:724)
+
+📝 Conteúdo IDÊNTICO? ✅ NÃO
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:734)
+
+✅✅✅ ISOLAMENTO CONFIRMADO: Conteúdos diferentes!
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:743)
+
+🔍 Diferenças detectadas nos arquivos
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:758)
+
+📂 ESTRUTURA DE PASTAS:
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:775)
+
+  Game_001_FUNGO's Adventure: ✅ SaveSlots
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:787)
+
+  Game_002_GUNFO's Adventure: ✅ SaveSlots
+UnityEngine.Debug:Log (object)
+GameInstanceManager:DebugTestDataContamination () (at Assets/Scripts/Core/GameInstanceManager.cs:787)
+
+=== SAVE SUMMARY ===
+Player: Player
+Level: 1
+Health: 100/100
+Position: (-1567,3, -642,2, 0,0)
+isNewGame: False
+saveSlot: 1
+Instance: SET ✅
+=====================
+
+UnityEngine.Debug:Log (object)
+GameDataManager:PrintSaveSummary () (at Assets/Scripts/Core/GameDataManager.cs:2083)
+
+=== 🔍 RASTREANDO ORIGEM DOS ITENS ===
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1579)
+
+isLoadedFromSave: True
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1582)
+
+Starting items: 4
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1583)
+
+Current items: 4
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1584)
+
+Save file exists: True
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1590)
+
+Items in save: 4
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1595)
+
+Currency in save: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1596)
+
+📦 Itens atuais no inventário:
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1601)
+
+   Slot 2: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1606)
+
+   Slot 3: Old Gloves x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1606)
+
+   Slot 2: Accessory sample x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1606)
+
+   Slot 3: Amulet  x1
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1606)
+
+=== FIM ===
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugTraceItemSource () (at Assets/Scripts/Inventory/InventoryManager.cs:1610)
+
