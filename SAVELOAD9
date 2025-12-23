@@ -1,0 +1,1354 @@
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>29,8s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>325,2</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-23 00:16:15</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'Emergency_Instance'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>2</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Game_001_Emergency_Instance:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Saves em Game_002_FUNGO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_004_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_005_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_008_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-23 00:15:47</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>250</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:15:43</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:15:47</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>❌ NÃO</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>18/30</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>12,6/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>FUNGO</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>100/100</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
+🎯 Slot 1 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💾 SALVANDO NO SLOT 1
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:449)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:450)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:451)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 1, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:452)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:453)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:454)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:455)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Salvando na instância 1: Emergency_Instance
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:465)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 1 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:479)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1522)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1527)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 18/30
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1528)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 12,6/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1529)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1536)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1556)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1562)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1563)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1564)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1571)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:650)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1614)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1809)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1647)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 250 moedas, 18 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1649)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1655)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1738)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1655)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1659)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:507)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:510)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:511)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:512)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:513)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:514)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:515)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 29965 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:516)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:517)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:603)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:533)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Sincronização completa. Currency: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:633)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:533)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:544)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   ANTES: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:550)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (Emergency_Instance)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:301)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:554)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+   Slot antigo: 2 → Novo slot: 1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:302)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:554)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   DEPOIS: lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.saveSlot atualizado para: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:578)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.currency atualizado para: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:579)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:584)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>30,8s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>293,5</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-23 00:16:19</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'Emergency_Instance'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>1</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Game_001_Emergency_Instance:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Saves em Game_002_FUNGO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_004_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_005_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_008_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>250</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:15:47</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>❌ NÃO</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>18/30</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>12,6/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>FUNGO</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>100/100</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
+=== ESTADO ATUAL ===
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1053)
+
+Sistema pronto: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1054)
+
+Salvando: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1055)
+
+Load inicial feito: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1056)
+
+Menu aberto: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1057)
+
+👤 Player:
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1061)
+
+  - Ativo: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1062)
+
+  - Posição REAL: (-1569.25, -640.00, 0.00)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1063)
+
+  - Vida: 100/100
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1064)
+
+🚤 Barco:
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1069)
+
+  - Ativo: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1070)
+
+  - Posição REAL: (-1558.00, -642.20, 0.00)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1071)
+
+  - Player dentro: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1072)
+
+💾 Save Data:
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1078)
+
+  - isNewGame: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1079)
+
+  - wasInsideBoat: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1080)
+
+  - Player pos SALVA: (-1569,3, -640,0, 0,0)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1081)
+
+  - Boat pos SALVA: (-1558,0, -642,2, 0,0)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1082)
+
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>31,8s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>267,1</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-23 00:18:58</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'Emergency_Instance'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>1</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Game_001_Emergency_Instance:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Saves em Game_002_FUNGO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_004_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_005_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_008_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>250</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:15:47</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>❌ NÃO</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>18/30</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>12,6/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>FUNGO</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>100/100</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>32,8s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>285,7</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-23 00:18:59</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'Emergency_Instance'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>1</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Game_001_Emergency_Instance:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Saves em Game_002_FUNGO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_004_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_005_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_008_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>250</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:15:47</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>❌ NÃO</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>18/30</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>12,6/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>FUNGO</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>100/100</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>33,8s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>240,8</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-23 00:19:00</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'Emergency_Instance'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>1</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Game_001_Emergency_Instance:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Saves em Game_002_FUNGO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_004_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_005_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_008_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>250</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:15:47</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>❌ NÃO</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>18/30</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>12,6/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>FUNGO</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>100/100</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
+🎯 Slot 2 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💾 SALVANDO NO SLOT 2
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:449)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:450)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:451)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 2, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:452)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:453)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:454)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:455)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Salvando na instância 1: Emergency_Instance
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:465)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 2 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:479)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1522)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1527)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 18/30
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1528)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 12,6/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1529)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1536)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:642)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1556)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1562)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1563)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1564)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1571)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:645)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:650)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:482)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1614)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1809)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1647)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 250 moedas, 18 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1649)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1655)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1738)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1655)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1659)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:489)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 2: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:507)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:510)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:511)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:512)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:513)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:514)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:515)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 29966 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:516)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:517)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:603)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:533)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Sincronização completa. Currency: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:633)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:533)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:544)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   ANTES: lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:550)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (Emergency_Instance)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:301)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:554)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+   Slot antigo: 1 → Novo slot: 2
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:302)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:554)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   DEPOIS: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.saveSlot atualizado para: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:578)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.currency atualizado para: 250
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:579)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:584)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:787)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+<color=#FFAA00>🔍 SAVE SYSTEM DIAGNÓSTICO COMPLETO</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+<color=#00AAFF>📊 INFORMAÇÕES BÁSICAS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Tempo do jogo:</color> <color=#FFFFFF>34,8s</color>
+  <color=#CCCCCC>Frames por segundo:</color> <color=#FFFFFF>260,0</color>
+  <color=#CCCCCC>Data atual:</color> <color=#FFFFFF>2025-12-23 00:19:03</color>
+
+<color=#00AAFF>🎮 MANAGERS CRÍTICOS</color>
+<color=#555555>────────────────────────────</color>
+  ✅ <color=#CCCCCC>GameDataManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>GameInstanceManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>SaveLoadManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>InventoryManager:</color> PRESENTE
+  ✅ <color=#CCCCCC>PartyManager:</color> PRESENTE
+
+<color=#00AAFF>🎮 SISTEMA DE INSTÂNCIAS (CRÍTICO)</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Instâncias criadas:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Instância atual ID:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>Nome instância atual:</color> <color=#FFFFFF>'Emergency_Instance'</color>
+  <color=#CCCCCC>Caminho instância:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance</color>
+  <color=#CCCCCC>Tem seleção?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>Último slot (PlayerPrefs):</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Slot atual em memória:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Slot esperado:</color> <color=#FFFFFF>2</color>
+  <color=#00FF00>✅ ✅ ✅ Slot correto na memória</color>
+  <color=#AAAAAA>🎯 TESTE DE ISOLAMENTO (BUG 3)</color>
+  <color=#CCCCCC>Pastas de instâncias no disco:</color> <color=#FFFFFF>9</color>
+  <color=#CCCCCC>Teste disponível:</color> <color=#FFFFFF>Sim (2+ instâncias)</color>
+  <color=#CCCCCC>Saves em Game_001_Emergency_Instance:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>Saves em Game_002_FUNGO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_003_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_004_GUNFO's Adventure:</color> <color=#FFFFFF>3</color>
+  <color=#CCCCCC>Saves em Game_005_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_006_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_007_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_008_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Saves em Game_009_Emergency_Instance:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🧠 ESTADO NA MEMÓRIA</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>saveSlot (memória):</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>isNewGame:</color> <color=#FFFFFF>False</color>
+  <color=#CCCCCC>saveDate:</color> <color=#FFFFFF>2025-12-23 00:19:03</color>
+  <color=#CCCCCC>playerName:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>currency (memória):</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>level:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>currency (InventoryManager):</color> <color=#FFFFFF>250</color>
+  <color=#00FF00>✅ ✅ Moedas sincronizadas</color>
+  <color=#AAAAAA>👻 VERIFICAÇÃO SELEÇÃO FANTASMA (BUG 2)</color>
+  <color=#CCCCCC>Inventário aberto?:</color> <color=#FFFFFF>❌ NÃO</color>
+  <color=#CCCCCC>DraggableItems ativos:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>💾 ESTADO NO DISCO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Caminho save slot 1:</color> <color=#FFFFFF>C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_Emergency_Instance\SaveSlots\slot_1.json</color>
+  <color=#AAAAAA>📂 ARQUIVOS NO DISCO</color>
+  <color=#CCCCCC>Slot 1 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>1</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:16:18</color>
+  <color=#CCCCCC>Slot 2 existe?:</color> <color=#FFFFFF>✅ SIM</color>
+  <color=#CCCCCC>  • Slot no arquivo:</color> <color=#FFFFFF>2</color>
+  <color=#CCCCCC>  • Player:</color> <color=#FFFFFF>Player</color>
+  <color=#CCCCCC>  • Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>  • Data:</color> <color=#FFFFFF>2025-12-23 00:19:03</color>
+  <color=#CCCCCC>Slot 3 existe?:</color> <color=#FFFFFF>❌ NÃO</color>
+
+<color=#00AAFF>📦 SISTEMA DE INVENTÁRIO</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Moedas:</color> <color=#FFFFFF>250</color>
+  <color=#CCCCCC>Slots usados:</color> <color=#FFFFFF>18/30</color>
+  <color=#CCCCCC>Peso:</color> <color=#FFFFFF>12,6/100,0 kg</color>
+  <color=#AAAAAA>🎯 EQUIPAMENTOS</color>
+  <color=#CCCCCC>Total equipados:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>👥 SISTEMA DE PARTY</color>
+<color=#555555>────────────────────────────</color>
+  <color=#CCCCCC>Membros:</color> <color=#FFFFFF>4</color>
+  <color=#CCCCCC>Ativo:</color> <color=#FFFFFF>0</color>
+  <color=#CCCCCC>Nome ativo:</color> <color=#FFFFFF>FUNGO</color>
+  <color=#CCCCCC>HP ativo:</color> <color=#FFFFFF>100/100</color>
+  <color=#CCCCCC>Equipados no personagem:</color> <color=#FFFFFF>0</color>
+
+<color=#00AAFF>🔴 DIAGNÓSTICO DE BUGS</color>
+<color=#555555>────────────────────────────</color>
+  <color=#00FF00>✅ ✅ Nenhum bug crítico detectado!</color>
+<color=#FFAA00>══════════════════════════════════════════════════</color>
+
+UnityEngine.Debug:Log (object)
+SaveSystemDiagnostic:RunFullDiagnostic () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:151)
+SaveSystemDiagnostic:Update () (at Assets/Scripts/DEBUGGERS/SaveSystemDiagnostic.cs:59)
+
+=== ESTADO ATUAL ===
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1053)
+
+Sistema pronto: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1054)
+
+Salvando: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1055)
+
+Load inicial feito: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1056)
+
+Menu aberto: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1057)
+
+👤 Player:
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1061)
+
+  - Ativo: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1062)
+
+  - Posição REAL: (-1573.88, -641.02, 0.00)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1063)
+
+  - Vida: 100/100
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1064)
+
+🚤 Barco:
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1069)
+
+  - Ativo: True
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1070)
+
+  - Posição REAL: (-1558.00, -642.20, 0.00)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1071)
+
+  - Player dentro: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1072)
+
+💾 Save Data:
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1078)
+
+  - isNewGame: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1079)
+
+  - wasInsideBoat: False
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1080)
+
+  - Player pos SALVA: (-1573,9, -641,0, 0,0)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1081)
+
+  - Boat pos SALVA: (-1558,0, -642,2, 0,0)
+UnityEngine.Debug:Log (object)
+SaveLoadManager:ShowCurrentState () (at Assets/Scripts/Core/SaveLoadManager.cs:1082)
+
