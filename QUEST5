@@ -1,0 +1,182 @@
+[NPCController] Quest Find Old Fisherman is AVAILABLE
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:73)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Offering quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest started: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:406)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:168)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPCController] Quest started successfully
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:171)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPC] Interagindo com NPC ALVO: old_fisherman
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:35)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] NPC talked to: old_fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:796)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+  Quest 'Find Old Fisherman': NPC talked to
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:818)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] Quest ready to turn in: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAndUpdateQuestCompletion (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:849)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:820)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Quest Encontrar o Bispo is AVAILABLE
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:73)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Offering quest: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest started: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:406)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:168)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPCController] Quest started successfully
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:171)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPCController] Quest Find Old Fisherman is READY TO TURN IN
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:91)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Turning in quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:148)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  +100 XP
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:571)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:150)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  +50 currency
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:578)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:150)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest completed: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:547)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:150)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPCController] Quest turned in successfully
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:154)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPC] Interagindo com NPC ALVO: npc_bishop
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:35)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] NPC talked to: npc_bishop
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:796)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+  Quest 'Encontrar o Bispo': NPC talked to
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:818)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] Quest ready to turn in: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAndUpdateQuestCompletion (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:849)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:820)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] Required quest not completed: find_bishop
+UnityEngine.Debug:Log (object)
+QuestManager:CheckQuestRequirements (QuestData) (at Assets/Scripts/Core/QuestManager.cs:442)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:70)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] No active quest interaction - using noQuestDialog
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:116)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+Dialog vazio ou nulo!
+UnityEngine.Debug:LogError (object)
+DialogManager/<ShowDialog>d__18:MoveNext () (at Assets/Scripts/Core/DialogManager.cs:30)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:41)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] Required quest not completed: find_bishop
+UnityEngine.Debug:Log (object)
+QuestManager:CheckQuestRequirements (QuestData) (at Assets/Scripts/Core/QuestManager.cs:442)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:159)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
