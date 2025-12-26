@@ -1,0 +1,411 @@
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+/// <summary>
+/// 🔥 VERSÃO CORRIGIDA COM SLOT ESPECÍFICO
+/// ✅ Identifica qual slot específico do inventário está sendo arrastado
+/// ✅ Resolve problema de múltiplos itens iguais no inventário
+/// ✅ Ghost cleanup garantido mesmo em drops externos
+/// ✅ Proteção contra travamento se Canvas for null
+/// </summary>
+public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+{
+    public enum DragSource
+    {
+        InventoryTable,
+        PaperDollSlot,
+        EquipmentSlot
+    }
+    
+    [Header("Visual Feedback")]
+    [SerializeField] private float dragAlpha = 0.8f;
+    [SerializeField] private Vector2 ghostOffset = new Vector2(32f, -32f);
+    
+    // Drag state
+    private RectTransform rectTransform;
+    private Canvas canvas;
+    private CanvasGroup canvasGroup;
+    
+    // Original state
+    private Vector2 originalPosition;
+    private Transform originalParent;
+    private int originalSiblingIndex;
+    
+    // Item info
+    private ItemData itemData;
+    private DragSource source;
+    private ItemData.EquipmentSlot sourceEquipmentSlot;
+    
+    // 🔥 NOVO: Informação do slot específico
+    private int sourceInventorySlotIndex = -1;
+    private InventoryManager.InventorySlot sourceInventorySlot;
+    
+    // Drag result
+    private bool wasDroppedSuccessfully = false;
+    
+    // Ghost visual
+    private GameObject ghostObject;
+    private Image ghostImage;
+    private RectTransform ghostRect;
+    
+    private void Awake()
+    {
+        rectTransform = GetComponent<RectTransform>();
+        canvas = GetComponentInParent<Canvas>();
+        
+        canvasGroup = GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+        {
+            canvasGroup = gameObject.AddComponent<CanvasGroup>();
+        }
+    }
+    
+    // 🔥 MÉTODO ATUALIZADO: Recebe informações do slot específico
+    public void SetupDraggable(ItemData item, DragSource dragSource, 
+                               ItemData.EquipmentSlot equipSlot = ItemData.EquipmentSlot.None,
+                               int inventorySlotIndex = -1,
+                               InventoryManager.InventorySlot specificSlot = null)
+    {
+        itemData = item;
+        source = dragSource;
+        sourceEquipmentSlot = equipSlot;
+        sourceInventorySlotIndex = inventorySlotIndex; // 🔥 Guarda índice
+        sourceInventorySlot = specificSlot; // 🔥 Guarda slot específico
+        
+        /*Debug.Log($"🛠️ DraggableItem configurado:");
+        Debug.Log($"   Item: {item?.itemName ?? "NULL"}");
+        Debug.Log($"   Source: {source}");
+        Debug.Log($"   Equipment Slot: {equipSlot}");
+        Debug.Log($"   Inventory Slot Index: {sourceInventorySlotIndex}");
+        Debug.Log($"   Specific Slot: {sourceInventorySlot?.item?.itemName ?? "NULL"}");
+        Debug.Log($"   Quantidade: {sourceInventorySlot?.quantity ?? 0}"); */
+    }
+    
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (itemData == null)
+        {
+            Debug.LogError("❌ Tentativa de arrastar item NULL!");
+            return;
+        }
+        
+        // 🔥🔥🔥 VALIDAÇÃO CRÍTICA: Verificar se o slot ainda tem o item correto
+        if (sourceInventorySlot != null && source == DragSource.InventoryTable)
+        {
+            /*Debug.Log($"╔═══════════════════════════════════════╗");
+            Debug.Log($"║  🔍 VALIDANDO SLOT ANTES DO DRAG      ║");
+            Debug.Log($"╠═══════════════════════════════════════╣");
+            Debug.Log($"║  📦 Item do Draggable: {itemData.itemName}");
+            Debug.Log($"║  📋 Slot Index: {sourceInventorySlotIndex}");*/
+            
+            if (InventoryManager.Instance != null)
+            {
+                var allSlots = InventoryManager.Instance.GetAllSlots();
+                
+                if (sourceInventorySlotIndex >= 0 && sourceInventorySlotIndex < allSlots.Count)
+                {
+                    var currentSlot = allSlots[sourceInventorySlotIndex];
+                    
+                    // 🔥 VERIFICAR SE O SLOT AINDA TEM O MESMO ITEM
+                    if (currentSlot.item != itemData)
+                    {
+                        /*Debug.LogError($"║  ❌ SLOT MUDOU!");
+                        Debug.LogError($"║     Esperado: {itemData.itemName}");
+                        Debug.LogError($"║     Atual: {currentSlot.item?.itemName ?? "VAZIO"}");
+                        Debug.Log($"╚═══════════════════════════════════════╝"); */
+                        
+                        // 🔥 ABORTAR DRAG!
+                        return;
+                    }
+                    
+                    Debug.Log($"║  ✅ Validação OK: {currentSlot.item.itemName} x{currentSlot.quantity}");
+                }
+                else
+                {
+                    //Debug.LogError($"║  ❌ Índice {sourceInventorySlotIndex} inválido!");
+                    //Debug.Log($"╚═══════════════════════════════════════╝");
+                    return;
+                }
+            }
+            
+            Debug.Log($"╚═══════════════════════════════════════╝");
+            // 🔍 DIAGNÓSTICO: Estado antes de começar drag
+            if (DiagnosticHelper.Instance != null)
+            {
+                var stateBefore = DiagnosticHelper.Instance.CaptureRowState(gameObject, sourceInventorySlotIndex);
+                DiagnosticHelper.Instance.LogRowState(stateBefore, "OnBeginDrag - ANTES CreateGhost");
+            }
+            
+        }
+        
+        // 🔥 BUSCA INTELIGENTE DO CANVAS
+        if (canvas == null)
+        {
+            canvas = GetComponentInParent<Canvas>();
+            
+            if (canvas == null)
+            {
+                GameObject inventoryPanel = GameObject.Find("InventoryPanel");
+                if (inventoryPanel != null)
+                {
+                    canvas = inventoryPanel.GetComponentInParent<Canvas>();
+                }
+                
+                if (canvas == null)
+                {
+                    canvas = FindFirstObjectByType<Canvas>();
+                }
+            }
+            
+            if (canvas != null)
+            {
+                Debug.Log($"✅ Canvas encontrado: {canvas.name}");
+            }
+        }
+        
+        if (canvas == null)
+        {
+            Debug.LogWarning("⚠️ Canvas não encontrado - drag pode não funcionar corretamente");
+        }
+        
+        /* Debug.Log($"╔═══════════════════════════════════════╗");
+        Debug.Log($"║  🎯 BEGIN DRAG: {itemData.itemName}");
+        Debug.Log($"║  📍 Source: {source}");
+        Debug.Log($"║  🎰 Equipment Slot: {sourceEquipmentSlot}");
+        Debug.Log($"║  🔢 Inventory Slot: {sourceInventorySlotIndex}");
+        Debug.Log($"║  📦 Specific Slot: {sourceInventorySlot?.item?.itemName ?? "N/A"}");
+        Debug.Log($"║  🔄 Arraste para o Paper Doll →");
+        Debug.Log($"╚═══════════════════════════════════════╝"); */
+        
+        // Salva estado original
+        originalPosition = rectTransform.anchoredPosition;
+        originalParent = transform.parent;
+        originalSiblingIndex = transform.GetSiblingIndex();
+        
+        // 🔥 CRIAR GHOST VISUAL (com proteção)
+        CreateGhostVisual();
+        
+        // Torna objeto original semi-transparente
+        if (canvasGroup != null)
+        {
+            canvasGroup.alpha = 0.3f;
+            canvasGroup.blocksRaycasts = false;
+        }
+        
+        wasDroppedSuccessfully = false;
+        
+        // Notifica InventoryUI
+        if (InventoryUI.Instance != null)
+        {
+            InventoryUI.Instance.OnItemDragBegin(itemData, source, sourceEquipmentSlot);
+        }
+    }
+    
+    public void OnDrag(PointerEventData eventData)
+    {
+        // 🔥 PROTEÇÃO: Se não tem ghost ou canvas, não faz nada
+        if (ghostObject == null || canvas == null || ghostRect == null) 
+        {
+            return;
+        }
+        
+        // Move ghost com cursor
+        Vector2 localPoint;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvas.transform as RectTransform,
+            eventData.position,
+            canvas.worldCamera,
+            out localPoint
+        );
+        
+        ghostRect.anchoredPosition = localPoint + ghostOffset;
+    }
+    
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        Debug.Log($"🏁 END DRAG: {itemData?.itemName ?? "NULL"} (Success: {wasDroppedSuccessfully})");
+
+        // 🔍 DIAGNÓSTICO: Estado ao finalizar drag
+        if (DiagnosticHelper.Instance != null)
+        {
+            var stateAfter = DiagnosticHelper.Instance.CaptureRowState(gameObject, sourceInventorySlotIndex);
+            DiagnosticHelper.Instance.LogRowState(stateAfter, $"OnEndDrag - Success: {wasDroppedSuccessfully}");
+        }
+        
+        // 🔥🔥🔥 CORREÇÃO CRÍTICA: SEMPRE destruir ghost
+        DestroyGhost();
+        
+        // Restaura visual original
+        if (canvasGroup != null)
+        {
+            canvasGroup.alpha = 1f;
+            canvasGroup.blocksRaycasts = true;
+        }
+        
+        // Se drop falhou, volta à posição original
+        if (!wasDroppedSuccessfully)
+        {
+            Debug.Log("   ↩️ Drop falhou - mantendo no lugar");
+        }
+        else
+        {
+            Debug.Log("   ✅ Drop bem-sucedido");
+            
+            // 🔥 FORÇA REFRESH DA UI
+            if (InventoryUI.Instance != null)
+            {
+                InventoryUI.Instance.StartCoroutine(
+                    InventoryUI.Instance.RefreshUIAfterDrag()
+                );
+            }
+        }
+        
+        // Notifica InventoryUI
+        if (InventoryUI.Instance != null)
+        {
+            InventoryUI.Instance.OnItemDragEnd(itemData, wasDroppedSuccessfully);
+        }
+    }
+    
+    /// <summary>
+    /// 🔥 CRIA GHOST VISUAL - VERSÃO COM PROTEÇÃO CONTRA TRAVAMENTO
+    /// </summary>
+    private void CreateGhostVisual()
+    {
+        // 🔥 VERIFICAÇÃO CRÍTICA: Se não tem Canvas, NÃO cria ghost
+        if (canvas == null)
+        {
+            Debug.LogWarning($"⚠️ Não foi possível criar ghost para {itemData?.itemName} - Canvas é NULL");
+            return;
+        }
+        
+        if (itemData == null)
+        {
+            Debug.LogError("❌ itemData null! Não pode criar ghost.");
+            return;
+        }
+        
+        try
+        {
+            // 1. Criar GameObject
+            ghostObject = new GameObject("DragGhost", typeof(RectTransform));
+            ghostRect = ghostObject.GetComponent<RectTransform>();
+            
+            // 2. Parent no Canvas
+            ghostObject.transform.SetParent(canvas.transform, false);
+            ghostObject.transform.SetAsLastSibling();
+            
+            // 3. Configurar RectTransform
+            ghostRect.sizeDelta = new Vector2(64f, 64f);
+            ghostRect.anchorMin = new Vector2(0.5f, 0.5f);
+            ghostRect.anchorMax = new Vector2(0.5f, 0.5f);
+            ghostRect.pivot = new Vector2(0.5f, 0.5f);
+            
+            // 4. Adicionar Image com ícone
+            ghostImage = ghostObject.AddComponent<Image>();
+            ghostImage.sprite = itemData.icon;
+            ghostImage.color = new Color(1f, 1f, 1f, dragAlpha);
+            ghostImage.raycastTarget = false;
+            
+            // 5. Adicionar CanvasGroup
+            CanvasGroup ghostGroup = ghostObject.AddComponent<CanvasGroup>();
+            ghostGroup.alpha = 1f;
+            ghostGroup.blocksRaycasts = false;
+            ghostGroup.interactable = false;
+            
+            // 6. Adicionar borda
+            GameObject border = new GameObject("Border", typeof(RectTransform));
+            border.transform.SetParent(ghostObject.transform, false);
+            
+            RectTransform borderRect = border.GetComponent<RectTransform>();
+            borderRect.anchorMin = Vector2.zero;
+            borderRect.anchorMax = Vector2.one;
+            borderRect.sizeDelta = Vector2.zero;
+            
+            Image borderImage = border.AddComponent<Image>();
+            borderImage.color = new Color(1f, 1f, 1f, 0.3f);
+            borderImage.raycastTarget = false;
+            
+            border.transform.SetAsFirstSibling();
+            
+            Debug.Log($"   👻 Ghost criado para {itemData.itemName}");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"❌ Erro ao criar ghost: {e.Message}");
+            
+            // Limpa qualquer objeto parcialmente criado
+            DestroyGhost();
+        }
+    }
+    
+    /// <summary>
+    /// 🔥🔥🔥 NOVO MÉTODO: Garante destruição do ghost
+    /// </summary>
+    private void DestroyGhost()
+    {
+        if (ghostObject != null)
+        {
+            Destroy(ghostObject);
+            ghostObject = null;
+            ghostImage = null;
+            ghostRect = null;
+            Debug.Log("   🗑️ Ghost destruído");
+        }
+    }
+    
+    /// <summary>
+    /// Marca que o drop foi bem-sucedido (chamado por DropZone)
+    /// </summary>
+    public void MarkDropSuccess()
+    {
+        wasDroppedSuccessfully = true;
+        Debug.Log($"   ✅ Drop marcado como sucesso para {itemData?.itemName}");
+    }
+    
+    // 🔥🔥🔥 NOVO: Cleanup ao destruir componente
+    private void OnDestroy()
+    {
+        DestroyGhost();
+    }
+    
+    // 🔥🔥🔥 NOVO: Cleanup ao desabilitar
+    private void OnDisable()
+    {
+        DestroyGhost();
+    }
+    
+    // 🔥🔥🔥 NOVOS GETTERS PARA SLOT ESPECÍFICO
+    public InventoryManager.InventorySlot GetSourceInventorySlot() => sourceInventorySlot;
+    public int GetSourceInventorySlotIndex() => sourceInventorySlotIndex;
+    
+    // Getters originais
+    public ItemData GetItemData() => itemData;
+    public DragSource GetSource() => source;
+    public ItemData.EquipmentSlot GetSourceSlot() => sourceEquipmentSlot;
+    
+    // 🔥 NOVO: Verifica se tem informação de slot específico
+    public bool HasSpecificSlotInfo() => sourceInventorySlotIndex >= 0 && sourceInventorySlot != null;
+    
+    // 🔥 NOVO: Retorna informações completas do slot
+    public string GetSlotInfoDebug()
+    {
+        if (sourceInventorySlot != null)
+        {
+            return $"Slot {sourceInventorySlotIndex}: {sourceInventorySlot.item?.itemName ?? "NULL"} x{sourceInventorySlot.quantity}";
+        }
+        return "No specific slot info";
+    }
+    
+    // Debug: Visualizar ghost na Scene view
+    private void OnDrawGizmos()
+    {
+        if (ghostRect != null && Application.isPlaying)
+        {
+            Gizmos.color = Color.yellow;
+            Vector3 worldPos = ghostRect.position;
+            Gizmos.DrawWireCube(worldPos, new Vector3(64f, 64f, 0f));
+        }
+    }
+}
