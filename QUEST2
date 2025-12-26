@@ -1,0 +1,1910 @@
+FLUXO. 
+
+INICIO A MISSÃO, SALVO SLOT 1
+
+SIMULO FALA COM NPC - SALVO SLOT 2
+
+COMPLETO A MISSÃO - SALVO SLOT 3
+
+LOAD SLOT 1 - PRINT 
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:930)
+
+║  🧪 TESTE: INICIAR MISSÃO TESTE       ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:931)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:932)
+
+[QuestManager] Quest started: Test: Speak to NPC
+UnityEngine.Debug:Log (object)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:279)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:934)
+
+[QuestManager] Saved 1 quests to GameData
+UnityEngine.Debug:Log (object)
+QuestManager:SaveQuestProgressToGameData () (at Assets/Scripts/Core/QuestManager.cs:222)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:286)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:934)
+
+║  ✅ Missão iniciada com sucesso!
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:938)
+
+║  Estado: InProgress
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:942)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_StartTestQuest () (at Assets/Scripts/Core/QuestManager.cs:949)
+
+💾 SALVANDO NO SLOT 1
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 1, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 1 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1664)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1669)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1670)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1698)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1704)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1706)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1756)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1951)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1789)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1791)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1813)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1880)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1801)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 1: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 14307 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   ANTES: lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+   Slot antigo: 1 → Novo slot: 1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   DEPOIS: lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.saveSlot atualizado para: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:955)
+
+║  🧪 TESTE: SIMULAR FALAR COM NPC      ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:956)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:957)
+
+[QuestManager] NPC talked to: test_npc
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:645)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:959)
+
+  Quest 'Test: Speak to NPC': NPC talked to
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:667)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:959)
+
+[QuestManager] Quest ready to turn in: Test: Speak to NPC
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAndUpdateQuestCompletion (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:693)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:669)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:959)
+
+[QuestManager] Saved 1 quests to GameData
+UnityEngine.Debug:Log (object)
+QuestManager:SaveQuestProgressToGameData () (at Assets/Scripts/Core/QuestManager.cs:222)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:679)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:959)
+
+║  ✅ NPC 'test_npc' registrado como falado
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:960)
+
+║  Estado da missão: ReadyToTurnIn
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:966)
+
+║  Objetivo obj_talk_test: npcTalked=True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:970)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_SimulateNPCTalk () (at Assets/Scripts/Core/QuestManager.cs:974)
+
+🎯 Slot 2 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💾 SALVANDO NO SLOT 2
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 2, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 2 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1664)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1669)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1670)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1698)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1704)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1706)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1756)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1951)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1789)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1791)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1813)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1880)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1801)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 2: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 14303 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   ANTES: lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+   Slot antigo: 1 → Novo slot: 2
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   DEPOIS: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.saveSlot atualizado para: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:980)
+
+║  🧪 TESTE: COMPLETAR MISSÃO           ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:981)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:982)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ Slot: 2, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.saveSlot ANTES: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 💾 Preparando save para slot 2 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1664)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1669)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1670)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1698)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1704)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1706)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1756)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1951)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1789)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1791)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1813)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1880)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1801)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Save criado no slot 2: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.saveSlot DEPOIS: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ Tamanho JSON: 14303 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   ANTES: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+   Slot antigo: 2 → Novo slot: 2
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   DEPOIS: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+✅ currentGameData.saveSlot atualizado para: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] Game saved in slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1438)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:434)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+  +10 XP
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:435)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ Slot: 2, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.saveSlot ANTES: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.currency ANTES: 150
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 💾 Preparando save para slot 2 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1664)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1669)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1670)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1698)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1704)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1706)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1756)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1951)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1789)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1791)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1813)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1880)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1801)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Save criado no slot 2: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.saveSlot DEPOIS: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ currentGameData.currency DEPOIS: 150
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_2.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║ Tamanho JSON: 14303 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   ANTES: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+   Slot antigo: 2 → Novo slot: 2
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM]   DEPOIS: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+✅ currentGameData.saveSlot atualizado para: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[GDM] Game saved in slot 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1405)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:441)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+  +50 currency
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:442)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[QuestManager] Quest completed: Test: Speak to NPC
+UnityEngine.Debug:Log (object)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:414)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+[QuestManager] Saved 1 quests to GameData
+UnityEngine.Debug:Log (object)
+QuestManager:SaveQuestProgressToGameData () (at Assets/Scripts/Core/QuestManager.cs:222)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:421)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:984)
+
+║  ✅ Missão completada com sucesso!
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:988)
+
+║  Recompensas: 10 XP, 50 moedas
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:989)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CompleteTestQuest () (at Assets/Scripts/Core/QuestManager.cs:997)
+
+🎯 Slot 3 clicado
+UnityEngine.Debug:Log (object)
+SaveSlotUI:OnSlotClicked () (at Assets/Scripts/UI/SaveSlotUI.cs:158)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+💾 SALVANDO NO SLOT 3
+UnityEngine.Debug:Log (object)
+SaveLoadUI:OnSaveClicked () (at Assets/Scripts/UI/SaveLoadUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Slot: 3, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot ANTES: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 💾 Preparando save para slot 3 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1664)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1669)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1670)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1698)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1704)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1706)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1756)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:1951)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1789)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1791)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1813)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1880)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1797)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1801)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Save criado no slot 3: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.saveSlot DEPOIS: 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+║ Tamanho JSON: 14304 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   ANTES: lastSaveSlot = 2
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+   Slot antigo: 2 → Novo slot: 3
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   DEPOIS: lastSaveSlot = 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.saveSlot atualizado para: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+SaveLoadManager/<SaveWithProperTiming>d__42:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:813)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+
+
+AKI DOU LOAD SLOT 1 
+
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1003)
+
+║  🧪 TESTE: VER ESTADO MISSÃO          ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1004)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1005)
+
+║  Missão: Completed
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1015)
+
+║  QuestID: test_speak_to_npc
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1016)
+
+║  Rewards Claimed: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1017)
+
+║  Progresso dos Objetivos:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1021)
+
+║    • obj_talk_test: Kills=0, Items=0, Talked=True, Location=False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1024)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_CheckQuestState () (at Assets/Scripts/Core/QuestManager.cs:1029)
+
+
+
