@@ -1,0 +1,1020 @@
+[NPCController] Quest Find Old Fisherman is available
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:72)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Offering quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:149)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest started: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:406)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:155)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPCController] Quest started successfully
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:158)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPC] Interagindo com NPC ALVO: old_fisherman
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:35)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] NPC talked to: old_fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:796)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+  Quest 'Find Old Fisherman': NPC talked to
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:818)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[QuestManager] Quest ready to turn in: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAndUpdateQuestCompletion (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:849)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:820)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:36)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] No quest system or no quests - using normal dialog
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:55)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Quest Find Old Fisherman is ready to turn in
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:89)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:40)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:567)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:143)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:120)
+
+[NPCController] Turning in quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:135)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Slot: 3, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.saveSlot ANTES: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.currency ANTES: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 💾 Preparando save para slot 3 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1676)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1677)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1685)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1711)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1712)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1720)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1763)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:2001)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1796)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1798)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Atualizando quests no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1804)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]     • 1 quests copiadas para snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1840)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1863)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1845)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1930)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1845)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1851)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Save criado no slot 3: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.saveSlot DEPOIS: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.currency DEPOIS: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Tamanho JSON: 14293 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   ANTES: lastSaveSlot = 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Slot antigo: 3 → Novo slot: 3
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   DEPOIS: lastSaveSlot = 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ currentGameData.saveSlot atualizado para: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] Game saved in slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+GameDataManager:AddExperience (int) (at Assets/Scripts/Core/GameDataManager.cs:1445)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:570)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  +100 XP
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:571)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:557)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO INICIAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:558)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:559)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Slot: 3, isAutoSave: False
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:560)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.saveSlot ANTES: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:561)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.currency ANTES: 150
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:562)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ ✅ Instância ativa: 1 ('FUNGUITOS's Adventure')
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:599)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:600)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 💾 Preparando save para slot 3 (isAutoSave: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:615)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Verificando estado do inventário (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1671)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1676)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Slots usados: 4/200
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1677)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Peso: 2,0/100,0 kg
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1678)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateInventoryDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1685)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:780)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Verificando estado do Party System (NÃO MODIFICA currentGameData!)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1705)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Party members: 4
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1711)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Active member: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1712)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Active index: 0
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1713)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Verificação concluída (dados NÃO modificados)
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:1720)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:783)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⭐ Todos os sistemas atualizados para save
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateAllSystemsDataBeforeSave () (at Assets/Scripts/Core/GameDataManager.cs:788)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:618)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Atualizando snapshot com dados atuais dos sistemas...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1763)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Equipamentos salvos no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveSharedEquipmentToSnapshot (InventoryData) (at Assets/Scripts/Core/GameDataManager.cs:2001)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1796)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Snapshot inventory: 100 moedas, 4 itens
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1798)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Atualizando quests no snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1804)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]     • 1 quests copiadas para snapshot
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1840)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Atualizando snapshot com Party System...
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1863)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1845)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   • Snapshot party: 4 members, active: FUNGADO
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdatePartyDataToSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1930)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1845)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Snapshot atualizado com dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:UpdateSnapshotWithCurrentSystemsData (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1851)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:625)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Save criado no slot 3: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:650)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:653)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] SAVEGAME - DIAGNÓSTICO FINAL
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:654)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:655)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.saveSlot DEPOIS: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:656)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ currentGameData.currency DEPOIS: 150
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:657)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Arquivo salvo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGUITOS's Adventure\SaveSlots\slot_3.json
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:658)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Tamanho JSON: 14293 chars
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:659)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:660)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:741)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:771)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:673)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 1 → Slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:684)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   ANTES: lastSaveSlot = 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGUITOS's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:334)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Slot antigo: 3 → Novo slot: 3
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:335)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:694)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM]   DEPOIS: lastSaveSlot = 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ currentGameData.saveSlot atualizado para: 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:718)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:719)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] Game saved in slot 3
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+GameDataManager:AddCurrency (int) (at Assets/Scripts/Core/GameDataManager.cs:1412)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:577)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  +50 currency
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:578)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:540)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest completed: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:547)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:137)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[NPCController] Quest turned in successfully
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:141)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
