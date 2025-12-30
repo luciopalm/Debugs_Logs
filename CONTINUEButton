@@ -1,0 +1,155 @@
+SALVO SLOT 5:
+
+[GDM] 🔄 Sincronizando currentGameData com snapshot...
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:790)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:679)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] ✅ Sincronização completa. Currency: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SyncCurrentGameDataFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:820)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:679)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] 🔥 CHAMANDO UpdateLastSaveSlot: Instância 2 → Slot 5
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:690)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   ANTES: lastSaveSlot = 5
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:696)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 2 (GUNFO's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:497)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+   Slot antigo: 5 → Novo slot: 5
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:498)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:700)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM]   DEPOIS: lastSaveSlot = 5
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:706)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.saveSlot atualizado para: 5
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:724)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+✅ currentGameData.currency atualizado para: 100
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:725)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[GDM] Game saved in slot 5
+UnityEngine.Debug:Log (object)
+GameDataManager:SaveGame (int,bool) (at Assets/Scripts/Core/GameDataManager.cs:730)
+SaveLoadManager/<SaveWithProperTiming>d__44:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:868)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+
+FECHO O JOGO E DOU CONTINUE:
+
+[MainMenu] Continue clicked
+UnityEngine.Debug:Log (object)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:467)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[GIM] 🔄 SelectGameInstance chamado: ID=1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:373)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[GIM] 🧹 Limpando inventário da instância anterior...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:386)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[InventoryManager] 🧹 Limpando inventário completamente...
+UnityEngine.Debug:Log (object)
+InventoryManager:ClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1338)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:387)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[InventoryManager] ✅ Inventário limpo!
+UnityEngine.Debug:Log (object)
+InventoryManager:ClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1370)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:387)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[GIM] 🔔 Notificando GameDataManager...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:413)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[GDM] 🔄 Mudando para instância: ID=1
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:402)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[GDM] ✅ Instância configurada para NOVO JOGO: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:425)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[GIM] ✅ Instância selecionada: 'FUNGUITOS's Adventure' (ID: 1)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:421)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:498)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+▶️ CONTINUE solicitado pelo menu
+UnityEngine.Debug:Log (object)
+SaveLoadManager:RequestContinue () (at Assets/Scripts/Core/SaveLoadManager.cs:93)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:500)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[MainMenu] Loading game scene...
+UnityEngine.Debug:Log (object)
+MainMenuController/<LoadGameSceneCoroutine>d__32:MoveNext () (at Assets/Scripts/Core/MainMenuController.cs:528)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+MainMenuController:LoadGameScene () (at Assets/Scripts/Core/MainMenuController.cs:523)
+MainMenuController:OnContinueClicked () (at Assets/Scripts/Core/MainMenuController.cs:501)
+MainMenuController:<SetupButtons>b__19_2 () (at Assets/Scripts/Core/MainMenuController.cs:99)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+
+
+
+FE
