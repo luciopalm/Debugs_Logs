@@ -1,0 +1,602 @@
+[ConfirmationPanel] === 🔍 TESTE VISUAL DO PAINEL ===
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:227)
+
+[ConfirmationPanel] 1. GameObject 'ConfimationPanel':
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:236)
+
+[ConfirmationPanel]    • Ativo: False
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:237)
+
+[ConfirmationPanel]    • Layer: UI
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:238)
+
+[ConfirmationPanel]    • Tag: Untagged
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:239)
+
+[ConfirmationPanel] 2. RectTransform:
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:245)
+
+[ConfirmationPanel]    • Anchors: min=(0.50, 0.50), max=(0.50, 0.50)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:246)
+
+[ConfirmationPanel]    • Pivot: (0.50, 0.50)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:247)
+
+[ConfirmationPanel]    • Size Delta: (500.00, 200.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:248)
+
+[ConfirmationPanel]    • Local Scale: (1.00, 1.00, 1.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:249)
+
+[ConfirmationPanel]    • Cobre tela toda: False
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:253)
+
+[ConfirmationPanel] 3. Image:
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:265)
+
+[ConfirmationPanel]    • Cor: RGBA(0.000, 0.000, 0.000, 0.773) (Alpha: 0,772549)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:266)
+
+[ConfirmationPanel]    • Visível: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:267)
+
+[ConfirmationPanel] 4. Ativando painel...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:278)
+
+[ConfirmationPanel] [ConfirmationPanel] Awake() - Inicializando...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Awake () (at Assets/Scripts/UI/ConfirmationPanel.cs:29)
+UnityEngine.GameObject:SetActive (bool)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:279)
+
+[ConfirmationPanel] ✅ Panel encontrado: ConfimationPanel
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Awake () (at Assets/Scripts/UI/ConfirmationPanel.cs:38)
+UnityEngine.GameObject:SetActive (bool)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:279)
+
+[ConfirmationPanel] ✅ Panel inicialmente desativado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Awake () (at Assets/Scripts/UI/ConfirmationPanel.cs:44)
+UnityEngine.GameObject:SetActive (bool)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:279)
+
+[ConfirmationPanel] ✅ confirmButton: ConfirmButton (interactable: True)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:CheckButton (string,UnityEngine.UI.Button) (at Assets/Scripts/UI/ConfirmationPanel.cs:433)
+ConfirmationPanel:Awake () (at Assets/Scripts/UI/ConfirmationPanel.cs:48)
+UnityEngine.GameObject:SetActive (bool)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:279)
+
+[ConfirmationPanel] ✅ cancelButton: CancelButton (interactable: True)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:CheckButton (string,UnityEngine.UI.Button) (at Assets/Scripts/UI/ConfirmationPanel.cs:433)
+ConfirmationPanel:Awake () (at Assets/Scripts/UI/ConfirmationPanel.cs:49)
+UnityEngine.GameObject:SetActive (bool)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:279)
+
+[ConfirmationPanel] [ConfirmationPanel] ✅ Inicialização completa!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Awake () (at Assets/Scripts/UI/ConfirmationPanel.cs:51)
+UnityEngine.GameObject:SetActive (bool)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:279)
+
+[ConfirmationPanel]    ✅ Botão Confirm: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:295)
+
+[ConfirmationPanel]    ✅ Botão Cancel: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:301)
+
+[ConfirmationPanel] === ✅ TESTE VISUAL COMPLETO ===
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:304)
+
+[ConfirmationPanel] 👀 O PAINEL DEVE ESTAR VISÍVEL AGORA!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugTestPanelVisual () (at Assets/Scripts/UI/ConfirmationPanel.cs:305)
+
+[ConfirmationPanel] [ConfirmationPanel] Start() - Conectando botões...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Start () (at Assets/Scripts/UI/ConfirmationPanel.cs:56)
+
+[ConfirmationPanel] ✅ Botão CONFIRMAR conectado: ConfirmButton
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Start () (at Assets/Scripts/UI/ConfirmationPanel.cs:62)
+
+[ConfirmationPanel] ✅ Botão CANCELAR conectado: CancelButton
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Start () (at Assets/Scripts/UI/ConfirmationPanel.cs:69)
+
+[ConfirmationPanel] [ConfirmationPanel] ⏱️ Auto-teste após 1s...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<AutoTestAfterDelay>d__13:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:79)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ConfirmationPanel]    • Panel ativo: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<AutoTestAfterDelay>d__13:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:82)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ConfirmationPanel]    • Panel na Hierarchy: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<AutoTestAfterDelay>d__13:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:83)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ConfirmationPanel]    • Canvas: Canvas_MainMenu (Render Mode: ScreenSpaceOverlay, Order: 0)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<AutoTestAfterDelay>d__13:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:84)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[MainMenu] 🗑️ DELETE com confirmação: Instância 4 'TESTEEE's Adventure'
+UnityEngine.Debug:Log (object)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:366)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] [ConfirmationPanel] ShowDeleteConfirmation: 'TESTEEE's Adventure'
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:456)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] [ConfirmationPanel] Show() chamado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:92)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    • Mensagem: '<color=#ff5555><size=120%>EXCL...'
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:93)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    • isDelete: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:94)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] ⭐⭐⭐ ATIVANDO PANEL...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:104)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    ✅ Panel ativado: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:106)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    ✅ Panel movido para frente (sibling index: 0)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:110)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    ✅ Mensagem configurada
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:119)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    ✅ Cor de fundo configurada para DELETE
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:135)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    ✅ Callbacks armazenados
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:141)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel]    ✅ Botão CANCELAR selecionado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:147)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] [ConfirmationPanel] ✅✅✅ PAINEL TOTALMENTE CONFIGURADO E VISÍVEL!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:150)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+MainMenuController:OnDeleteInstanceClicked () (at Assets/Scripts/Core/MainMenuController.cs:371)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] === 🔍 SIMULAÇÃO DELETE CONFIRMATION ===
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:311)
+
+[ConfirmationPanel] [ConfirmationPanel] ShowDeleteConfirmation: 'INSTÂNCIA TESTE DEBUG'
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:456)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] [ConfirmationPanel] Show() chamado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:92)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    • Mensagem: '<color=#ff5555><size=120%>EXCL...'
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:93)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    • isDelete: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:94)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] ⭐⭐⭐ ATIVANDO PANEL...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:104)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Panel ativado: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:106)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Panel movido para frente (sibling index: 4)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:110)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Mensagem configurada
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:119)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Cor de fundo configurada para DELETE
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:135)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Callbacks armazenados
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:141)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Botão CANCELAR selecionado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:147)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] [ConfirmationPanel] ✅✅✅ PAINEL TOTALMENTE CONFIGURADO E VISÍVEL!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:150)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] [ConfirmationPanel] 📊 VERIFICAÇÃO VISUAL (1 frame depois):
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:157)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Panel ativo: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:161)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Panel visível na cena: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:162)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Tamanho: (500.00, 200.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:167)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Posição: (-496.15, -188.73)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:168)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Canto superior esquerdo: (213.85, 451.27, 0.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:173)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Canto inferior direito: (713.85, 251.27, 0.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:174)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Image alpha: 0,95
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:181)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel] [ConfirmationPanel] ❌❌❌ BOTÃO CANCELAR CLICADO!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:215)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] ❌❌❌ CALLBACK DELETE CANCELADO!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:<DebugSimulateDeleteConfirmation>b__20_1 () (at Assets/Scripts/UI/ConfirmationPanel.cs:316)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:216)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] [ConfirmationPanel] ClosePanel() chamado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:ClosePanel () (at Assets/Scripts/UI/ConfirmationPanel.cs:194)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:217)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] ✅ Panel desativado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:ClosePanel () (at Assets/Scripts/UI/ConfirmationPanel.cs:199)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:217)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[TimeManager] Hour changed: 7:00
+UnityEngine.Debug:Log (object)
+TimeManager:CheckForTimeChanges () (at Assets/Scripts/Core/TimeManager.cs:247)
+TimeManager:Update () (at Assets/Scripts/Core/TimeManager.cs:171)
+
+[ConfirmationPanel] === 🔍 SIMULAÇÃO DELETE CONFIRMATION ===
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:311)
+
+[ConfirmationPanel] [ConfirmationPanel] ShowDeleteConfirmation: 'INSTÂNCIA TESTE DEBUG'
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:456)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] [ConfirmationPanel] Show() chamado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:92)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    • Mensagem: '<color=#ff5555><size=120%>EXCL...'
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:93)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    • isDelete: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:94)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] ⭐⭐⭐ ATIVANDO PANEL...
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:104)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Panel ativado: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:106)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Panel movido para frente (sibling index: 4)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:110)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Mensagem configurada
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:119)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Cor de fundo configurada para DELETE
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:135)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Callbacks armazenados
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:141)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel]    ✅ Botão CANCELAR selecionado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:147)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] [ConfirmationPanel] ✅✅✅ PAINEL TOTALMENTE CONFIGURADO E VISÍVEL!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:Show (string,System.Action,System.Action,bool) (at Assets/Scripts/UI/ConfirmationPanel.cs:150)
+ConfirmationPanel:ShowDeleteConfirmation (string,System.Action,System.Action) (at Assets/Scripts/UI/ConfirmationPanel.cs:457)
+ConfirmationPanel:DebugSimulateDeleteConfirmation () (at Assets/Scripts/UI/ConfirmationPanel.cs:313)
+
+[ConfirmationPanel] [ConfirmationPanel] 📊 VERIFICAÇÃO VISUAL (1 frame depois):
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:157)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Panel ativo: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:161)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Panel visível na cena: True
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:162)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Tamanho: (500.00, 200.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:167)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Posição: (-496.15, -188.73)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:168)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Canto superior esquerdo: (213.85, 451.27, 0.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:173)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Canto inferior direito: (713.85, 251.27, 0.00)
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:174)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel]    • Image alpha: 0,95
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel/<CheckVisualState>d__15:MoveNext () (at Assets/Scripts/UI/ConfirmationPanel.cs:181)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[ConfirmationPanel] [ConfirmationPanel] ❌❌❌ BOTÃO CANCELAR CLICADO!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:215)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] ❌❌❌ CALLBACK DELETE CANCELADO!
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:<DebugSimulateDeleteConfirmation>b__20_1 () (at Assets/Scripts/UI/ConfirmationPanel.cs:316)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:216)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[ConfirmationPanel] [ConfirmationPanel] ClosePanel() chamado
+UnityEngine.Debug:Log (object)
+ConfirmationPanel:DebugLog (string) (at Assets/Scripts/UI/ConfirmationPanel.cs:385)
+ConfirmationPanel:ClosePanel () (at Assets/Scripts/UI/ConfirmationPanel.cs:194)
+ConfirmationPanel:OnCancelClicked () (at Assets/Scripts/UI/ConfirmationPanel.cs:217)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
