@@ -1,0 +1,739 @@
+[GIM] ✅ GameInstanceManager inicializado
+UnityEngine.Debug:Log (object)
+GameInstanceManager:Awake () (at Assets/Scripts/Core/GameInstanceManager.cs:262)
+
+[GameInstanceManager] Loaded 6 game instances
+UnityEngine.Debug:Log (object)
+GameInstanceManager:LoadGameInstancesList () (at Assets/Scripts/Core/GameInstanceManager.cs:744)
+GameInstanceManager:Awake () (at Assets/Scripts/Core/GameInstanceManager.cs:265)
+
+[GIM] Estado inicial: ID=-1 (esperado: -1)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:Awake () (at Assets/Scripts/Core/GameInstanceManager.cs:272)
+
+[TimeManager] Initialized - Year 1, Day 1 (Sunday), 6,0h
+UnityEngine.Debug:Log (object)
+TimeManager:Awake () (at Assets/Scripts/Core/TimeManager.cs:130)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:48)
+
+[Bootstrap] 🚀 BOOTSTRAP MANAGER INICIANDO
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:49)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:Awake () (at Assets/Scripts/Core/BootstrapManager.cs:50)
+
+╔═══════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:86)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║ [GDM] 🔄 SINCRONIZANDO COM GAMEINSTANCEMANAGER
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:87)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+╠═══════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:88)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║  📋 Instância pendente detectada no PlayerPrefs:
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:95)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║     ID: 6
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:96)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║     Nome: FUNGADO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:97)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║     Path: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_006_FUNGADO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:98)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║  ✅ Restaurando instância do PlayerPrefs...
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:102)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║  ✅ Instância restaurada: FUNGADO's Adventure (ID=6)
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:108)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+║  🧹 PlayerPrefs limpos
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:116)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+[GDM] ✅ Usando caminho multi-instância: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_006_FUNGADO's Adventure\SaveSlots
+UnityEngine.Debug:Log (object)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:234)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:120)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+[GDM] ℹ️ Nenhum save encontrado na instância 6
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadFirstAvailableSaveInInstance () (at Assets/Scripts/Core/GameDataManager.cs:342)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:297)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:120)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+[TimeManager] Time loaded: 06:00 (Sunday), Day 1/45 of Spring, Year 1
+UnityEngine.Debug:Log (object)
+TimeManager:LoadTimeData (TimeData) (at Assets/Scripts/Core/TimeManager.cs:574)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:123)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:77)
+
+[GDM] ✅ Usando caminho multi-instância: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_006_FUNGADO's Adventure\SaveSlots
+UnityEngine.Debug:Log (object)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:234)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:78)
+
+[GDM] ℹ️ Nenhum save encontrado na instância 6
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadFirstAvailableSaveInInstance () (at Assets/Scripts/Core/GameDataManager.cs:342)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:297)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:78)
+
+[GIM] 🔄 SelectGameInstance chamado: ID=1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:373)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GIM] 🧹 Limpando inventário da instância anterior...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:386)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[InventoryManager] 🧹 Limpando inventário completamente...
+UnityEngine.Debug:Log (object)
+InventoryManager:ClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1377)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:387)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[InventoryManager] ✅ Inventário limpo!
+UnityEngine.Debug:Log (object)
+InventoryManager:ClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1409)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:387)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GIM] 🔔 Notificando GameDataManager...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:413)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GDM] 🔄 Mudando para instância: ID=1
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:402)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GDM] ℹ️ Já na instância 1 - mantendo dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:418)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GDM] ✅ Instância 1 configurada (Novo Jogo: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:477)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GIM] ✅ Instância selecionada: 'FUNGUITOS's Adventure' (ID: 1)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:421)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+✅ Save file exists on disk
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:414)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+📂 Loading inventory from GameData: 0 items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:440)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+🎯 Shared equipment loaded from GameData
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadSharedEquipmentFromGameData (InventoryData) (at Assets/Scripts/Inventory/InventoryManager.cs:1369)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:509)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+✅ Inventory loaded from save: 0/30 slots, 0 currency
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:518)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+InventoryManager.Start() - hasItems: False, isLoadedFromSave: True
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:243)
+
+[TimeManager] Time loaded: 06:00 (Sunday), Day 1/45 of Spring, Year 1
+UnityEngine.Debug:Log (object)
+TimeManager:LoadTimeData (TimeData) (at Assets/Scripts/Core/TimeManager.cs:574)
+TimeManager:LoadTimeFromSave () (at Assets/Scripts/Core/TimeManager.cs:590)
+TimeManager:Start () (at Assets/Scripts/Core/TimeManager.cs:142)
+
+[Bootstrap] 📋 Etapa 1/4: Validando managers críticos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:64)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+BootstrapManager:Start () (at Assets/Scripts/Core/BootstrapManager.cs:55)
+
+[Bootstrap]    ✅ GameDataManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:130)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ InventoryManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:145)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ PartyManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:160)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ LocalizationManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:175)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📊 Managers encontrados: 4/4
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager:ValidateManagers () (at Assets/Scripts/Core/BootstrapManager.cs:181)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:70)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 1/4: Managers validados com sucesso!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:80)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 2/4: Inicializando sistemas...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:84)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap]    ✅ LocalizationManager OK
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeSystems>d__13:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:217)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 2/4: Sistemas inicializados!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:86)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 3/4: Carregando dados salvos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:90)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ Etapa 3/4: Dados carregados!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:92)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 📋 Etapa 4/4: Preparando cena inicial...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:96)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] 🔄 LoadQuestProgressFromGameData() - INICIANDO
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:178)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Instância: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:194)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Slot: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:195)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • isNewGame: False
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:196)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] ℹ️ Nenhum progresso de quest salvo - lista vazia
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:248)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] 🎯 Load completo: 0 quests na memória
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:255)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Slot carregado: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:256)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Instância carregada: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:257)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Loaded 0 quests from save
+UnityEngine.Debug:Log (object)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:163)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Event subscriptions ready
+UnityEngine.Debug:Log (object)
+QuestManager:SubscribeToGameEvents () (at Assets/Scripts/Core/QuestManager.cs:967)
+QuestManager/<DelayedInitialization>d__19:MoveNext () (at Assets/Scripts/Core/QuestManager.cs:166)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] 🎬 Carregando cena: MainMenuScene
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:100)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ═══════════════════════════════════════════
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:106)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Bootstrap] ✅ BOOTSTRAP COMPLETO!
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:265)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:107)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+MAIS LOGS DE INICIALIZAÇÃO
+
+[GameController] Initialized
+UnityEngine.Debug:Log (object)
+GameController:InitializeGame () (at Assets/Scripts/Core/GameController.cs:116)
+GameController:Start () (at Assets/Scripts/Core/GameController.cs:69)
+
+🔧 SaveLoadManager: Iniciando inicialização SEGURA...
+UnityEngine.Debug:Log (object)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:127)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager:Start () (at Assets/Scripts/Core/SaveLoadManager.cs:118)
+
+🚀 InventoryUI.Start() iniciando...
+UnityEngine.Debug:Log (object)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:178)
+
+🔗 EnsureEventsConnected() - Verificando conexões...
+UnityEngine.Debug:Log (object)
+InventoryUI:EnsureEventsConnected () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:218)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:181)
+
+   🔧 Reconectando OnWeightChanged...
+UnityEngine.Debug:Log (object)
+InventoryUI:EnsureEventsConnected () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:254)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:181)
+
+   ✅ OnWeightChanged conectado: False
+UnityEngine.Debug:Log (object)
+InventoryUI:EnsureEventsConnected () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:259)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:181)
+
+⚖️ ForceInitialWeightUpdate()
+UnityEngine.Debug:Log (object)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:265)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+   Valores iniciais: 0,0/100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:272)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+⚖️ UpdateWeightDisplay chamado com: 0,0/100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:592)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:275)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+🌐 Chave 'inventory_weight': 'PESO: {0}/{1} kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:601)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:275)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+🔍 Verificando JSON de localização...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:610)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:275)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+Chaves disponíveis:
+   'inventory_weight': 'PESO: {0}/{1} kg'
+   'weight': '[weight]'
+   'label_weight': 'Peso:'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:617)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:275)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+   Texto atualizado para: 'PESO: 0.0/100.0 kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:ForceInitialWeightUpdate () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:277)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:184)
+
+=== InitializeActionButtons() - ONLY DROP/USE ===
+UnityEngine.Debug:Log (object)
+InventoryUI:InitializeActionButtons () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:1902)
+InventoryUI:Start () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:186)
+
+mais logs irrelevantes para o caso
+
+⚖️ UpdateWeightDisplay chamado com: 8,2/100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:592)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:675)
+GameDataManager:AddStartingItemsToNewGame () (at Assets/Scripts/Core/GameDataManager.cs:567)
+GameDataManager:CreateNewGameInCurrentInstance () (at Assets/Scripts/Core/GameDataManager.cs:606)
+SaveLoadManager/<LoadSpecificSlotWithInstance>d__32:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:289)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<AutoLoadOnStart>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:259)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🌐 Chave 'inventory_weight': 'PESO: {0}/{1} kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:601)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:675)
+GameDataManager:AddStartingItemsToNewGame () (at Assets/Scripts/Core/GameDataManager.cs:567)
+GameDataManager:CreateNewGameInCurrentInstance () (at Assets/Scripts/Core/GameDataManager.cs:606)
+SaveLoadManager/<LoadSpecificSlotWithInstance>d__32:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:289)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<AutoLoadOnStart>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:259)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🔍 Verificando JSON de localização...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:610)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:675)
+GameDataManager:AddStartingItemsToNewGame () (at Assets/Scripts/Core/GameDataManager.cs:567)
+GameDataManager:CreateNewGameInCurrentInstance () (at Assets/Scripts/Core/GameDataManager.cs:606)
+SaveLoadManager/<LoadSpecificSlotWithInstance>d__32:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:289)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<AutoLoadOnStart>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:259)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+Chaves disponíveis:
+   'inventory_weight': 'PESO: {0}/{1} kg'
+   'weight': '[weight]'
+   'label_weight': 'Peso:'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:617)
+InventoryManager:AddItem (ItemData,int) (at Assets/Scripts/Inventory/InventoryManager.cs:675)
+GameDataManager:AddStartingItemsToNewGame () (at Assets/Scripts/Core/GameDataManager.cs:567)
+GameDataManager:CreateNewGameInCurrentInstance () (at Assets/Scripts/Core/GameDataManager.cs:606)
+SaveLoadManager/<LoadSpecificSlotWithInstance>d__32:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:289)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<AutoLoadOnStart>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:259)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  💰 Adding 100 starting currency
+UnityEngine.Debug:Log (object)
+GameDataManager:AddStartingItemsToNewGame () (at Assets/Scripts/Core/GameDataManager.cs:581)
+GameDataManager:CreateNewGameInCurrentInstance () (at Assets/Scripts/Core/GameDataManager.cs:606)
+SaveLoadManager/<LoadSpecificSlotWithInstance>d__32:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:289)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<AutoLoadOnStart>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:259)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ New game created in instance 6
+UnityEngine.Debug:Log (object)
+GameDataManager:CreateNewGameInCurrentInstance () (at Assets/Scripts/Core/GameDataManager.cs:609)
+SaveLoadManager/<LoadSpecificSlotWithInstance>d__32:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:289)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<AutoLoadOnStart>d__31:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:259)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SaveLoadManager/<SafeInitialization>d__28:MoveNext () (at Assets/Scripts/Core/SaveLoadManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[TimeManager] Hour changed: 7:00
+UnityEngine.Debug:Log (object)
+TimeManager:CheckForTimeChanges () (at Assets/Scripts/Core/TimeManager.cs:247)
+TimeManager:Update () (at Assets/Scripts/Core/TimeManager.cs:171)
+
+=== Tecla I pressionada - Abrindo/fechando inventário ===
+UnityEngine.Debug:Log (object)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:394)
+
+=== ToggleInventory INICIADO ===
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:877)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+Tentando SetActive(True)...
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:888)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+SUCESSO: InventoryPanel agora está ATIVO
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:892)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+⏸️ JOGO PAUSADO (inventário aberto)
+UnityEngine.Debug:Log (object)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:899)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+⚖️ Forçando atualização do peso ao abrir inventário...
+UnityEngine.Debug:Log (object)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:928)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+   Valores atuais: 8,2/100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:936)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+⚖️ UpdateWeightDisplay chamado com: 8,2/100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:592)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:939)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+🌐 Chave 'inventory_weight': 'PESO: {0}/{1} kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:601)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:939)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+🔍 Verificando JSON de localização...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:610)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:939)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+Chaves disponíveis:
+   'inventory_weight': 'PESO: {0}/{1} kg'
+   'weight': '[weight]'
+   'label_weight': 'Peso:'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:617)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:939)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+   Peso forçado para: PESO: 8.2/100.0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:ForceUpdateWeightOnOpen () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:941)
+InventoryUI:ToggleInventory () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:902)
+InventoryUI:Update () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:395)
+
+
+OUTROS LOGS IRRELEVANTES.
+
+METODOS DEBUG APÓS A PRIMEIRA ABERTURA:
+
+╔══════════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2250)
+
+║  🔍 TRACE DE INICIALIZAÇÃO - BOOTSTRAP ORDER               ║
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2251)
+
+╠══════════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2252)
+
+║  1. BootstrapManager:
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2255)
+
+║     • Instance: ✅
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2256)
+
+║     • IsInitialized: True
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2259)
+
+║  2. InventoryManager:
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2263)
+
+║     • Instance: ✅
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2264)
+
+║     • CurrentWeight: 8,2
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2267)
+
+║     • MaxWeight: 100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2268)
+
+║  3. LocalizationManager:
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2281)
+
+║     • Instance: ✅
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2282)
+
+║     • Key 'inventory_weight': 'PESO: {0}/{1} kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2287)
+
+║     • Contains {0}: True
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2288)
+
+║  4. InventoryUI State:
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2292)
+
+║     • weightText: ✅
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2293)
+
+║     • Current text: 'PESO: {0}/{1} kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2296)
+
+║  5. Direct Test:
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2300)
+
+⚖️ UpdateWeightDisplay chamado com: 8,2/100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:592)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2303)
+
+🌐 Chave 'inventory_weight': 'PESO: {0}/{1} kg'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:601)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2303)
+
+🔍 Verificando JSON de localização...
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:610)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2303)
+
+Chaves disponíveis:
+   'inventory_weight': 'PESO: {0}/{1} kg'
+   'weight': '[weight]'
+   'label_weight': 'Peso:'
+UnityEngine.Debug:Log (object)
+InventoryUI:UpdateWeightDisplay (single,single) (at Assets/Scripts/Inventory/UI/InventoryUI.cs:617)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2303)
+
+║     • Called UpdateWeightDisplay(8,2, 100)
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2304)
+
+╚══════════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugTraceInitialization () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2307)
+
+=== DEBUG CHECK WEIGHT CONNECTION ===
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugCheckWeightConnection () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2313)
+
+📊 CurrentWeight: 8,2
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugCheckWeightConnection () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2352)
+
+📊 MaxWeight: 100,0
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugCheckWeightConnection () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2353)
+
+📊 Texto atual: PESO: 8.2/100.0 kg
+UnityEngine.Debug:Log (object)
+InventoryUI:DebugCheckWeightConnection () (at Assets/Scripts/Inventory/UI/InventoryUI.cs:2354)
+
+
+
+
+
+
+
+
