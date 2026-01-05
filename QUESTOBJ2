@@ -1,0 +1,773 @@
+╔════════════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1900)
+
+║  🩺 DIAGNÓSTICO COMPLETO: Find Old Fisherman                 ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1901)
+
+╠════════════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1902)
+
+║  ✅ Quest encontrada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1914)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1915)
+
+║  📊 ESTADO GERAL:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1927)
+
+║    • Estado: InProgress
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1928)
+
+║    • Recompensas: Pendentes
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1929)
+
+║    • Objetivos na Quest: 2
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1930)
+
+║    • Progressos criados: 1
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1931)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1932)
+
+║  🎯 ANÁLISE DETALHADA DOS OBJETIVOS:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1935)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1936)
+
+║  [1] obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1941)
+
+║      • Descrição: Fale com o velho pescador na praia
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1942)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1943)
+
+║      • NPC: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1944)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1945)
+
+║      • isHidden: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1946)
+
+║      • Pré-requisitos: NENHUM
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1954)
+
+║      ❌ PROGRESSO NÃO EXISTE!
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1962)
+
+║         Isso é um BUG! Progresso deveria ter sido criado no StartQuest
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1963)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2016)
+
+║  [2] obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1941)
+
+║      • Descrição: Retorne ao ancião. 
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1942)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1943)
+
+║      • NPC: 'village_elder'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1944)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1945)
+
+║      • isHidden: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1946)
+
+║      • Pré-requisitos: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1950)
+
+║      ❌ PROGRESSO NÃO EXISTE!
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1962)
+
+║         Isso é um BUG! Progresso deveria ter sido criado no StartQuest
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1963)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2016)
+
+║  🔍 TESTE DE COMPLETUDE:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2020)
+
+[QuestManager] ✅ Criado progresso para objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:GetOrCreateObjectiveProgress (QuestManager/QuestProgress,string) (at Assets/Scripts/Core/QuestManager.cs:1068)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1033)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2021)
+
+    ❌ obj_talk_oldfisherman incompleto
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1043)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2021)
+
+║    • CheckAllObjectivesComplete(): False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2022)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2023)
+
+║  💡 RECOMENDAÇÕES:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2026)
+
+║    ❌ Criar progresso para: obj_talk_villageelder
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2039)
+
+╚════════════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2047)
+
+[TimeManager] Hour changed: 7:00
+UnityEngine.Debug:Log (object)
+TimeManager:CheckForTimeChanges () (at Assets/Scripts/Core/TimeManager.cs:247)
+TimeManager:Update () (at Assets/Scripts/Core/TimeManager.cs:171)
+
+[NPC old_fisherman] Interaction Type: OfferQuest
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:37)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPC] Interagindo com NPC ALVO: old_fisherman
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:43)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] 📞 TrackNPCTalked chamado com npcID: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:798)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+  ✅ Quest 'Find Old Fisherman':
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:826)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • Objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:827)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • NPC: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:828)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:829)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • isHidden: False
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:830)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • npcTalked atualizado: true
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:831)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] 🔍 Verificando se obj_talk_oldfisherman pode ser completado...
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:869)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:839)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager]   🔍 Verificando se TODOS objetivos estão completos...
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:932)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:839)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] ✅ Criado progresso para objetivo: obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:GetOrCreateObjectiveProgress (QuestManager/QuestProgress,string) (at Assets/Scripts/Core/QuestManager.cs:1068)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1033)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:934)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:839)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+    ❌ obj_talk_villageelder incompleto
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1043)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:934)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:839)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager]   ⏸️ Objetivo completo, mas quest ainda tem outros objetivos pendentes
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:937)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:839)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestUI] Quest log atualizado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestLogUpdated () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:385)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:848)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPCController] Dialog for interaction type: OfferQuest
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:180)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:48)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPCController] Offering quest: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest started: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestUI] Quest log atualizado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestLogUpdated () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:385)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:411)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📊 Estado de DEBUGGER: Interactable=True Selected=False
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:53)
+
+   Cor do target: NULL
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:54)
+
+╔════════════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1900)
+
+║  🩺 DIAGNÓSTICO COMPLETO: Find Old Fisherman                 ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1901)
+
+╠════════════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1902)
+
+║  ✅ Quest encontrada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1914)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1915)
+
+║  📊 ESTADO GERAL:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1927)
+
+║    • Estado: InProgress
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1928)
+
+║    • Recompensas: Pendentes
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1929)
+
+║    • Objetivos na Quest: 2
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1930)
+
+║    • Progressos criados: 3
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1931)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1932)
+
+║  🎯 ANÁLISE DETALHADA DOS OBJETIVOS:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1935)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1936)
+
+║  [1] obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1941)
+
+║      • Descrição: Fale com o velho pescador na praia
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1942)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1943)
+
+║      • NPC: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1944)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1945)
+
+║      • isHidden: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1946)
+
+║      • Pré-requisitos: NENHUM
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1954)
+
+║      ✅ Progresso existe:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1967)
+
+║         - npcTalked: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1968)
+
+║         - currentKills: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1969)
+
+║         - currentItems: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1970)
+
+║         - locationReached: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1971)
+
+║         - IsComplete: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1975)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2016)
+
+║  [2] obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1941)
+
+║      • Descrição: Retorne ao ancião. 
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1942)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1943)
+
+║      • NPC: 'village_elder'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1944)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1945)
+
+║      • isHidden: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1946)
+
+║      • Pré-requisitos: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1950)
+
+║      ✅ Progresso existe:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1967)
+
+║         - npcTalked: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1968)
+
+║         - currentKills: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1969)
+
+║         - currentItems: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1970)
+
+║         - locationReached: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1971)
+
+║         - IsComplete: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1975)
+
+║         - Verificando pré-requisitos:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1980)
+
+║           ✅ obj_talk_oldfisherman: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2001)
+
+║         - Todos pré-requisitos OK: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2006)
+
+║         - Objetivo oculto, disponível: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2011)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2016)
+
+║  🔍 TESTE DE COMPLETUDE:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2020)
+
+    ❌ obj_talk_villageelder incompleto
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1043)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2021)
+
+║    • CheckAllObjectivesComplete(): False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2022)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2023)
+
+║  💡 RECOMENDAÇÕES:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2026)
+
+╚════════════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2047)
+
+📊 Estado de DEBUGGER: Interactable=True Selected=False
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:53)
+
+   Cor do target: NULL
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:54)
+
+[NPC village_elder] Interaction Type: CompleteOnTalk
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:37)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPCController] Dialog for interaction type: CompleteOnTalk
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:180)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:48)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPC] Quest completada automaticamente ao falar
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:57)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+╔════════════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1900)
+
+║  🩺 DIAGNÓSTICO COMPLETO: Find Old Fisherman                 ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1901)
+
+╠════════════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1902)
+
+║  ✅ Quest encontrada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1914)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1915)
+
+║  📊 ESTADO GERAL:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1927)
+
+║    • Estado: InProgress
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1928)
+
+║    • Recompensas: Pendentes
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1929)
+
+║    • Objetivos na Quest: 2
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1930)
+
+║    • Progressos criados: 3
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1931)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1932)
+
+║  🎯 ANÁLISE DETALHADA DOS OBJETIVOS:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1935)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1936)
+
+║  [1] obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1941)
+
+║      • Descrição: Fale com o velho pescador na praia
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1942)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1943)
+
+║      • NPC: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1944)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1945)
+
+║      • isHidden: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1946)
+
+║      • Pré-requisitos: NENHUM
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1954)
+
+║      ✅ Progresso existe:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1967)
+
+║         - npcTalked: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1968)
+
+║         - currentKills: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1969)
+
+║         - currentItems: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1970)
+
+║         - locationReached: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1971)
+
+║         - IsComplete: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1975)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2016)
+
+║  [2] obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1941)
+
+║      • Descrição: Retorne ao ancião. 
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1942)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1943)
+
+║      • NPC: 'village_elder'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1944)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1945)
+
+║      • isHidden: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1946)
+
+║      • Pré-requisitos: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1950)
+
+║      ✅ Progresso existe:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1967)
+
+║         - npcTalked: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1968)
+
+║         - currentKills: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1969)
+
+║         - currentItems: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1970)
+
+║         - locationReached: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1971)
+
+║         - IsComplete: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1975)
+
+║         - Verificando pré-requisitos:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1980)
+
+║           ✅ obj_talk_oldfisherman: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2001)
+
+║         - Todos pré-requisitos OK: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2006)
+
+║         - Objetivo oculto, disponível: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2011)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2016)
+
+║  🔍 TESTE DE COMPLETUDE:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2020)
+
+    ❌ obj_talk_villageelder incompleto
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1043)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2021)
+
+║    • CheckAllObjectivesComplete(): False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2022)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2023)
+
+║  💡 RECOMENDAÇÕES:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2026)
+
+╚════════════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2047)
+
