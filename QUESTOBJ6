@@ -1,0 +1,851 @@
+[NPC] Interagindo com NPC ALVO: old_fisherman
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:43)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] 📞 TrackNPCTalked chamado com npcID: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:798)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] ✅ Criado progresso para objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:GetOrCreateObjectiveProgress (QuestManager/QuestProgress,string) (at Assets/Scripts/Core/QuestManager.cs:1102)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:821)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+  ✅ Quest 'Find Old Fisherman':
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:831)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • Objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:832)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • Papel: Progress
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:833)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • NPC: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:834)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • CompleteOnTalk: False
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:835)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • isHidden: False
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:836)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+     • npcTalked atualizado: true
+UnityEngine.Debug:Log (object)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:837)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] 🔍 Verificando se obj_talk_oldfisherman pode completar quest...
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:870)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+  🔍 Verificando se TODOS objetivos de PROGRESSO estão completos...
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:931)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestManager] 🔍 CheckAllObjectivesComplete para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1018)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:933)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+    ✅ obj_talk_oldfisherman completo
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1078)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:933)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+    ⏭️ Ignorando objetivo TurnIn: obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1026)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:933)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+    ✅ TODOS objetivos de PROGRESSO completos!
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1083)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:933)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+  ✅ TODOS objetivos de PROGRESSO completos!
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:941)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+  📋 Quest 'Find Old Fisherman' pronta para entregar!
+UnityEngine.Debug:Log (object)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:963)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestUI] Quest log atualizado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestLogUpdated () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:385)
+QuestManager:CheckIfObjectiveCanBeCompleted (QuestObjective,QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:966)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:844)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[QuestUI] Quest log atualizado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestLogUpdated () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:385)
+QuestManager:TrackNPCTalked (string) (at Assets/Scripts/Core/QuestManager.cs:852)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:44)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPCController] Dialog for interaction type: OfferQuest
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:180)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:48)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPCController] Offering quest: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:160)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest started: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:407)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestUI] Quest log atualizado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestLogUpdated () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:385)
+QuestManager:StartQuest (string) (at Assets/Scripts/Core/QuestManager.cs:411)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:162)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📊 Estado de DEBUGGER: Interactable=True Selected=False
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:53)
+
+   Cor do target: NULL
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:54)
+
+✅ Button configurado para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:358)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:295)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:316)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:209)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+✅ Button configurado para: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:358)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:295)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:316)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:209)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] UI atualizada
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:325)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:209)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] Painel de quests aberto
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:217)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestLogUI] 🖱️ Quest clicada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:363)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Quest selecionada: Entry_find_old_fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetEntrySelected (UnityEngine.GameObject,bool) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:409)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:373)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 📋 Mostrando detalhes para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:379)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inicializado no Awake
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Awake () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:59)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inscrito em eventos do QuestManager
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:SubscribeToEvents () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:131)
+Quests.UI.QuestDetailsUI:OnEnable () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:72)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📋 Mostrando: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:197)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ obj_talk_villageelder DESBLOQUEADO!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:279)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 2/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:281)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 📋 Quest selecionada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:330)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 👉 Mostrando detalhes...
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:334)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📋 Mostrando: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:197)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ obj_talk_villageelder DESBLOQUEADO!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:279)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 2/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:281)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 🖱️ Quest clicada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:363)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Quest selecionada: Entry_find_old_fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetEntrySelected (UnityEngine.GameObject,bool) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:409)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:373)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 📋 Mostrando detalhes para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:379)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inscrito em eventos do QuestManager
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:SubscribeToEvents () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:131)
+Quests.UI.QuestDetailsUI:OnEnable () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:72)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📋 Mostrando: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:197)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ obj_talk_villageelder DESBLOQUEADO!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:279)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 2/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:281)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 📋 Quest selecionada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:330)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 👉 Mostrando detalhes...
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:334)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📋 Mostrando: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:197)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ obj_talk_villageelder DESBLOQUEADO!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:279)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 2/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:281)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] Painel de quests fechado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:HideQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:236)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+📊 Estado de DEBUGGER: Interactable=True Selected=False
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:53)
+
+   Cor do target: NULL
+UnityEngine.Debug:Log (object)
+ButtonDebugger:Update () (at Assets/Scripts/DEBUGGERS/ButtonDebugger.cs:54)
+
+[NPC village_elder] Interaction Type: TurnIn
+UnityEngine.Debug:Log (object)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:37)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[NPCController] Dialog for interaction type: TurnIn
+UnityEngine.Debug:Log (object)
+NPCController:GetAppropriateDialog () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:180)
+NPCController:Interact () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:48)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+[TimeManager] Hour changed: 7:00
+UnityEngine.Debug:Log (object)
+TimeManager:CheckForTimeChanges () (at Assets/Scripts/Core/TimeManager.cs:247)
+TimeManager:Update () (at Assets/Scripts/Core/TimeManager.cs:171)
+
+[NPCController] Turning in quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:149)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  +100 XP
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:572)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:541)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:151)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+  +50 currency
+UnityEngine.Debug:Log (object)
+QuestManager:GiveQuestRewards (QuestData) (at Assets/Scripts/Core/QuestManager.cs:579)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:541)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:151)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] Quest completed: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:548)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:151)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestUI] Quest completada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestCompleted (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:390)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:551)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:151)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestUI] Quest log atualizado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestLogUpdated () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:385)
+QuestManager:TurnInQuest (string) (at Assets/Scripts/Core/QuestManager.cs:552)
+NPCController/<HandleQuestAfterDialog>d__13:MoveNext () (at Assets/Scripts/Gameplay/NPCs/NPCController.cs:151)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Button configurado para: Encontrar o Bispo
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:358)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:295)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:316)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:209)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] UI atualizada
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:325)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:209)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] Painel de quests aberto
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:217)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] Trocando para aba: Completed
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:SwitchTab (Quests.UI.QuestUI/QuestTab) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:252)
+Quests.UI.QuestUI/<>c__DisplayClass26_0:<SetupTabButton>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:180)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Button configurado para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:358)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowCompletedQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:189)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:299)
+Quests.UI.QuestUI:SwitchTab (Quests.UI.QuestUI/QuestTab) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:264)
+Quests.UI.QuestUI/<>c__DisplayClass26_0:<SetupTabButton>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:180)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 🖱️ Quest clicada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:363)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+✅ Quest selecionada: Entry_find_old_fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetEntrySelected (UnityEngine.GameObject,bool) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:409)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:373)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 📋 Mostrando detalhes para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:379)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inscrito em eventos do QuestManager
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:SubscribeToEvents () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:131)
+Quests.UI.QuestDetailsUI:OnEnable () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:72)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📋 Mostrando: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:197)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ obj_talk_villageelder DESBLOQUEADO!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:279)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 2/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:281)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:380)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 📋 Quest selecionada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:330)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 👉 Mostrando detalhes...
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:334)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📋 Mostrando: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:197)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ obj_talk_villageelder DESBLOQUEADO!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:279)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 2/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:281)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:249)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:199)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:335)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:388)
+Quests.UI.QuestLogUI/<>c__DisplayClass27_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:352)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔════════════════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1934)
+
+║  🩺 DIAGNÓSTICO COMPLETO: Find Old Fisherman                 ║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1935)
+
+╠════════════════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1936)
+
+║  ✅ Quest encontrada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1948)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1949)
+
+║  📊 ESTADO GERAL:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1961)
+
+║    • Estado: Completed
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1962)
+
+║    • Recompensas: Coletadas
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1963)
+
+║    • Objetivos na Quest: 2
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1964)
+
+║    • Progressos criados: 2
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1965)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1966)
+
+║  🎯 ANÁLISE DETALHADA DOS OBJETIVOS:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1969)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1970)
+
+║  [1] obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1975)
+
+║      • Descrição: Fale com o velho pescador na praia
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1976)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1977)
+
+║      • NPC: 'old_fisherman'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1978)
+
+║      • CompleteOnTalk: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1979)
+
+║      • isHidden: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1980)
+
+║      • Pré-requisitos: NENHUM
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1988)
+
+║      ✅ Progresso existe:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2001)
+
+║         - npcTalked: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2002)
+
+║         - currentKills: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2003)
+
+║         - currentItems: 0
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2004)
+
+║         - locationReached: False
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2005)
+
+║         - IsComplete: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2009)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2050)
+
+║  [2] obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1975)
+
+║      • Descrição: Retorne ao ancião. 
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1976)
+
+║      • Tipo: Talk
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1977)
+
+║      • NPC: 'village_elder'
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1978)
+
+║      • CompleteOnTalk: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1979)
+
+║      • isHidden: True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1980)
+
+║      • Pré-requisitos: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1984)
+
+║      ❌ PROGRESSO NÃO EXISTE!
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1996)
+
+║         Isso é um BUG! Progresso deveria ter sido criado no StartQuest
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:1997)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2050)
+
+║  🔍 TESTE DE COMPLETUDE:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2054)
+
+[QuestManager] 🔍 CheckAllObjectivesComplete para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1018)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2055)
+
+    ✅ obj_talk_oldfisherman completo
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1078)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2055)
+
+    ⏭️ Ignorando objetivo TurnIn: obj_talk_villageelder
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1026)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2055)
+
+    ✅ TODOS objetivos de PROGRESSO completos!
+UnityEngine.Debug:Log (object)
+QuestManager:CheckAllObjectivesComplete (QuestData,QuestManager/QuestProgress) (at Assets/Scripts/Core/QuestManager.cs:1083)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2055)
+
+║    • CheckAllObjectivesComplete(): True
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2056)
+
+║
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2057)
+
+║  💡 RECOMENDAÇÕES:
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2060)
+
+║    ❌ Criar progresso para: obj_talk_villageelder
+UnityEngine.Debug:LogError (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2073)
+
+╚════════════════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+QuestManager:Debug_DiagnoseFindOldFisherman () (at Assets/Scripts/Core/QuestManager.cs:2081)
+
