@@ -1,0 +1,201 @@
+╔══════════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:26)
+
+║  🕵️‍♂️ DEBUG COMPLETO - SISTEMA DE DIÁLOGO           ║
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:27)
+
+╠══════════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:28)
+
+║  1. DIALOG MANAGER:
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:31)
+
+║     ✅ DialogManager
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:39)
+
+║       • Cena: DontDestroyOnLoad
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:40)
+
+║       • Ativo: False
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:41)
+
+║       • UI Registrada: ✅
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:49)
+
+║
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:54)
+
+║  2. DIALOG UI:
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:55)
+
+║     • Total encontrados: 1
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:57)
+
+║     • DialogUI
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:67)
+
+║       - Cena: GameScene
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:68)
+
+║       - Ativo: True
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:69)
+
+║       - dialogPanel: ✅
+UnityEngine.Debug:Log (object)
+DialogDebugger:CheckUIReferences (DialogUI) (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:143)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:72)
+
+║       - dialogText: ✅
+UnityEngine.Debug:Log (object)
+DialogDebugger:CheckUIReferences (DialogUI) (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:143)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:72)
+
+║       - dialogFont: ✅
+UnityEngine.Debug:Log (object)
+DialogDebugger:CheckUIReferences (DialogUI) (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:143)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:72)
+
+║
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:77)
+
+║  3. CANVAS_DIALOG:
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:78)
+
+║     ✅ Canvas_Dialog
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:86)
+
+║       • Ativo: True
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:87)
+
+║       • Sorting Order: 0
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:92)
+
+║       • Filho: DialogBox (ativo: False)
+UnityEngine.Debug:Log (object)
+DialogDebugger:CheckChildren (UnityEngine.Transform,string) (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:154)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:96)
+
+║
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:100)
+
+║  4. DIALOGBOX:
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:101)
+
+║     ❌ NÃO ENCONTRADO!
+UnityEngine.Debug:LogError (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:105)
+
+║
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:118)
+
+║  5. NPCS:
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:119)
+
+║     • Total: 4
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:121)
+
+║     • Primeiro: NPC_Bispo (ID: npc_bishop)
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:124)
+
+╚══════════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugCompleteSystem () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:127)
+
+🔍 BUSCANDO TODOS OBJETOS RELACIONADOS:
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:188)
+
+• DialogUI: 1
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:192)
+
+  - Canvas_Dialog/DialogUI
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:195)
+
+• Canvas: 5
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:200)
+
+  - Canvas_Watch (order: 0)
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:203)
+
+  - Canvas_Quests (order: 0)
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:203)
+
+  - Canvas_Dialog (order: 0)
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:203)
+
+  - Canvas_Battle (order: 0)
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:203)
+
+  - Canvas_Inventory (order: 0)
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:203)
+
+  - DialogManager
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:214)
+
+  - Canvas_Dialog
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:214)
+
+  - Canvas_Dialog/DialogBox
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:214)
+
+  - Canvas_Dialog/DialogBox/DialogText
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:214)
+
+  - Canvas_Dialog/DialogUI
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:214)
+
+• Objetos com 'Dialog': 5
+UnityEngine.Debug:Log (object)
+DialogDebugger:DebugHierarchy () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:217)
+
+🧪 Testando com diálogo manual...
+UnityEngine.Debug:Log (object)
+DialogDebugger:TestSimpleDialog () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:239)
+
+[DialogManager] Iniciando diálogo com 2 linhas
+UnityEngine.Debug:Log (object)
+DialogManager:StartDialog (Dialog) (at Assets/Scripts/Core/DialogManager.cs:79)
+DialogDebugger:TestSimpleDialog () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:265)
+
+✅ Diálogo de teste iniciado!
+UnityEngine.Debug:Log (object)
+DialogDebugger:TestSimpleDialog () (at Assets/Scripts/DEBUGGERS/DialogDebugger.cs:266)
+
