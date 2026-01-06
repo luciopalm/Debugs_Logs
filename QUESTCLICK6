@@ -1,0 +1,251 @@
+[QuestLogUI] 🔧 Configurando clique para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:330)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:302)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:323)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:213)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • TargetGraphic configurado: Background
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:348)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:302)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:323)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:213)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+✅ Button configurado para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:365)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:302)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:323)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:213)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • Interactable: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:366)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:302)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:323)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:213)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • onClick listeners: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:367)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:284)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:152)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:302)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:323)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:213)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] UI atualizada
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:332)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:213)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] Painel de quests aberto
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:215)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • QuestLogUI é null? False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:216)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • QuestDetailsUI é null? False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:217)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • Evento OnQuestSelected inscrito? True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:218)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:200)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[TimeManager] Hour changed: 7:00
+UnityEngine.Debug:Log (object)
+TimeManager:CheckForTimeChanges () (at Assets/Scripts/Core/TimeManager.cs:247)
+TimeManager:Update () (at Assets/Scripts/Core/TimeManager.cs:171)
+
+╔══════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:836)
+
+║  🔍 VERIFICAÇÃO: HIERARQUIA UI                   ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:837)
+
+╠══════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:838)
+
+║  detailsPanel:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:840)
+
+║     • GameObject: DetailsPanel
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:841)
+
+║     • Ativo: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:842)
+
+║     • Ativo na hierarquia: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:843)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:845)
+
+║  questTitleText:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:846)
+
+║     • GameObject: Text (TMP)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:849)
+
+║     • Text atual: 'Find Bishop'
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:850)
+
+║     • Enabled: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:851)
+
+║     • Ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:852)
+
+╚══════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckUIHierarchy () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:859)
+
+╔══════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:791)
+
+║  🔍 VERIFICAÇÃO DO PAINEL DE DETALHES           ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:792)
+
+╠══════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:793)
+
+║  GameObject: DetailsPanel
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:801)
+
+║  Ativo: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:802)
+
+║  Ativo na Hierarquia: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:803)
+
+║  Posição: (1720.00, 509.50, 0.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:804)
+
+║  Tamanho: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:805)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:818)
+
+║  📊 Componentes Filhos:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:819)
+
+║     • questTitleText: Text (TMP)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:820)
+
+║     • objectivesContainer: ObjectiveContainer
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:821)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:824)
+
+║  📊 Estado Interno:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:825)
+
+║     • currentQuest: NULL
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:826)
+
+║     • isInitialized: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:827)
+
+║     • IsShowing(): False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:828)
+
+╚══════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Debug_CheckPanelState () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:830)
+
+╔══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:625)
+
+║  🔍 VERIFICAÇÃO QUESTDETAILSUI               ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:626)
+
+╠══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:627)
+
+║  ✅ QuestDetailsUI encontrado!
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:636)
+
+║     • GameObject: QuestDetailsUI
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:637)
+
+║     • Ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:638)
+
+║     • Está mostrando: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:639)
+
+╚══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:DebugCheckDetailsUI () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:642)
+
