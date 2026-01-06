@@ -1,0 +1,1843 @@
+╔══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:523)
+
+║  🔍 VERIFICAÇÃO DE COMPONENTES QUESTUI       ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:524)
+
+╠══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:525)
+
+║  ✅ QuestLogUI: Content
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:534)
+
+║     • Ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:535)
+
+║  ✅ QuestDetailsUI: QuestDetailsUI
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:545)
+
+║     • Ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:546)
+
+║     • Mostrando: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:547)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:551)
+
+║  Abas:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:552)
+
+║     • Active: ✅
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:553)
+
+║     • Completed: ✅
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:554)
+
+║     • Available: ❌
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:555)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:557)
+
+║  Estado:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:558)
+
+║     • Aba atual: Active
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:559)
+
+║     • Inicializado: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:560)
+
+║     • Painel ativo: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:561)
+
+╚══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:563)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:154)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+The referenced script on this Behaviour (Game Object 'QuestEntryPrefab') is missing!
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:154)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+The referenced script on this Behaviour (Game Object 'QuestEntryPrefab') is missing!
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:154)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestLogUI] 🔧 SetupEntryClick para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:190)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:166)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestLogUI]   • Button antigo removido
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:198)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:166)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestLogUI]   • TargetGraphic: Background
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:214)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:166)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestLogUI] ✅ Button configurado com 0 listener(s)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:SetupEntryClick (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:245)
+Quests.UI.QuestLogUI:RenderQuestList (System.Collections.Generic.List`1<QuestData>,Quests.UI.QuestLogUI/QuestDisplayType,string) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:166)
+Quests.UI.QuestLogUI:ShowActiveQuests () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:90)
+Quests.UI.QuestUI:RefreshContent () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:336)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:357)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] UI atualizada
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:RefreshUI () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:366)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:247)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[QuestUI] Painel de quests aberto
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:249)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • QuestLogUI é null? False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:250)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+   • QuestDetailsUI é null? False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:ShowQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:251)
+Quests.UI.QuestUI:ToggleQuestPanel () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:201)
+Quests.UI.QuestUI:Update () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:73)
+
+[TimeManager] Hour changed: 7:00
+UnityEngine.Debug:Log (object)
+TimeManager:CheckForTimeChanges () (at Assets/Scripts/Core/TimeManager.cs:247)
+TimeManager:Update () (at Assets/Scripts/Core/TimeManager.cs:171)
+
+╔══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:523)
+
+║  🔍 VERIFICAÇÃO DE COMPONENTES QUESTUI       ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:524)
+
+╠══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:525)
+
+║  ✅ QuestLogUI: Content
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:534)
+
+║     • Ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:535)
+
+║  ✅ QuestDetailsUI: QuestDetailsUI
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:545)
+
+║     • Ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:546)
+
+║     • Mostrando: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:547)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:551)
+
+║  Abas:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:552)
+
+║     • Active: ✅
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:553)
+
+║     • Completed: ✅
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:554)
+
+║     • Available: ❌
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:555)
+
+║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:557)
+
+║  Estado:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:558)
+
+║     • Aba atual: Active
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:559)
+
+║     • Inicializado: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:560)
+
+║     • Painel ativo: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:561)
+
+╚══════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:DebugCheckComponents () (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:563)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:363)
+
+║  🔍 VERIFICAÇÃO DE BOTÃO              ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:364)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:365)
+
+║  Entrada: Entry_find_old_fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:367)
+
+║  Tem Button: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:368)
+
+║  • Interactable: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:372)
+
+║  • Listeners: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:373)
+
+║  • TargetGraphic: Background
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:374)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckFirstButton () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:384)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:392)
+
+║  🔍 EVENT SYSTEM                      ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:393)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:394)
+
+║  ✅ EventSystem: EventSystem
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:403)
+
+║  Canvas: Canvas_Quests
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:410)
+
+║  • RenderMode: ScreenSpaceOverlay
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:411)
+
+║  • SortingOrder: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:412)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:Debug_CheckEventSystem () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:415)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:224)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎯 BOTÃO CLICADO!                     ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:226)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:227)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Entry: Entry_find_old_fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:228)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Time: 100,162
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:229)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:230)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 🎯 OnEntryClicked chamado para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:257)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:193)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎯 SHOW QUEST DETAILS - INICIANDO              ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:194)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╠══════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:214)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Painel ativo antes: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:215)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inicializado no Awake
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:Awake () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:60)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:220)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inscrito em eventos do QuestManager
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:SubscribeToEvents () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:132)
+Quests.UI.QuestDetailsUI:OnEnable () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:73)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:220)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Painel ATIVADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:221)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform ANTES da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:227)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMin: (1.00, 0.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:228)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMax: (1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:229)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:230)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:231)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Altura OK: 819px
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:254)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform DEPOIS da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:261)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:262)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:263)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchoredPosition: (-200.00, -30.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:264)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Scale definido: (1.00, 1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:278)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎨 Canvas encontrado:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:284)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SortingOrder: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:285)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • RenderMode: ScreenSpaceOverlay
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:286)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() INICIADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:377)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Título definido: 'Find Old Fisherman'
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:386)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Descrição definida
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:405)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🔒 obj_talk_villageelder bloqueado por: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:533)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:445)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 1/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:447)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] Objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:569)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Role: Progress
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:570)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Type: Talk
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:571)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • npcTalked: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:572)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • isComplete no dict: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:573)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • completionDict tem key: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:574)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() FINALIZADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:418)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ UpdateUI() completo
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:293)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🔍 Verificação final:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:302)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeSelf: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:303)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeInHierarchy: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:304)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.width: 700
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:305)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.height: 819
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:306)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Position (screen): (1720.00, 509.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:307)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ PAINEL VISÍVEL! Tamanho: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:321)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚══════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:324)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] ✅ ShowQuestDetails() executado com sucesso
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:282)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 📋 Quest selecionada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:371)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 👉 Mostrando detalhes...
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:375)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:193)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎯 SHOW QUEST DETAILS - INICIANDO              ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:194)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╠══════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:214)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Painel ativo antes: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:215)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform ANTES da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:227)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMin: (1.00, 0.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:228)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMax: (1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:229)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:230)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:231)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Altura OK: 819px
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:254)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform DEPOIS da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:261)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:262)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:263)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchoredPosition: (-200.00, -30.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:264)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Scale definido: (1.00, 1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:278)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎨 Canvas encontrado:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:284)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SortingOrder: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:285)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • RenderMode: ScreenSpaceOverlay
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:286)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() INICIADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:377)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Título definido: 'Find Old Fisherman'
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:386)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Descrição definida
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:405)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🔒 obj_talk_villageelder bloqueado por: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:533)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:445)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 1/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:447)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] Objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:569)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Role: Progress
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:570)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Type: Talk
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:571)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • npcTalked: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:572)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • isComplete no dict: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:573)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • completionDict tem key: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:574)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() FINALIZADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:418)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ UpdateUI() completo
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:293)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🔍 Verificação final:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:302)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeSelf: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:303)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeInHierarchy: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:304)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.width: 700
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:305)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.height: 819
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:306)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Position (screen): (1720.00, 509.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:307)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ PAINEL VISÍVEL! Tamanho: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:321)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚══════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:324)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] ✅ Evento OnQuestSelected disparado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:291)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:224)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎯 BOTÃO CLICADO!                     ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:225)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╠════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:226)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:227)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Entry: Entry_find_old_fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:228)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Time: 102,184
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:229)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:230)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] 🎯 OnEntryClicked chamado para: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:257)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:193)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎯 SHOW QUEST DETAILS - INICIANDO              ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:194)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╠══════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:214)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Painel ativo antes: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:215)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] ✅ Inscrito em eventos do QuestManager
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:SubscribeToEvents () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:132)
+Quests.UI.QuestDetailsUI:OnEnable () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:73)
+UnityEngine.GameObject:SetActive (bool)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:220)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Painel ATIVADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:221)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform ANTES da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:227)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMin: (1.00, 0.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:228)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMax: (1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:229)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:230)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:231)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Altura OK: 819px
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:254)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform DEPOIS da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:261)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:262)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:263)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchoredPosition: (-200.00, -30.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:264)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Scale definido: (1.00, 1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:278)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎨 Canvas encontrado:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:284)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SortingOrder: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:285)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • RenderMode: ScreenSpaceOverlay
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:286)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() INICIADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:377)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Título definido: 'Find Old Fisherman'
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:386)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Descrição definida
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:405)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🔒 obj_talk_villageelder bloqueado por: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:533)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:445)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 1/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:447)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] Objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:569)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Role: Progress
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:570)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Type: Talk
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:571)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • npcTalked: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:572)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • isComplete no dict: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:573)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • completionDict tem key: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:574)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() FINALIZADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:418)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ UpdateUI() completo
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:293)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🔍 Verificação final:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:302)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeSelf: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:303)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeInHierarchy: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:304)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.width: 700
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:305)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.height: 819
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:306)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Position (screen): (1720.00, 509.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:307)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ PAINEL VISÍVEL! Tamanho: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:321)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚══════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:324)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:281)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] ✅ ShowQuestDetails() executado com sucesso
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:282)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 📋 Quest selecionada: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:371)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestUI] 👉 Mostrando detalhes...
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:375)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╔══════════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:193)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎯 SHOW QUEST DETAILS - INICIANDO              ║
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:194)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╠══════════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:195)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:214)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  Painel ativo antes: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:215)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform ANTES da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:227)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMin: (1.00, 0.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:228)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchorMax: (1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:229)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:230)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:231)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Altura OK: 819px
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:254)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  📐 RectTransform DEPOIS da correção:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:261)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SizeDelta: (700.00, -261.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:262)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.size: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:263)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • AnchoredPosition: (-200.00, -30.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:264)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ Scale definido: (1.00, 1.00, 1.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:278)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🎨 Canvas encontrado:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:284)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • SortingOrder: 0
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:285)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • RenderMode: ScreenSpaceOverlay
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:286)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() INICIADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:369)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Quest: Find Old Fisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:377)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Título definido: 'Find Old Fisherman'
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:386)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI]   • Descrição definida
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:405)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🔒 obj_talk_villageelder bloqueado por: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:FilterVisibleObjectives (System.Collections.Generic.Dictionary`2<string, bool>) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:533)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:445)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 📊 1/2 objetivos visíveis
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:447)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] Objetivo: obj_talk_oldfisherman
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:569)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Role: Progress
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:570)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • Type: Talk
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:571)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • npcTalked: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:572)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • isComplete no dict: False
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:573)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+  • completionDict tem key: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:RenderObjectiveEntry (QuestObjective,QuestManager/QuestProgress,System.Collections.Generic.Dictionary`2<string, bool>,single&) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:574)
+Quests.UI.QuestDetailsUI:UpdateObjectivesUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:453)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:414)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestDetailsUI] 🎨 UpdateUI() FINALIZADO
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:UpdateUI () (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:418)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:292)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ UpdateUI() completo
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:293)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  🔍 Verificação final:
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:302)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeSelf: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:303)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • activeInHierarchy: True
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:304)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.width: 700
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:305)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Rect.height: 819
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:306)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║     • Position (screen): (1720.00, 509.50)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:307)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+║  ✅ PAINEL VISÍVEL! Tamanho: (700.00, 819.00)
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:321)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+╚══════════════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestDetailsUI:ShowQuestDetails (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestDetailsUI.cs:324)
+Quests.UI.QuestUI:OnQuestSelected (QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestUI.cs:376)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:290)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[QuestLogUI] ✅ Evento OnQuestSelected disparado
+UnityEngine.Debug:Log (object)
+Quests.UI.QuestLogUI:OnEntryClicked (UnityEngine.GameObject,QuestData) (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:291)
+Quests.UI.QuestLogUI/<>c__DisplayClass22_0:<SetupEntryClick>b__0 () (at Assets/Scripts/Quests/Scripts/UI/QuestLogUI.cs:234)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@a73b706e285a/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
