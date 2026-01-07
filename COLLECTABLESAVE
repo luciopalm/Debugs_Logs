@@ -1,0 +1,758 @@
+LOGS DE INICIALIZAÇÃO ANTES DO NOVO JOGO:
+
+[GDM] ⚠️ Inicializando sem instância - sistema limitado
+UnityEngine.Debug:LogWarning (object)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:310)
+GameDataManager:Start () (at Assets/Scripts/Core/GameDataManager.cs:78)
+
+[GIM] 🔄 SelectGameInstance chamado: ID=1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:373)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GIM] 🧹 Limpando inventário da instância anterior...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:386)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[InventoryManager] 🧹 Limpando inventário completamente...
+UnityEngine.Debug:Log (object)
+InventoryManager:ClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1338)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:387)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[InventoryManager] ✅ Inventário limpo!
+UnityEngine.Debug:Log (object)
+InventoryManager:ClearInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1370)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:387)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GIM] 🔔 Notificando GameDataManager...
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:413)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GDM] 🔄 Mudando para instância: ID=1
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:402)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GDM] ℹ️ Já na instância 1 - mantendo dados atuais
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:418)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GDM] ✅ Instância 1 configurada (Novo Jogo: False)
+UnityEngine.Debug:Log (object)
+GameDataManager:OnGameInstanceChanged (int,string) (at Assets/Scripts/Core/GameDataManager.cs:477)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:414)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+[GIM] ✅ Instância selecionada: 'FUNGO's Adventure' (ID: 1)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:SelectGameInstance (int) (at Assets/Scripts/Core/GameInstanceManager.cs:421)
+GameInstanceManager:Start () (at Assets/Scripts/Core/GameInstanceManager.cs:280)
+
+✅ Save file exists on disk
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:414)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+📂 Loading inventory from GameData: 0 items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:440)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+🎯 Shared equipment loaded from GameData
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadSharedEquipmentFromGameData (InventoryData) (at Assets/Scripts/Inventory/InventoryManager.cs:1330)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:509)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+✅ Inventory loaded from save: 0/30 slots, 0 currency
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:518)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:236)
+
+InventoryManager.Start() - hasItems: False, isLoadedFromSave: True
+UnityEngine.Debug:Log (object)
+InventoryManager:Start () (at Assets/Scripts/Inventory/InventoryManager.cs:243)
+
+[TimeManager] Time loaded: 06:00 (Sunday), Day 1/45 of Spring, Year 1
+UnityEngine.Debug:Log (object)
+TimeManager:LoadTimeData (TimeData) (at Assets/Scripts/Core/TimeManager.cs:574)
+TimeManager:LoadTimeFromSave () (at Assets/Scripts/Core/TimeManager.cs:590)
+TimeManager:Start () (at Assets/Scripts/Core/TimeManager.cs:142)
+
+[Bootstrap] 📋 Etapa 1/4: Validando managers críticos...
+UnityEngine.Debug:Log (object)
+BootstrapManager:Log (string) (at Assets/Scripts/Core/BootstrapManager.cs:313)
+BootstrapManager/<InitializeGame>d__11:MoveNext () (at Assets/Scripts/Core/BootstrapManager.cs:64)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+BootstrapManager:Start () (at Assets/Scripts/Core/BootstrapManager.cs:55)
+
+║  🎯 Instância ativa detectada:
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:181)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║     ID: 1
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:182)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║     Nome: FUNGO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:183)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║     Path: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:184)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║  ✅ GameDataManager sincronizado com instância 1
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:191)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╚═══════════════════════════════════════════╝
+UnityEngine.Debug:Log (object)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:219)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ✅ Usando caminho multi-instância: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots
+UnityEngine.Debug:Log (object)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:234)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 📂 [ESTRATÉGIA 1] Carregando do PlayerPrefs: slot 1
+UnityEngine.Debug:Log (object)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:280)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╔═══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:940)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ [GDM] LOADGAME - DIAGNÓSTICO            ║
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:941)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+╠═══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:942)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Slot solicitado: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:943)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Instância atual: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:944)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Path atual: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:945)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ Arquivo: C:/Users/PC/AppData/LocalLow/DefaultCompany/RPG TUTORIAL EPIC GAME DEV\GameInstances\Game_001_FUNGO's Adventure\SaveSlots\slot_1.json
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:956)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[TimeManager] Time loaded: 06:07 (Sunday), Day 1/45 of Spring, Year 1
+UnityEngine.Debug:Log (object)
+TimeManager:LoadTimeData (TimeData) (at Assets/Scripts/Core/TimeManager.cs:574)
+GameDataManager:LoadTimeFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1076)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:986)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] ⏰ Tempo carregado do snapshot: 06:07
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadTimeFromSnapshot (GameData) (at Assets/Scripts/Core/GameDataManager.cs:1079)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:986)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║ 📝 Atualizando lastSaveSlot no GameInstanceManager: 1
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1005)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GIM] 🔄 UpdateLastSaveSlot: Instância 1 (FUNGO's Adventure)
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:497)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1006)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   Slot antigo: 1 → Novo slot: 1
+UnityEngine.Debug:Log (object)
+GameInstanceManager:UpdateLastSaveSlot (int,int) (at Assets/Scripts/Core/GameInstanceManager.cs:498)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1006)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+║    Verificação: instance.lastSaveSlot = 1
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1012)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Notifying InventoryManager...
+UnityEngine.Debug:Log (object)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1089)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Save file exists on disk
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:414)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Save has data: 5 items, 100 currency
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:421)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+📂 Loading inventory from GameData: 5 items
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:440)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] 🔍 Buscando item por ID: 'silver_ring'
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:100)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+The referenced script (Unknown) on this Behaviour is missing!
+UnityEngine.Resources:LoadAll<ItemData> (string)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:108)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] Indexando 7 itens por itemID...
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:109)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] ✅ Encontrado: 'Silver_Ring' (itemID: 'silver_ring')
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:137)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] 🔍 Buscando item por ID: 'old_dagger'
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:100)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] ✅ Encontrado: 'dagger_sample' (itemID: 'old_dagger')
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:137)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] 🔍 Buscando item por ID: 'health_potion'
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:100)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] ✅ Encontrado: 'Health_Potion' (itemID: 'health_potion')
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:137)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] 🔍 Buscando item por ID: 'boots_sample'
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:100)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] ✅ Encontrado: 'Boots_Sample' (itemID: 'boots_sample')
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:137)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] 🔍 Buscando item por ID: 'iron_sword'
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:100)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] ✅ Encontrado: 'Iron_Sword' (itemID: 'iron_sword')
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:137)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:454)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+🎯 Shared equipment loaded from GameData
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadSharedEquipmentFromGameData (InventoryData) (at Assets/Scripts/Inventory/InventoryManager.cs:1330)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:509)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+✅ Inventory loaded from save: 5/200 slots, 100 currency
+UnityEngine.Debug:Log (object)
+InventoryManager:LoadInventoryFromGameData () (at Assets/Scripts/Inventory/InventoryManager.cs:518)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1090)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Notifying QuestManager...
+UnityEngine.Debug:Log (object)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1095)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] 🔄 LoadQuestProgressFromGameData() - INICIANDO
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:180)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Instância: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:196)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Slot: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:197)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • isNewGame: False
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:198)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] ℹ️ Nenhum progresso de quest salvo - lista vazia
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:250)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] 🎯 Load completo: 0 quests na memória
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:257)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Slot carregado: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:258)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager]   • Instância carregada: 1
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressFromGameData () (at Assets/Scripts/Core/QuestManager.cs:259)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1484)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[QuestManager] 📂 Progresso carregado: 0 missões
+UnityEngine.Debug:Log (object)
+QuestManager:LoadQuestProgressManual () (at Assets/Scripts/Core/QuestManager.cs:1485)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1097)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Notifying PartyManager...
+UnityEngine.Debug:Log (object)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1103)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[GDM] 🔄 Carregando Party System do save...
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadPartyFromGameData () (at Assets/Scripts/Core/GameDataManager.cs:1129)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1104)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   ✅ Personagem ativo restaurado: índice 0
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadPartyFromGameData () (at Assets/Scripts/Core/GameDataManager.cs:1139)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1104)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] 🔍 Buscando item por ID: 'lumberjack_axe'
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:100)
+GameDataManager:LoadCharacterEquipmentFromData (CharacterData,EquipmentLoadoutData) (at Assets/Scripts/Core/GameDataManager.cs:1228)
+GameDataManager:LoadPartyFromGameData () (at Assets/Scripts/Core/GameDataManager.cs:1180)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1104)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[ItemRegistry] ✅ Encontrado: 'Lumberjacks_axe' (itemID: 'lumberjack_axe')
+UnityEngine.Debug:Log (object)
+ItemRegistry:GetItem (string) (at Assets/Scripts/Inventory/ItemRegistry.cs:137)
+GameDataManager:LoadCharacterEquipmentFromData (CharacterData,EquipmentLoadoutData) (at Assets/Scripts/Core/GameDataManager.cs:1228)
+GameDataManager:LoadPartyFromGameData () (at Assets/Scripts/Core/GameDataManager.cs:1180)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1104)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+      🔧 FUNGO: lumberjack's axe equipado em MainHand
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadCharacterEquipmentFromData (CharacterData,EquipmentLoadoutData) (at Assets/Scripts/Core/GameDataManager.cs:1236)
+GameDataManager:LoadPartyFromGameData () (at Assets/Scripts/Core/GameDataManager.cs:1180)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1104)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+   🔧 FUNGO: 1 equipamentos carregados
+UnityEngine.Debug:Log (object)
+GameDataManager:LoadCharacterEquipmentFromData (CharacterData,EquipmentLoadoutData) (at Assets/Scripts/Core/GameDataManager.cs:1250)
+GameDataManager:LoadPartyFromGameData () (at Assets/Scripts/Core/GameDataManager.cs:1180)
+GameDataManager:NotifyAllSystemsAfterLoad () (at Assets/Scripts/Core/GameDataManager.cs:1104)
+GameDataManager:LoadGame (int) (at Assets/Scripts/Core/GameDataManager.cs:1023)
+GameDataManager:InitializeSaveSystem () (at Assets/Scripts/Core/GameDataManager.cs:281)
+GameDataManager/<EnsureGameInstanceSync>d__20:MoveNext () (at Assets/Scripts/Core/GameDataManager.cs:222)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+
+ACIMA TEMOS O PRIMEIRO BUG, O EQUIPAMENTO ESTA SENDO CARREGADO ANTES DE INICIAR O NOVO JOGO
+
+AGORA LOGS DA COLETA E  SAVELOAD:
+
+
+=== INVENTORY DEBUG ===
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1380)
+
+Currency: 100
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1381)
+
+Slots: 6/200
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1382)
+
+Weight: 8,2/100,0 kg
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1383)
+
+Slot 1: 1x lumberjack's axe
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1391)    !!!!!!esse item esta vindo equipado!!!!!!!
+
+Slot 2: 1x Silver Ring
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1391)
+
+Slot 3: 1x Old Dagger
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1391)
+
+Slot 4: 3x Heath Potion
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1391)
+
+Slot 5: 1x Old Boots
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1391)
+
+Slot 5: 1x Iron Sword
+UnityEngine.Debug:Log (object)
+InventoryManager:DebugPrintInventory () (at Assets/Scripts/Inventory/InventoryManager.cs:1391)
+
+
+
+COLETA DO ITEM:
+
+🎮 Interagindo com Magic Pipe por proximidade
+UnityEngine.Debug:Log (object)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:573)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+╔═══════════════════════════════════════════════╗
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:159)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  📦 PICKUP ITEM - DIAGNOSIS                  ║
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:160)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+╠═══════════════════════════════════════════════╣
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:161)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  📦 Item: Magic Pipe
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:177)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  🆔 ID: magic_pipe
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:178)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  🔑 Unique ID: collectable_magic_pipe_-1571,19_-650,76_0,00
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:179)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  📊 Quantidade: 1
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:180)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  ⚖️ Peso unitário: 0,50 kg
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:181)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  📊 PESO:
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:189)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  • Atual: 8,20/100,00 kg
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:190)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  • A adicionar: 0,50 kg
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:191)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  • Tem espaço: ✅
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:192)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:202)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+║  🎯 Adicionando ao inventário...
+UnityEngine.Debug:Log (object)
+CollectableItem:PickupItem () (at Assets/Scripts/Inventory/CollectableItem.cs:203)
+CollectableItem:Interact () (at Assets/Scripts/Inventory/CollectableItem.cs:148)
+PlayerController:TryProximityInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:574)
+PlayerController:TryInteract () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:583)
+PlayerController:HandleUpdate () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:149)
+PlayerController:Update () (at Assets/Scripts/Gameplay/Player/PlayerController.cs:126)
+
+
+
